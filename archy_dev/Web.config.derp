@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <configuration>
-    <system.web>
-        <compilation debug="true"  />
-        <httpRuntime  />
-    </system.web>
-    <appSettings>
-        
-    </appSettings>
 <location path="." inheritInChildApplications="false">
     <system.webServer>
         <handlers>
@@ -16,4 +9,11 @@
         <aspNetCore processPath="dotnet" arguments=".\archy_dev.dll" stdoutLogEnabled="false" stdoutLogFile=".\logs\stdout" hostingModel="InProcess" />
     </system.webServer>
 </location>
+    <system.web>
+        <compilation debug="true"  />
+        <httpRuntime  />
+    </system.web>
+    <appSettings>
+
+    </appSettings>
 </configuration>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\_VCS\archy.dev" t="IncludeFlat">
+    <e p="C:\_VCS\archy.dev (core)\archy.dev" t="IncludeFlat">
       <e p=".git\info\exclude" t="IncludeRecursive" />
       <e p="archy_dev" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
-        <e p="Archy_Dev.csproj" t="IncludeRecursive" />
+        <e p="archy_dev.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Content" t="Include">
           <e p="Images" t="Include">
@@ -58,7 +58,7 @@
             <e p="Error.cshtml" t="Include" />
           </e>
         </e>
-        <e p="Web.config" t="Include" />
+        <e p="Web.config.derp" t="Include" />
         <e p="wwwroot" t="Include">
           <e p="css" t="Include">
             <e p="package-lock.json" t="Include" />
@@ -135,12 +135,12 @@
           </e>
         </e>
       </e>
-      <e p="Archy_Dev.sln" t="IncludeFlat" />
+      <e p="archy_dev.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
     <e p="C:\Users\hardy\.Rider2019.1\config\consoles\db" t="IncludeRecursive" />
     <e p="C:\Users\hardy\.Rider2019.1\config\extensions" t="IncludeRecursive" />
     <e p="C:\Users\hardy\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\hardy\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Archy_Dev.-583673461.00" t="ExcludeRecursive" />
+    <e p="C:\Users\hardy\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_archy_dev.-2064505555.00" t="ExcludeRecursive" />
   </component>
 </project>
