@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="99e16239-61e3-4e03-bc64-5f77db662dbb" name="archy.dev" url="http://archy.dev">
+        <fileTransfer host="archy.dev" port="21" rootFolder="/solidarch/archy.dev/wwwroot">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
