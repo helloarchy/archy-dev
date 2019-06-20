@@ -1,149 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/archy_dev/Startup.cs" line="45" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="61cf0ff2-a9dd-48c4-b640-2fe43ba13cf3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Portfolio/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Portfolio/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Portfolio/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Portfolio/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Portfolio/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Portfolio/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Portfolio/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Portfolio/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Portfolio/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Portfolio/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Portfolio/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Portfolio/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Portfolio/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/archy_dev/DesignTimeBuild/.dtbcache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/archy_dev/v16/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Content/Images/Portfolio_Thumbnails/SocialNetwork.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Controllers/HomeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Data/DbSeed.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Models/ArchyDevContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Models/ErrorViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Models/ProjectGalleryViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Home/CV.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Home/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Home/Privacy.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Home/ProjectItemPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Shared/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Shared/_CookieConsentPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/archy_dev.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/css/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/css/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/css/site.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/thumb/SocialNetwork.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/js/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/css/Theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/css/Theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/css/Theme_2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/css/Theme_2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/css/Theme_3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/css/Theme_3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Portfolio/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Start/BundleConfig.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Start/FilterConfig.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Start/RouteConfig.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Archy_Dev.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Archy_Dev.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Archy_Dev.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/ProjectItemsController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Global.asax" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Global.asax.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/ProjectItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Models/ProjectItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jquery-3.3.1.intellisense.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jquery-3.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jquery-3.3.1.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jquery-3.3.1.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jquery-3.3.1.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jquery-3.3.1.slim.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jquery.validate-vsdoc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jquery.validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jquery.validate.unobtrusive.js" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jquery.validate.unobtrusive.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/modernizr-2.8.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Home/About.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Home/Contact.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/ProjectItems/Create.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/ProjectItems/Delete.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/ProjectItems/Details.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/ProjectItems/Edit.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/ProjectItems/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/Error.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Web.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/_ViewStart.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.Debug.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.Release.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/wwwroot/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages.config" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -189,24 +53,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/archy_dev/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="332">
+              <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
               <folding>
-                <marker date="1561065515482" expanded="false" signature="6:446" ph="..." />
-                <marker date="1561065515482" expanded="true" signature="467:2779" ph="{...}" />
-                <marker date="1561065515482" expanded="true" signature="494:2777" ph="{...}" />
-                <marker date="1561065515482" expanded="true" signature="553:616" ph="{...}" />
-                <marker date="1561065515482" expanded="true" signature="839:1725" ph="{...}" />
-                <marker date="1561065515482" expanded="true" signature="925:1189" ph="{...}" />
-                <marker date="1561065515482" expanded="true" signature="1295:1468" ph="/* const string connection = ... */" />
-                <marker date="1561065515482" expanded="true" signature="1951:2771" ph="{...}" />
-                <marker date="1561065515482" expanded="true" signature="1998:2075" ph="{...}" />
-                <marker date="1561065515482" expanded="true" signature="2092:2351" ph="{...}" />
-                <marker date="1561065515482" expanded="true" signature="2601:2759" ph="{...}" />
+                <marker date="1561065681584" expanded="false" signature="6:446" ph="..." />
+                <marker date="1561065681584" expanded="true" signature="467:2800" ph="{...}" />
+                <marker date="1561065681584" expanded="true" signature="494:2798" ph="{...}" />
+                <marker date="1561065681584" expanded="true" signature="553:616" ph="{...}" />
+                <marker date="1561065681584" expanded="true" signature="839:1746" ph="{...}" />
+                <marker date="1561065681584" expanded="true" signature="925:1189" ph="{...}" />
+                <marker date="1561065681584" expanded="true" signature="1295:1468" ph="/* const string connection = ... */" />
+                <marker date="1561065681584" expanded="true" signature="1972:2792" ph="{...}" />
+                <marker date="1561065681584" expanded="true" signature="2019:2096" ph="{...}" />
+                <marker date="1561065681584" expanded="true" signature="2113:2372" ph="{...}" />
+                <marker date="1561065681584" expanded="true" signature="2622:2780" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/archy_dev/Web.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -226,6 +99,7 @@
     <setting file="file://$PROJECT_DIR$/archy_dev/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2D506C52-CF4B-4BDB-B896-80B6E2C92982/ed/60c5b84f/DatabaseFacade.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/archy_dev/Data/DbSeed.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/archy_dev/Web.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/archy_dev/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -234,6 +108,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/archy_dev/Startup.cs" />
+        <option value="$PROJECT_DIR$/archy_dev/Web.config" />
       </list>
     </option>
   </component>
@@ -329,7 +204,7 @@
       <updated>1560976812430</updated>
       <workItem from="1560976817835" duration="211000" />
       <workItem from="1561035107378" duration="1300000" />
-      <workItem from="1561064609723" duration="1050000" />
+      <workItem from="1561064609723" duration="1605000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1560976952293</created>
@@ -345,11 +220,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560977010508</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DOTNET CORE version builds and runs. Need to set up web config for deploy database.">
+      <created>1561065822371</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561065822371</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2561000" />
+    <option name="totallyTimeSpent" value="3116000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,7 +283,8 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
+    <MESSAGE value="DOTNET CORE version builds and runs. Need to set up web config for deploy database." />
+    <option name="LAST_COMMIT_MESSAGE" value="DOTNET CORE version builds and runs. Need to set up web config for deploy database." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -469,21 +352,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/archy_dev/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="332">
+          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
           <folding>
-            <marker date="1561065515482" expanded="false" signature="6:446" ph="..." />
-            <marker date="1561065515482" expanded="true" signature="467:2779" ph="{...}" />
-            <marker date="1561065515482" expanded="true" signature="494:2777" ph="{...}" />
-            <marker date="1561065515482" expanded="true" signature="553:616" ph="{...}" />
-            <marker date="1561065515482" expanded="true" signature="839:1725" ph="{...}" />
-            <marker date="1561065515482" expanded="true" signature="925:1189" ph="{...}" />
-            <marker date="1561065515482" expanded="true" signature="1295:1468" ph="/* const string connection = ... */" />
-            <marker date="1561065515482" expanded="true" signature="1951:2771" ph="{...}" />
-            <marker date="1561065515482" expanded="true" signature="1998:2075" ph="{...}" />
-            <marker date="1561065515482" expanded="true" signature="2092:2351" ph="{...}" />
-            <marker date="1561065515482" expanded="true" signature="2601:2759" ph="{...}" />
+            <marker date="1561065681584" expanded="false" signature="6:446" ph="..." />
+            <marker date="1561065681584" expanded="true" signature="467:2800" ph="{...}" />
+            <marker date="1561065681584" expanded="true" signature="494:2798" ph="{...}" />
+            <marker date="1561065681584" expanded="true" signature="553:616" ph="{...}" />
+            <marker date="1561065681584" expanded="true" signature="839:1746" ph="{...}" />
+            <marker date="1561065681584" expanded="true" signature="925:1189" ph="{...}" />
+            <marker date="1561065681584" expanded="true" signature="1295:1468" ph="/* const string connection = ... */" />
+            <marker date="1561065681584" expanded="true" signature="1972:2792" ph="{...}" />
+            <marker date="1561065681584" expanded="true" signature="2019:2096" ph="{...}" />
+            <marker date="1561065681584" expanded="true" signature="2113:2372" ph="{...}" />
+            <marker date="1561065681584" expanded="true" signature="2622:2780" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>

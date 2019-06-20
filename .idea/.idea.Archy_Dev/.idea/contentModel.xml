@@ -58,6 +58,7 @@
             <e p="Error.cshtml" t="Include" />
           </e>
         </e>
+        <e p="Web.config" t="Include" />
         <e p="wwwroot" t="Include">
           <e p="css" t="Include">
             <e p="package-lock.json" t="Include" />
