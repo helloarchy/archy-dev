@@ -12,25 +12,17 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Portfolio.Data;
 using Portfolio.Models;
+using System.Data.SqlClient;
 
 namespace Portfolio
 {
     public class Startup
     {
-        public Startup(IHostingEnvironment env)
-        {
-            var builder = new ConfigurationBuilder()
-            .SetBasePath(env.ContentRootPath)
-            .AddJsonFile("appsettings.json",
-                     optional: false,
-                     reloadOnChange: true)
-                .AddEnvironmentVariables();
+        private string _connection = null;
 
-            if (env.IsDevelopment())
-            {
-                builder.AddUserSecrets<Startup>();
-            }
-            Configuration = builder.Build();
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
         }
 
         public IConfiguration Configuration { get; }
@@ -50,19 +42,24 @@ namespace Portfolio
             /*const string connection =
                 @"Server=mssqluk18.prosql.net\mssqllocaldb;Database=Archy_Dev_DB;User Id=superarch;Password=;ConnectRetryCount=0";
             */
-            const string connectionString = Configuration["ProjectItems:ConnectionString"];
-            string conStr = readOnly connectionString;
+            /*const string connectionString = Configuration["ProjectItems:ConnectionString"];
+            string conStr = readOnly connectionString;*/
+            var projectItemConfig = Configuration.GetSection("ProjectItems").Get<ProjectItemSettings>();
+
+            var builder = new SqlConnectionStringBuilder(projectItemConfig.ConnectionString);
+            builder.Password = projectItemConfig.DbPassword;
+            _connection = builder.ConnectionString;
+
 
             // https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-2.2&tabs=windows
 
-            const string connection = @"Server=" + connectionString;
+            // const string connection = @"Server=" + connectionString;
             services.AddDbContext<ArchyDevContext>
-                (options => options.UseSqlServer(connection));
+                (options => options.UseSqlServer(_connection));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, 
-            ArchyDevContext context)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ArchyDevContext context)
         {
             if (env.IsDevelopment())
             {
@@ -81,7 +78,7 @@ namespace Portfolio
 
             /* Seed projects */
             DbSeed.SeedDatabase(context).Wait();
-            
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
