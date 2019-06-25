@@ -17,9 +17,20 @@ namespace Portfolio
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IHostingEnvironment env)
         {
-            Configuration = configuration;
+            var builder = new ConfigurationBuilder()
+            .SetBasePath(env.ContentRootPath)
+            .AddJsonFile("appsettings.json",
+                     optional: false,
+                     reloadOnChange: true)
+                .AddEnvironmentVariables();
+
+            if (env.IsDevelopment())
+            {
+                builder.AddUserSecrets<Startup>();
+            }
+            Configuration = builder.Build();
         }
 
         public IConfiguration Configuration { get; }
@@ -39,8 +50,12 @@ namespace Portfolio
             /*const string connection =
                 @"Server=mssqluk18.prosql.net\mssqllocaldb;Database=Archy_Dev_DB;User Id=superarch;Password=;ConnectRetryCount=0";
             */
-            const string connection =
-                @"Server=(localdb)\mssqllocaldb;Database=Archy_Dev_DB;Trusted_Connection=True;ConnectRetryCount=0";
+            const string connectionString = Configuration["ProjectItems:ConnectionString"];
+            string conStr = readOnly connectionString;
+
+            // https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-2.2&tabs=windows
+
+            const string connection = @"Server=" + connectionString;
             services.AddDbContext<ArchyDevContext>
                 (options => options.UseSqlServer(connection));
         }
