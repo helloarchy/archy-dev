@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Projects";
+}
+
+<div class="container-fluid">
+    <div class="row border-bottom mb-4">
+        <h1 class="text-dark">Projects</h1>
+    </div>
+    <div class="card-columns">
+        @foreach (ProjectItem project in Model)
+        {
+            if (project.IsVisible)
+            {
+                // <partial name="ProjectItemPartial" model="@project"/>
+                <partial name="ProjectItemPartial" model="@project"/>
+            }
+        }
+    </div>
+</div>

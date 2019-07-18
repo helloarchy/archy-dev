@@ -39,21 +39,22 @@ namespace Portfolio
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-            /*const string connection =
-                @"Server=mssqluk18.prosql.net\mssqllocaldb;Database=Archy_Dev_DB;User Id=superarch;Password=;ConnectRetryCount=0";
-            */
-            /*const string connectionString = Configuration["ProjectItems:ConnectionString"];
-            string conStr = readOnly connectionString;*/
             var projectItemConfig = Configuration.GetSection("ProjectItems").Get<ProjectItemSettings>();
 
-            var builder = new SqlConnectionStringBuilder(projectItemConfig.ConnectionString);
-            builder.Password = projectItemConfig.DbPassword;
+            /*var builder = new SqlConnectionStringBuilder(projectItemConfig.ConnectionString)
+            {
+                Password = projectItemConfig.DbPassword
+            };*/
+            var builder =
+                new SqlConnectionStringBuilder(
+                    "Server=mssqluk18.prosql.net;Database=archy_dev_db;ConnectRetryCount=0"
+                )
+                {
+                    /* UserID = Put here before publish! */
+                    /* Password = Put here before publish! */
+                };
             _connection = builder.ConnectionString;
 
-
-            // https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-2.2&tabs=windows
-
-            // const string connection = @"Server=" + connectionString;
             services.AddDbContext<ArchyDevContext>
                 (options => options.UseSqlServer(_connection));
         }
@@ -85,6 +86,8 @@ namespace Portfolio
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+
         }
     }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\_VCS\archy.dev (core)\archy.dev" t="IncludeFlat">
+    <e p="C:\_VCS\archy.dev" t="IncludeFlat">
       <e p=".git\info\exclude" t="IncludeRecursive" />
       <e p="archy_dev" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
@@ -20,6 +20,23 @@
         </e>
         <e p="Data" t="Include">
           <e p="DbSeed.cs" t="Include" />
+          <e p="ProjectItemSettings.cs" t="Include" />
+        </e>
+        <e p="logs" t="Include">
+          <e p="stdout_20190625170933_16396.log" t="Include" />
+          <e p="stdout_20190625172020_12300.log" t="Include" />
+          <e p="stdout_20190625172116_21288.log" t="Include" />
+          <e p="stdout_20190718140256_6436.log" t="Include" />
+          <e p="stdout_20190718142905_6388.log" t="Include" />
+          <e p="stdout_20190718142939_14332.log" t="Include" />
+          <e p="stdout_20190718143158_11016.log" t="Include" />
+          <e p="stdout_20190718143309_4252.log" t="Include" />
+          <e p="stdout_20190718143420_6588.log" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20190625165807_init.cs" t="Include" />
+          <e p="20190625165807_init.Designer.cs" t="Include" />
+          <e p="ArchyDevContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="ArchyDevContext.cs" t="Include" />
@@ -38,6 +55,8 @@
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
           <e p="PublishProfiles" t="Include">
+            <e p="archy.dev - Web Deploy.pubxml" t="Include" />
+            <e p="archy.dev.publishsettings" t="Include" />
             <e p="IIS.pubxml" t="Include" />
           </e>
         </e>
@@ -58,7 +77,7 @@
             <e p="Error.cshtml" t="Include" />
           </e>
         </e>
-        <e p="Web.config.derp" t="Include" />
+        <e p="Web.config" t="Include" />
         <e p="wwwroot" t="Include">
           <e p="css" t="Include">
             <e p="package-lock.json" t="Include" />
@@ -141,6 +160,6 @@
     <e p="C:\Users\hardy\.Rider2019.1\config\consoles\db" t="IncludeRecursive" />
     <e p="C:\Users\hardy\.Rider2019.1\config\extensions" t="IncludeRecursive" />
     <e p="C:\Users\hardy\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\hardy\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_archy_dev.-2064505555.00" t="ExcludeRecursive" />
+    <e p="C:\Users\hardy\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_archy_dev.-583673461.00" t="ExcludeRecursive" />
   </component>
 </project>

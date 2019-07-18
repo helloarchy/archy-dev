@@ -1,76 +1,779 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/archy_dev/Startup.cs" line="52" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="be73c586-57e8-4fe1-9a31-58cb5a0a6022" name="Default Changelist" comment="" />
+    <list default="true" id="be73c586-57e8-4fe1-9a31-58cb5a0a6022" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/archy_dev/Migrations/20190625165807_init.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/Migrations/20190625165807_init.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/Migrations/ArchyDevContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/Web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Antiforgery.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Authentication.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Authentication.Cookies.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Authentication.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Authentication.Facebook.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Authentication.Google.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Authentication.JwtBearer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Authentication.OAuth.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Authentication.Twitter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Authentication.WsFederation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Authentication.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Authorization.Policy.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Authorization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Connections.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.CookiePolicy.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Cors.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Cryptography.Internal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.DataProtection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.DataProtection.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.DataProtection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Diagnostics.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Diagnostics.HealthChecks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Diagnostics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.HostFiltering.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Hosting.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Hosting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Html.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Http.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Http.Connections.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Http.Connections.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Http.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Http.Features.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Http.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.HttpOverrides.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.HttpsPolicy.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Identity.UI.Views.V3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Identity.UI.Views.V4.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Identity.UI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Identity.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.JsonPatch.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Localization.Routing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Localization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.MiddlewareAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Mvc.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Mvc.ApiExplorer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Mvc.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Mvc.Cors.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Mvc.DataAnnotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Mvc.Formatters.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Mvc.Localization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Mvc.Razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Mvc.RazorPages.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Mvc.TagHelpers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Mvc.ViewFeatures.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Mvc.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.NodeServices.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Owin.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Razor.Language.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Razor.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.ResponseCaching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.ResponseCompression.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Rewrite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Routing.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Routing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Server.HttpSys.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Server.IIS.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Server.IISIntegration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Server.Kestrel.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Server.Kestrel.Https.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Server.Kestrel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.Session.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.SignalR.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.SignalR.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.SignalR.Protocols.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.SignalR.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.SpaServices.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.SpaServices.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.StaticFiles.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.WebSockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.WebUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.AspNetCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.CodeAnalysis.Razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Data.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.DiaSymReader.Native.amd64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.DotNet.PlatformAbstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.EntityFrameworkCore.InMemory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.EntityFrameworkCore.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Caching.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Configuration.Binder.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Configuration.CommandLine.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Configuration.EnvironmentVariables.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Configuration.FileExtensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Configuration.Ini.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Configuration.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Configuration.KeyPerFile.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Configuration.UserSecrets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Configuration.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.DiagnosticAdapter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Diagnostics.HealthChecks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.FileProviders.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.FileProviders.Composite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.FileProviders.Embedded.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.FileProviders.Physical.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.FileSystemGlobbing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Hosting.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Hosting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Http.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Identity.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Identity.Stores.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Localization.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Localization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Logging.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Logging.Console.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Logging.Debug.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Logging.EventSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Logging.TraceSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.ObjectPool.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Options.ConfigurationExtensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Options.DataAnnotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Extensions.WebEncoders.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.IdentityModel.Protocols.WsFederation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.IdentityModel.Tokens.Saml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.IdentityModel.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Net.Http.Headers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.VisualBasic.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Win32.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Microsoft.Win32.Registry.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Newtonsoft.Json.Bson.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Remotion.Linq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/SOS.NETCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/SQLitePCLRaw.core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.AppContext.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Buffers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Collections.Concurrent.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Collections.Immutable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Collections.NonGeneric.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Collections.Specialized.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Collections.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.ComponentModel.Annotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.ComponentModel.DataAnnotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.ComponentModel.EventBasedAsync.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.ComponentModel.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.ComponentModel.TypeConverter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.ComponentModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Console.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Data.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Data.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Diagnostics.Contracts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Diagnostics.Debug.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Diagnostics.FileVersionInfo.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Diagnostics.Process.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Diagnostics.StackTrace.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Diagnostics.TextWriterTraceListener.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Diagnostics.Tools.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Diagnostics.TraceSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Diagnostics.Tracing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Drawing.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Drawing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Dynamic.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Globalization.Calendars.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Globalization.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Globalization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.IO.Compression.Brotli.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.IO.Compression.FileSystem.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.IO.Compression.ZipFile.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.IO.Compression.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.IO.FileSystem.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.IO.FileSystem.DriveInfo.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.IO.FileSystem.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.IO.FileSystem.Watcher.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.IO.FileSystem.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.IO.IsolatedStorage.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.IO.MemoryMappedFiles.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.IO.Pipelines.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.IO.Pipes.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.IO.Pipes.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.IO.UnmanagedMemoryStream.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.IO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Interactive.Async.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Linq.Expressions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Linq.Parallel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Linq.Queryable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Linq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Net.Http.Formatting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Net.Http.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Net.HttpListener.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Net.Mail.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Net.NameResolution.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Net.NetworkInformation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Net.Ping.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Net.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Net.Requests.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Net.Security.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Net.ServicePoint.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Net.Sockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Net.WebClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Net.WebHeaderCollection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Net.WebProxy.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Net.WebSockets.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Net.WebSockets.WebSocketProtocol.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Net.WebSockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Net.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Numerics.Vectors.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Numerics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.ObjectModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Private.CoreLib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Private.DataContractSerialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Private.Uri.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Private.Xml.Linq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Private.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Reflection.DispatchProxy.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Reflection.Emit.ILGeneration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Reflection.Emit.Lightweight.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Reflection.Emit.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Reflection.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Reflection.Metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Reflection.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Reflection.TypeExtensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Reflection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Resources.Reader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Resources.ResourceManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Resources.Writer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Runtime.CompilerServices.VisualC.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Runtime.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Runtime.Handles.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Runtime.InteropServices.RuntimeInformation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Runtime.InteropServices.WindowsRuntime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Runtime.InteropServices.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Runtime.Loader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Runtime.Numerics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Runtime.Serialization.Formatters.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Runtime.Serialization.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Runtime.Serialization.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Runtime.Serialization.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Runtime.Serialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Security.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Security.Claims.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Security.Cryptography.Algorithms.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Security.Cryptography.Cng.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Security.Cryptography.Csp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Security.Cryptography.Encoding.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Security.Cryptography.OpenSsl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Security.Cryptography.Pkcs.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Security.Cryptography.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Security.Cryptography.X509Certificates.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Security.Cryptography.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Security.Principal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Security.SecureString.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Security.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.ServiceModel.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.ServiceProcess.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Text.Encoding.CodePages.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Text.Encoding.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Text.Encoding.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Text.Encodings.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Text.RegularExpressions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Threading.Channels.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Threading.Overlapped.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Threading.Tasks.Dataflow.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Threading.Tasks.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Threading.Tasks.Parallel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Threading.Tasks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Threading.Thread.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Threading.ThreadPool.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Threading.Timer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Threading.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Transactions.Local.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Transactions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.ValueTuple.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Web.HttpUtility.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Xml.Linq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Xml.ReaderWriter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Xml.Serialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Xml.XDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Xml.XPath.XDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Xml.XPath.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Xml.XmlDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Xml.XmlSerializer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/System.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Views/Home/CV.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Views/Home/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Views/Home/Privacy.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Views/Home/ProjectItemPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Views/Shared/Error.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Views/Shared/_CookieConsentPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Views/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Views/_ViewStart.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/Web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/WindowsBase.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-console-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-datetime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-debug-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-errorhandling-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-file-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-file-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-file-l2-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-handle-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-interlocked-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-libraryloader-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-localization-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-memory-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-namedpipe-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-processenvironment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-processthreads-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-processthreads-l1-1-1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-profile-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-rtlsupport-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-synch-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-synch-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-sysinfo-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-timezone-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-core-util-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-crt-conio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-crt-convert-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-crt-environment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-crt-filesystem-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-crt-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-crt-locale-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-crt-math-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-crt-multibyte-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-crt-private-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-crt-process-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-crt-runtime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-crt-stdio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-crt-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-crt-time-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/api-ms-win-crt-utility-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/archy_dev.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/archy_dev.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/archy_dev.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/archy_dev.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/aspnetcorev2_inprocess.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/clrcompression.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/clretwrc.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/clrjit.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/coreclr.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/dbgshim.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/hostfxr.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/hostpolicy.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/mscordaccore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/mscordaccore_amd64_amd64_4.6.27617.05.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/mscordbi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/mscorlib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/mscorrc.debug.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/mscorrc.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/netstandard.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/Microsoft.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/Microsoft.VisualBasic.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/Microsoft.Win32.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/Microsoft.Win32.Registry.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.AppContext.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Buffers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Collections.Concurrent.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Collections.Immutable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Collections.NonGeneric.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Collections.Specialized.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Collections.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.ComponentModel.Annotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.ComponentModel.DataAnnotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.ComponentModel.EventBasedAsync.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.ComponentModel.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.ComponentModel.TypeConverter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.ComponentModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Console.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Data.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Data.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Diagnostics.Contracts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Diagnostics.Debug.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Diagnostics.FileVersionInfo.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Diagnostics.Process.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Diagnostics.StackTrace.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Diagnostics.TextWriterTraceListener.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Diagnostics.Tools.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Diagnostics.TraceSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Diagnostics.Tracing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Drawing.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Drawing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Dynamic.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Globalization.Calendars.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Globalization.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Globalization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.IO.Compression.Brotli.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.IO.Compression.FileSystem.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.IO.Compression.ZipFile.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.IO.Compression.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.IO.FileSystem.DriveInfo.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.IO.FileSystem.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.IO.FileSystem.Watcher.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.IO.FileSystem.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.IO.IsolatedStorage.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.IO.MemoryMappedFiles.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.IO.Pipes.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.IO.UnmanagedMemoryStream.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.IO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Linq.Expressions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Linq.Parallel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Linq.Queryable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Linq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Net.Http.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Net.HttpListener.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Net.Mail.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Net.NameResolution.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Net.NetworkInformation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Net.Ping.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Net.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Net.Requests.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Net.Security.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Net.ServicePoint.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Net.Sockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Net.WebClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Net.WebHeaderCollection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Net.WebProxy.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Net.WebSockets.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Net.WebSockets.WebSocketProtocol.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Net.WebSockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Net.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Numerics.Vectors.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Numerics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.ObjectModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Reflection.DispatchProxy.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Reflection.Emit.ILGeneration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Reflection.Emit.Lightweight.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Reflection.Emit.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Reflection.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Reflection.Metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Reflection.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Reflection.TypeExtensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Reflection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Resources.Reader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Resources.ResourceManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Resources.Writer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Runtime.CompilerServices.VisualC.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Runtime.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Runtime.Handles.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Runtime.InteropServices.RuntimeInformation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Runtime.InteropServices.WindowsRuntime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Runtime.InteropServices.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Runtime.Loader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Runtime.Numerics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Runtime.Serialization.Formatters.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Runtime.Serialization.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Runtime.Serialization.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Runtime.Serialization.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Runtime.Serialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Security.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Security.Claims.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Security.Cryptography.Algorithms.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Security.Cryptography.Cng.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Security.Cryptography.Csp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Security.Cryptography.Encoding.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Security.Cryptography.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Security.Cryptography.X509Certificates.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Security.Cryptography.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Security.Principal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Security.SecureString.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Security.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.ServiceModel.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.ServiceProcess.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Text.Encoding.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Text.Encoding.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Text.RegularExpressions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Threading.Overlapped.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Threading.Tasks.Dataflow.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Threading.Tasks.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Threading.Tasks.Parallel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Threading.Tasks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Threading.Thread.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Threading.ThreadPool.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Threading.Timer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Threading.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Transactions.Local.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Transactions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.ValueTuple.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Web.HttpUtility.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Xml.Linq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Xml.ReaderWriter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Xml.Serialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Xml.XDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Xml.XPath.XDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Xml.XPath.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Xml.XmlDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Xml.XmlSerializer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/System.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/WindowsBase.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/mscorlib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/refs/netstandard.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/sni.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/sos.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/sos_amd64_amd64_4.6.27617.05.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/ucrtbase.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/css/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/css/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/css/site.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/img/thumb/SocialNetwork.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/js/site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/css/Theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/css/Theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/css/Theme_2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/css/Theme_2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/css/Theme_3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/css/Theme_3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/published/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.config.backup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/archy_dev/DesignTimeBuild/.dtbcache" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/archy_dev/DesignTimeBuild/.dtbcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/archy_dev/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/archy_dev/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/Web.config.derp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/archy_dev.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/archy_dev.csproj" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/archy_dev/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+            <state relative-caret-position="168">
+              <caret line="52" column="59" lean-forward="true" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
               <folding>
-                <marker date="1561066808404" expanded="false" signature="6:446" ph="..." />
-                <marker date="1561066808404" expanded="true" signature="467:2800" ph="{...}" />
-                <marker date="1561066808404" expanded="true" signature="494:2798" ph="{...}" />
-                <marker date="1561066808404" expanded="true" signature="553:616" ph="{...}" />
-                <marker date="1561066808404" expanded="true" signature="839:1746" ph="{...}" />
-                <marker date="1561066808404" expanded="true" signature="925:1189" ph="{...}" />
-                <marker date="1561066808404" expanded="true" signature="1295:1468" ph="/* const string connection = ... */" />
-                <marker date="1561066808404" expanded="true" signature="1972:2792" ph="{...}" />
-                <marker date="1561066808404" expanded="true" signature="2019:2096" ph="{...}" />
-                <marker date="1561066808404" expanded="true" signature="2113:2372" ph="{...}" />
-                <marker date="1561066808404" expanded="true" signature="2622:2780" ph="{...}" />
+                <marker date="1563460312815" expanded="true" signature="6:475" ph="..." />
+                <marker date="1563460312815" expanded="true" signature="496:3195" ph="{...}" />
+                <marker date="1563460312815" expanded="true" signature="523:3193" ph="{...}" />
+                <marker date="1563460312815" expanded="true" signature="626:689" ph="{...}" />
+                <marker date="1563460312815" expanded="true" signature="912:2164" ph="{...}" />
+                <marker date="1563460312815" expanded="true" signature="998:1262" ph="{...}" />
+                <marker date="1563460312815" expanded="true" signature="1474:1643" ph="/* var builder = new SqlConnectionStringBuilder(projectItemConfig.ConnectionString) ... */" />
+                <marker date="1563460312815" expanded="true" signature="1844:1985" ph="{...}" />
+                <marker date="1563460312815" expanded="true" signature="2377:3187" ph="{...}" />
+                <marker date="1563460312815" expanded="true" signature="2424:2501" ph="{...}" />
+                <marker date="1563460312815" expanded="true" signature="2518:2777" ph="{...}" />
+                <marker date="1563460312815" expanded="true" signature="3015:3173" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/archy_dev/Controllers/HomeController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="400" lean-forward="true" selection-start-line="400" selection-end-line="400" />
+            <state relative-caret-position="96">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <marker date="1563460246262" expanded="true" signature="6:260" ph="..." />
+                <marker date="1563460246262" expanded="true" signature="293:1265" ph="{...}" />
+                <marker date="1563460246262" expanded="true" signature="340:1263" ph="{...}" />
+                <marker date="1563460246262" expanded="true" signature="453:505" ph="{...}" />
+                <marker date="1563460246262" expanded="true" signature="564:807" ph="{...}" />
+                <marker date="1563460246262" expanded="true" signature="642:729" ph="{...}" />
+                <marker date="1563460246262" expanded="true" signature="843:890" ph="{...}" />
+                <marker date="1563460246262" expanded="true" signature="939:986" ph="{...}" />
+                <marker date="1563460246262" expanded="true" signature="1126:1257" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/archy_dev/Web.config.derp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archy_dev/Data/DbSeed.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/archy_dev/archy_dev.csproj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/archy_dev/Models/ArchyDevContext.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
               <folding>
-                <marker date="1561062293042" expanded="true" signature="64:323" ph="{...}" />
-                <marker date="1561062293042" expanded="true" signature="111:321" ph="{...}" />
-                <marker date="1561062293042" expanded="true" signature="219:254" ph="{...}" />
+                <marker date="1563460257411" expanded="true" signature="6:155" ph="..." />
+                <marker date="1563460257411" expanded="true" signature="181:5380" ph="{...}" />
+                <marker date="1563460257411" expanded="true" signature="207:5378" ph="{...}" />
+                <marker date="1563460257411" expanded="true" signature="284:4495" ph="{...}" />
+                <marker date="1563460257411" expanded="true" signature="4763:5372" ph="{...}" />
+                <marker date="1563460257411" expanded="true" signature="4858:5362" ph="{...}" />
+                <marker date="1563460257411" expanded="true" signature="4983:5346" ph="{...}" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archy_dev/Data/ProjectItemSettings.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+              <folding>
+                <marker date="1563460262472" expanded="true" signature="6:96" ph="..." />
+                <marker date="1563460262472" expanded="true" signature="122:275" ph="{...}" />
+                <marker date="1563460262472" expanded="true" signature="161:273" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archy_dev/Models/ErrorViewModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="70" lean-forward="true" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <marker date="1563460277840" expanded="true" signature="41:207" ph="{...}" />
+                <marker date="1563460277840" expanded="true" signature="75:205" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archy_dev/Models/ProjectItem.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding>
+                <marker date="1563460284203" expanded="true" signature="61:578" ph="{...}" />
+                <marker date="1563460284203" expanded="true" signature="92:576" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archy_dev/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="8" column="35" lean-forward="true" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <marker date="1563460291907" expanded="true" signature="6:255" ph="..." />
+                <marker date="1563460291907" expanded="true" signature="276:603" ph="{...}" />
+                <marker date="1563460291907" expanded="true" signature="303:601" ph="{...}" />
+                <marker date="1563460291907" expanded="true" signature="356:430" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archy_dev/Web.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archy_dev/Properties/PublishProfiles/archy.dev.publishsettings">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -85,25 +788,49 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>environ</find>
+      <find>csproj</find>
+      <find>hostingmodel</find>
+      <find>connection</find>
+      <find>user</find>
+      <find>aspnetcoremodule</find>
+      <find>add</find>
+      <find>name</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/archy_dev/Web.config.derp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/archy_dev/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/archy_dev/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/archy_dev/Data/ProjectItemSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/archy_dev/Web.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/archy_dev/Data/DbSeed.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/archy_dev/Migrations/ArchyDevContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/archy_dev/Models/ErrorViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/archy_dev/Migrations/20190625165807_init.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/archy_dev/Models/ProjectItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/archy_dev/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/archy_dev/Models/ArchyDevContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/archy_dev/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/archy_dev/Properties/PublishProfiles/IIS.pubxml" />
         <option value="$PROJECT_DIR$/archy_dev/Models/ArchyDevContext.cs" />
+        <option value="$PROJECT_DIR$/archy_dev/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/archy_dev/Startup.cs" />
+        <option value="$PROJECT_DIR$/archy_dev/Properties/PublishProfiles/archy.dev.publishsettings" />
+        <option value="$PROJECT_DIR$/archy_dev/archy_dev.csproj" />
         <option value="$PROJECT_DIR$/archy_dev/Web.config" />
+        <option value="$PROJECT_DIR$/archy_dev/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/archy_dev/Data/DbSeed.cs" />
+        <option value="$PROJECT_DIR$/archy_dev/Data/ProjectItemSettings.cs" />
+        <option value="$PROJECT_DIR$/archy_dev/Models/ErrorViewModel.cs" />
+        <option value="$PROJECT_DIR$/archy_dev/Models/ProjectItem.cs" />
+        <option value="$PROJECT_DIR$/archy_dev/Program.cs" />
+        <option value="$PROJECT_DIR$/archy_dev/Startup.cs" />
       </list>
     </option>
   </component>
@@ -118,7 +845,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -131,19 +858,49 @@
               <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
               <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
             </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Data" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="archy.dev" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="archy.dev" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="archy_dev" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlserver" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/published" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -161,13 +918,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.archy_dev: IIS Express">
+  <component name="RunManager" selected="Publish to custom server.archy.dev (FTP)">
+    <configuration name="Publish to folder" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish runtime="win-x64" self_contained="true" target_folder="$PROJECT_DIR$/published" target_framework="netcoreapp2.2" uuid_high="3455713776650699339" uuid_low="-6559979096010621758" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish runtime="win-x64" self_contained="true" target_folder="$PROJECT_DIR$/archy_dev/publish_folder" target_framework="netcoreapp2.2" uuid_high="3455713776650699339" uuid_low="-6559979096010621758" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unnamed" type="DotNetMsBuildPublish" factoryName="Publish to IIS">
       <riderPublish publish_profile="IIS.pubxml" uuid_high="3455713776650699339" uuid_low="-6559979096010621758" />
       <method v="2" />
     </configuration>
     <configuration name="archy.dev (FTP)" type="DotNetPublishAndUpload" factoryName="Publish to custom server">
-      <riderPublish runtime="Portable" server_id="99e16239-61e3-4e03-bc64-5f77db662dbb" target_framework="netcoreapp2.2" uuid_high="3455713776650699339" uuid_low="-6559979096010621758" />
+      <riderPublish runtime="win-x64" self_contained="true" server_id="99e16239-61e3-4e03-bc64-5f77db662dbb" target_framework="netcoreapp2.2" uuid_high="3455713776650699339" uuid_low="-6559979096010621758" />
       <method v="2" />
     </configuration>
     <configuration name="archy_dev: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -185,25 +950,10 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
-    <configuration name="archy_dev: Portfolio" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/archy_dev/archy_dev.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
-      <option name="LAUNCH_PROFILE_NAME" value="Portfolio" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="USE_MONO" value="0" />
-      <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
-      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
-      <option name="SEND_DEBUG_REQUEST" value="1" />
-      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
-      <method v="2">
-        <option name="Build" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue=".NET Launch Settings Profile.archy_dev: IIS Express" />
-      <item itemvalue=".NET Launch Settings Profile.archy_dev: Portfolio" />
       <item itemvalue="Publish to custom server.archy.dev (FTP)" />
+      <item itemvalue="Publish to folder.Publish to folder" />
       <item itemvalue="Publish to IIS.Unnamed" />
     </list>
   </component>
@@ -220,6 +970,9 @@
       <workItem from="1561060715147" duration="3576000" />
       <workItem from="1561065577964" duration="687000" />
       <workItem from="1561066634473" duration="645000" />
+      <workItem from="1561479068722" duration="2022000" />
+      <workItem from="1561741643963" duration="2087000" />
+      <workItem from="1563450746157" duration="6602000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed bug where project wasn't being recognised as CORE">
       <created>1561067257165</created>
@@ -232,7 +985,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4908000" />
+    <option name="totallyTimeSpent" value="15619000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -245,14 +998,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1633" height="1093" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12246193" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12944162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Azure Explorer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" sideWeight="0.49936548" weight="0.32939914" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32939914" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4930203" visible="true" weight="0.32939914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -267,13 +1022,14 @@
       <window_info anchor="bottom" id="Unit Tests" order="14" />
       <window_info anchor="bottom" id="REST Client" order="15" />
       <window_info anchor="bottom" id="Terminal" order="16" weight="0.32939914" />
-      <window_info anchor="bottom" id="Event Log" order="17" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="18" weight="0.32939914" />
+      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.5069797" side_tool="true" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Build" order="18" sideWeight="0.4930203" weight="0.32939914" />
+      <window_info anchor="right" id="Designer Toolbox" sideWeight="0.5008" side_tool="true" visible="true" weight="0.32994923" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32994923" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Errors In Solution" order="3" sideWeight="0.4992" weight="0.32994923" />
+      <window_info anchor="right" id="Database" order="4" sideWeight="0.4992" visible="true" weight="0.32994923" />
       <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
@@ -297,13 +1053,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/archy_dev/Properties/PublishProfiles/IIS.pubxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/archy_dev/Properties/launchSettings.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -311,16 +1060,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/archy_dev/archy_dev.csproj">
+    <entry file="file://$PROJECT_DIR$/archy_dev/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/archy_dev/Views/Shared/_Layout.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="720">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9888">
+          <caret line="412" selection-start-line="412" selection-end-line="412" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Properties/PublishProfiles/IIS.pubxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/archy_dev/Models/ArchyDevContext.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="144">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding>
             <marker date="1561062293042" expanded="true" signature="64:323" ph="{...}" />
@@ -330,44 +1094,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/archy_dev/.gitignore">
+    <entry file="file://$PROJECT_DIR$/archy_dev.sln">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" lean-forward="true" selection-end-line="412" />
+        <state relative-caret-position="48">
+          <caret line="2" column="86" selection-start-line="2" selection-start-column="86" selection-end-line="2" selection-end-column="86" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/archy_dev/archy_dev.csproj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="400" lean-forward="true" selection-start-line="400" selection-end-line="400" />
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/dotnet/sdk/2.2.300/Sdks/Microsoft.NET.Sdk.Publish/build/netstandard1.0/TransformTargets/Microsoft.NET.Sdk.Publish.TransformFiles.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Properties/PublishProfiles/archy.dev.publishsettings">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://8a681c26-608a-4840-a812-81713b4bd2c4/database/archy_dev_db/schema/superarch/table/ProjectItem">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="f3554392-060b-40ce-8570-49c52fef9315">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8a681c26-608a-4840-a812-81713b4bd2c4/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Migrations/20190625165807_init.cs">
+      <provider editor-type-id="WinFormsEditor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding>
+            <marker date="1561481887199" expanded="false" signature="6:93" ph="..." />
+            <marker date="1561481887199" expanded="true" signature="125:1576" ph="{...}" />
+            <marker date="1561481887199" expanded="true" signature="169:1574" ph="{...}" />
+            <marker date="1561481887199" expanded="true" signature="245:1397" ph="{...}" />
+            <marker date="1561481887199" expanded="true" signature="389:1243" ph="{...}" />
+            <marker date="1561481887199" expanded="true" signature="1299:1385" ph="{...}" />
+            <marker date="1561481887199" expanded="true" signature="1470:1568" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1563460246262" expanded="true" signature="6:260" ph="..." />
+            <marker date="1563460246262" expanded="true" signature="293:1265" ph="{...}" />
+            <marker date="1563460246262" expanded="true" signature="340:1263" ph="{...}" />
+            <marker date="1563460246262" expanded="true" signature="453:505" ph="{...}" />
+            <marker date="1563460246262" expanded="true" signature="564:807" ph="{...}" />
+            <marker date="1563460246262" expanded="true" signature="642:729" ph="{...}" />
+            <marker date="1563460246262" expanded="true" signature="843:890" ph="{...}" />
+            <marker date="1563460246262" expanded="true" signature="939:986" ph="{...}" />
+            <marker date="1563460246262" expanded="true" signature="1126:1257" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Migrations/ArchyDevContextModelSnapshot.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <marker date="1561481887202" expanded="true" signature="28:241" ph="..." />
+            <marker date="1561481887202" expanded="true" signature="273:1751" ph="{...}" />
+            <marker date="1561481887202" expanded="true" signature="379:1749" ph="{...}" />
+            <marker date="1561481887202" expanded="true" signature="455:1743" ph="{...}" />
+            <marker date="1561481887202" expanded="true" signature="872:1698" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Models/ErrorViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="70" lean-forward="true" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1563460277840" expanded="true" signature="41:207" ph="{...}" />
+            <marker date="1563460277840" expanded="true" signature="75:205" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Models/ProjectItem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <marker date="1563460284203" expanded="true" signature="61:578" ph="{...}" />
+            <marker date="1563460284203" expanded="true" signature="92:576" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="8" column="35" lean-forward="true" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <marker date="1563460291907" expanded="true" signature="6:255" ph="..." />
+            <marker date="1563460291907" expanded="true" signature="276:603" ph="{...}" />
+            <marker date="1563460291907" expanded="true" signature="303:601" ph="{...}" />
+            <marker date="1563460291907" expanded="true" signature="356:430" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Data/ProjectItemSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding>
+            <marker date="1563460262472" expanded="true" signature="6:96" ph="..." />
+            <marker date="1563460262472" expanded="true" signature="122:275" ph="{...}" />
+            <marker date="1563460262472" expanded="true" signature="161:273" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Data/DbSeed.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <marker date="1563460257411" expanded="true" signature="6:155" ph="..." />
+            <marker date="1563460257411" expanded="true" signature="181:5380" ph="{...}" />
+            <marker date="1563460257411" expanded="true" signature="207:5378" ph="{...}" />
+            <marker date="1563460257411" expanded="true" signature="284:4495" ph="{...}" />
+            <marker date="1563460257411" expanded="true" signature="4763:5372" ph="{...}" />
+            <marker date="1563460257411" expanded="true" signature="4858:5362" ph="{...}" />
+            <marker date="1563460257411" expanded="true" signature="4983:5346" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/archy_dev/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+        <state relative-caret-position="168">
+          <caret line="52" column="59" lean-forward="true" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
           <folding>
-            <marker date="1561066808404" expanded="false" signature="6:446" ph="..." />
-            <marker date="1561066808404" expanded="true" signature="467:2800" ph="{...}" />
-            <marker date="1561066808404" expanded="true" signature="494:2798" ph="{...}" />
-            <marker date="1561066808404" expanded="true" signature="553:616" ph="{...}" />
-            <marker date="1561066808404" expanded="true" signature="839:1746" ph="{...}" />
-            <marker date="1561066808404" expanded="true" signature="925:1189" ph="{...}" />
-            <marker date="1561066808404" expanded="true" signature="1295:1468" ph="/* const string connection = ... */" />
-            <marker date="1561066808404" expanded="true" signature="1972:2792" ph="{...}" />
-            <marker date="1561066808404" expanded="true" signature="2019:2096" ph="{...}" />
-            <marker date="1561066808404" expanded="true" signature="2113:2372" ph="{...}" />
-            <marker date="1561066808404" expanded="true" signature="2622:2780" ph="{...}" />
+            <marker date="1563460312815" expanded="true" signature="6:475" ph="..." />
+            <marker date="1563460312815" expanded="true" signature="496:3195" ph="{...}" />
+            <marker date="1563460312815" expanded="true" signature="523:3193" ph="{...}" />
+            <marker date="1563460312815" expanded="true" signature="626:689" ph="{...}" />
+            <marker date="1563460312815" expanded="true" signature="912:2164" ph="{...}" />
+            <marker date="1563460312815" expanded="true" signature="998:1262" ph="{...}" />
+            <marker date="1563460312815" expanded="true" signature="1474:1643" ph="/* var builder = new SqlConnectionStringBuilder(projectItemConfig.ConnectionString) ... */" />
+            <marker date="1563460312815" expanded="true" signature="1844:1985" ph="{...}" />
+            <marker date="1563460312815" expanded="true" signature="2377:3187" ph="{...}" />
+            <marker date="1563460312815" expanded="true" signature="2424:2501" ph="{...}" />
+            <marker date="1563460312815" expanded="true" signature="2518:2777" ph="{...}" />
+            <marker date="1563460312815" expanded="true" signature="3015:3173" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archy_dev/Web.config.derp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
         </state>
       </provider>
     </entry>

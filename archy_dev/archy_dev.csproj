@@ -2,15 +2,15 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp2.2</TargetFramework>
-        <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+        <AspNetCoreHostingModelV2>InProcess</AspNetCoreHostingModelV2>
         <RootNamespace>Portfolio</RootNamespace>
         <UserSecretsId>504d27f4-148a-4f23-9d43-dc1e554b35e3</UserSecretsId>
     </PropertyGroup>
 
-
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.App" />
         <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="2.2.4" />
         <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="2.2.0" />
     </ItemGroup>
 
