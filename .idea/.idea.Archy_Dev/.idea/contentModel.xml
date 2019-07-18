@@ -32,6 +32,8 @@
           <e p="stdout_20190718143158_11016.log" t="Include" />
           <e p="stdout_20190718143309_4252.log" t="Include" />
           <e p="stdout_20190718143420_6588.log" t="Include" />
+          <e p="stdout_20190718144334_4800.log" t="Include" />
+          <e p="stdout_20190718174215_9008.log" t="Include" />
         </e>
         <e p="Migrations" t="Include">
           <e p="20190625165807_init.cs" t="Include" />

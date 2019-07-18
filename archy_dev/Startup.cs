@@ -39,19 +39,21 @@ namespace Portfolio
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
+            /* USING SECRETS
             var projectItemConfig = Configuration.GetSection("ProjectItems").Get<ProjectItemSettings>();
-
-            /*var builder = new SqlConnectionStringBuilder(projectItemConfig.ConnectionString)
+            var builder = new SqlConnectionStringBuilder(projectItemConfig.ConnectionString)
             {
                 Password = projectItemConfig.DbPassword
-            };*/
-            var builder =
-                new SqlConnectionStringBuilder(
-                    "Server=mssqluk18.prosql.net;Database=archy_dev_db;ConnectRetryCount=0"
-                )
-                {
-                     /*UserID = OMITTED, 
-                     Password = OMITTED*/
+            };
+            */
+            
+            var builder = new SqlConnectionStringBuilder {
+                    ConnectionString = @"Server=(localdb)\mssqllocaldb;Database=archy_dev_db;Trusted_Connection=True;ConnectRetryCount=0"
+                    /*
+                    ConnectionString = "Server=mssqluk18.prosql.net;Database=archy_dev_db;ConnectRetryCount=0",
+                    UserID = OMITTED, 
+                    Password = OMITTED
+                    */
                 };
             _connection = builder.ConnectionString;
 
