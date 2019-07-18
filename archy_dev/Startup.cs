@@ -50,8 +50,8 @@ namespace Portfolio
                     "Server=mssqluk18.prosql.net;Database=archy_dev_db;ConnectRetryCount=0"
                 )
                 {
-                    /* UserID = Put here before publish! */
-                    /* Password = Put here before publish! */
+                     /*UserID = OMITTED, 
+                     Password = OMITTED*/
                 };
             _connection = builder.ConnectionString;
 

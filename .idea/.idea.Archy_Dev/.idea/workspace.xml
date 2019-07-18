@@ -918,7 +918,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Publish to custom server.archy.dev (FTP)">
+  <component name="RunManager" selected=".NET Launch Settings Profile.archy_dev: IIS Express">
     <configuration name="Publish to folder" type="DotNetFolderPublish" factoryName="Publish to folder">
       <riderPublish runtime="win-x64" self_contained="true" target_folder="$PROJECT_DIR$/published" target_framework="netcoreapp2.2" uuid_high="3455713776650699339" uuid_low="-6559979096010621758" />
       <method v="2" />
