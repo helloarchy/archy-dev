@@ -20,7 +20,7 @@ namespace Portfolio.Data
                       "based on Flappy Bird, built using the Phaser.js engine.",
                 "JavaScript", "Phaser.js, Game, " +
                               "Web application, Responsive, Physics",
-                "/img/thumb/SocialNetwork.png");
+                "/img/project_thumbs/superTappy.png");
 
             /* Workings */
             name = "Workings";
@@ -29,7 +29,7 @@ namespace Portfolio.Data
                       "company. Used to calculate fabric requirements and " +
                       "manufacturing dimensions.", "JavaScript",
                 "Responsive, Print Friendly, Freelance work, Forms",
-                "/img/thumb/SocialNetwork.png", "WorkingsController");
+                "/img/project_thumbs/workings.png", "Workings");
 
             /* Decider */
             name = "Decider";
@@ -38,7 +38,7 @@ namespace Portfolio.Data
                       "making. Add multiple choices and one will be picked at " +
                       "random.", "JavaScript", "Front end, " +
                                                "CSS Flexbox, Responsive",
-                "/img/thumb/SocialNetwork.png");
+                "/img/project_thumbs/decider.png");
 
             /* Java Social Network */
             name = "Java Social Network";
@@ -47,7 +47,7 @@ namespace Portfolio.Data
                       " making use of various abstract data types.",
                 "Java", "Recursion, Binary Search " +
                         "Trees, Graphs", 
-                "/img/thumb/SocialNetwork.png");
+                "/img/project_thumbs/socialNetwork.png");
             
             /* Decider 2.0 */
             name = "Decider 2.0";
@@ -56,7 +56,7 @@ namespace Portfolio.Data
                       "With shortlists and reject lists to help pin down the " +
                       "desired choice.", "TypeScript",
                 "CSS Grid, Web Application, Front End, Responsive",
-                "/img/thumb/SocialNetwork.png");
+                "/img/project_thumbs/placeHolder.png");
 
             /* CT Head */
             name = "CT Head";
@@ -66,7 +66,7 @@ namespace Portfolio.Data
                       "creation and processing on the fly.", "Java",
                 "Graphics, Image generating, Image processing, Image " +
                 "resizing algorithms, Dataset, JavaFX, FXML, GUI",
-                "/img/thumb/SocialNetwork.png");
+                "/img/project_thumbs/placeHolder.png");
 
             /* Dot Net Core Blog Site */
             name = "ASP.NET Blog";
@@ -75,7 +75,7 @@ namespace Portfolio.Data
                       "2.1 MVC.", "C#",
                 ".NET Core, Framework, MVC, Razor Pages, Entity Framework, " +
                 "MSSQL Database, Security, Role and Claim based authorisation",
-                "/img/thumb/SocialNetwork.png");
+                "/img/project_thumbs/placeHolder.png");
 
             /* Java Concurrency */
             name = "Java Multithreading & Concurrency";
@@ -83,7 +83,7 @@ namespace Portfolio.Data
                 true, "A concurrent system where random numbers " +
                       "are generated and sorted into text files by their multiple.",
                 "Java", "Multithreading, Concurrency",
-                "/img/thumb/SocialNetwork.png");
+                "/img/project_thumbs/placeHolder.png");
 
             /* Haskell Concurrency */
             name = "Haskell Multithreading & Concurrency";
@@ -92,7 +92,7 @@ namespace Portfolio.Data
                       " track customers, items, and coins.", 
                 "Haskell", "Multithreading, " +
                            "Concurrency, Functional Programming",
-                "/img/thumb/SocialNetwork.png");
+                "/img/project_thumbs/placeHolder.png");
         }
 
 

@@ -46,10 +46,22 @@
           <e p="stdout_20190806181259_5032.log" t="Include" />
           <e p="stdout_20190806181424_272.log" t="Include" />
           <e p="stdout_20190806182454_21588.log" t="Include" />
+          <e p="stdout_20190806184410_13640.log" t="Include" />
+          <e p="stdout_20190806185815_17244.log" t="Include" />
+          <e p="stdout_20190806185933_13760.log" t="Include" />
+          <e p="stdout_20190806190204_16112.log" t="Include" />
+          <e p="stdout_20190806190331_18484.log" t="Include" />
+          <e p="stdout_20190806190406_21168.log" t="Include" />
+          <e p="stdout_20190806190526_23536.log" t="Include" />
+          <e p="stdout_20190806190624_23384.log" t="Include" />
+          <e p="stdout_20190806192113_8900.log" t="Include" />
+          <e p="stdout_20190806193305_18696.log" t="Include" />
+          <e p="stdout_20190806194338_24244.log" t="Include" />
+          <e p="stdout_20190806195819_20944.log" t="Include" />
         </e>
         <e p="Migrations" t="Include">
-          <e p="20190625165807_init.cs" t="Include" />
-          <e p="20190625165807_init.Designer.cs" t="Include" />
+          <e p="20190806192051_InitialCreate.cs" t="Include" />
+          <e p="20190806192051_InitialCreate.Designer.cs" t="Include" />
           <e p="ArchyDevContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -128,8 +140,14 @@
               <e p="mstile-150x150.png" t="Include" />
               <e p="safari-pinned-tab.svg" t="Include" />
             </e>
-            <e p="thumb" t="Include">
+            <e p="project_thumbs" t="Include">
+              <e p="amazon.png" t="Include" />
+              <e p="background.jpg" t="Include" />
+              <e p="decider.png" t="Include" />
+              <e p="placeHolder.png" t="Include" />
               <e p="SocialNetwork.png" t="Include" />
+              <e p="superTappy.png" t="Include" />
+              <e p="workings.png" t="Include" />
             </e>
             <e p="Workings" t="Include">
               <e p="blind_img" t="Include">
