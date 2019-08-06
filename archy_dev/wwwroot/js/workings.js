@@ -1388,36 +1388,36 @@ function initImgVars() {
     /*$("#blindTable").css("width", (imageSize * gridNumWidth) + "cm");*/
 
     // VELCRO
-    window.velcroLEFT = "<img src= images/blind_img/velcro_LEFT_2.png " + imageSizeStyle + ">";
-    window.velcroMIDDLE = "<img src=images/blind_img/velcro_MIDDLE_2.png " + imageSizeStyle + ">";
-    window.velcroRIGHT = "<img src=images/blind_img/velcro_RIGHT_2.png " + imageSizeStyle + ">";
+    window.velcroLEFT = "<img src=img/workings/blind_img/velcro_LEFT_2.png " + imageSizeStyle + ">";
+    window.velcroMIDDLE = "<img src=img/workings/blind_img/velcro_MIDDLE_2.png " + imageSizeStyle + ">";
+    window.velcroRIGHT = "<img src=img/workings/blind_img/velcro_RIGHT_2.png " + imageSizeStyle + ">";
 
     // BLANKS
-    window.blankLEFT = "<img src=images/blind_img/blank_LEFT_2.png " + imageSizeStyle + ">";
-    window.blankMIDDLE = "<img src=images/blind_img/blank_MIDDLE_2.png " + imageSizeStyle + ">";
-    window.blankMIDDLEDW = "<img src=images/blind_img/blank_MIDDLE_DW_2.png " + imageSizeStyleDW + ">";
-    window.blankRIGHT = "<img src=images/blind_img/blank_RIGHT_2.png " + imageSizeStyle + ">";
+    window.blankLEFT = "<img src=img/workings/blind_img/blank_LEFT_2.png " + imageSizeStyle + ">";
+    window.blankMIDDLE = "<img src=img/workings/blind_img/blank_MIDDLE_2.png " + imageSizeStyle + ">";
+    window.blankMIDDLEDW = "<img src=img/workings/blind_img/blank_MIDDLE_DW_2.png " + imageSizeStyleDW + ">";
+    window.blankRIGHT = "<img src=img/workings/blind_img/blank_RIGHT_2.png " + imageSizeStyle + ">";
     // FOLDS
-    window.foldLEFT = "<img src=images/blind_img/fold_LEFT_2.png " + imageSizeStyle + ">";
-    window.foldMIDDLE = "<img src=images/blind_img/fold_MIDDLE_2.png " + imageSizeStyle + ">";
-    window.foldRIGHT = "<img src=images/blind_img/fold_RIGHT_2.png " + imageSizeStyle + ">";
+    window.foldLEFT = "<img src=img/workings/blind_img/fold_LEFT_2.png " + imageSizeStyle + ">";
+    window.foldMIDDLE = "<img src=img/workings/blind_img/fold_MIDDLE_2.png " + imageSizeStyle + ">";
+    window.foldRIGHT = "<img src=img/workings/blind_img/fold_RIGHT_2.png " + imageSizeStyle + ">";
     // POCKETS
-    window.pocketLEFT = "<img src=images/blind_img/pocket_LEFT_2.png " + imageSizeStyle + ">";
-    window.pocketMIDDLE = "<img src=images/blind_img/pocket_MIDDLE_2.png " + imageSizeStyle + ">";
-    window.pocketRINGSPOT = "<img src=images/blind_img/pocket_RING_SPOT_2.png " + imageSizeStyle + ">";
-    window.pocketRIGHT = "<img src=images/blind_img/pocket_RIGHT_2.png " + imageSizeStyle + ">";
+    window.pocketLEFT = "<img src=img/workings/blind_img/pocket_LEFT_2.png " + imageSizeStyle + ">";
+    window.pocketMIDDLE = "<img src=img/workings/blind_img/pocket_MIDDLE_2.png " + imageSizeStyle + ">";
+    window.pocketRINGSPOT = "<img src=img/workings/blind_img/pocket_RING_SPOT_2.png " + imageSizeStyle + ">";
+    window.pocketRIGHT = "<img src=img/workings/blind_img/pocket_RIGHT_2.png " + imageSizeStyle + ">";
     // HEM
-    window.hemLEFT = "<img src=images/blind_img/hem_LEFT_2.png " + imageSizeStyle + ">";
-    window.hemMIDDLE = "<img src=images/blind_img/hem_MIDDLE_2.png " + imageSizeStyle + ">";
-    window.hemRIGHT = "<img src=images/blind_img/hem_RIGHT_2.png " + imageSizeStyle + ">";
+    window.hemLEFT = "<img src=img/workings/blind_img/hem_LEFT_2.png " + imageSizeStyle + ">";
+    window.hemMIDDLE = "<img src=img/workings/blind_img/hem_MIDDLE_2.png " + imageSizeStyle + ">";
+    window.hemRIGHT = "<img src=img/workings/blind_img/hem_RIGHT_2.png " + imageSizeStyle + ">";
     // DIMENSIONS: Vertical
-    window.arrowUP = "<img src=images/blind_img/arrow_up.png " + imageSizeStyle + ">";
-    window.lineVERTICAL = "<img src=images/blind_img/line_vertical.png " + imageSizeStyle + ">";
-    window.arrowDOWN = "<img src=images/blind_img/arrow_down.png " + imageSizeStyle + ">";
+    window.arrowUP = "<img src=img/workings/blind_img/arrow_up.png " + imageSizeStyle + ">";
+    window.lineVERTICAL = "<img src=img/workings/blind_img/line_vertical.png " + imageSizeStyle + ">";
+    window.arrowDOWN = "<img src=img/workings/blind_img/arrow_down.png " + imageSizeStyle + ">";
     // DIMENSIONS: Horizontal
-    window.arrowLEFT = "<img src=~/img/workings/blind_img/arrow_left.png " + imageSizeStyle + ">";
-    window.lineHORIZONTAL = "<img src=~/img/workings/blind_img/line_horizontal.png " + imageSizeStyle + ">";
-    window.arrowRIGHT = "<img src=~/img/workings/blind_img/arrow_right.png " + imageSizeStyle + ">";
+    window.arrowLEFT = "<img src=img/workings/blind_img/arrow_left.png " + imageSizeStyle + ">";
+    window.lineHORIZONTAL = "<img src=img/workings/blind_img/line_horizontal.png " + imageSizeStyle + ">";
+    window.arrowRIGHT = "<img src=img/workings/blind_img/arrow_right.png " + imageSizeStyle + ">";
 }
 
 

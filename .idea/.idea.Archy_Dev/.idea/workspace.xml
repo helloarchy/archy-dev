@@ -8,59 +8,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be73c586-57e8-4fe1-9a31-58cb5a0a6022" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/archy_dev/Controllers/WorkingsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/LogoLarge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/arrow_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/arrow_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/arrow_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/arrow_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/blank_LEFT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/blank_LEFT_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/blank_MIDDLE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/blank_MIDDLE_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/blank_MIDDLE_DW.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/blank_MIDDLE_DW_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/blank_RIGHT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/blank_RIGHT_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/fold_LEFT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/fold_LEFT_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/fold_MIDDLE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/fold_MIDDLE_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/fold_RIGHT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/fold_RIGHT_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/hem_LEFT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/hem_LEFT_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/hem_MIDDLE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/hem_MIDDLE_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/hem_RIGHT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/hem_RIGHT_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/line_horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/line_vertical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/pocket_LEFT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/pocket_LEFT_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/pocket_MIDDLE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/pocket_MIDDLE_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/pocket_RIGHT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/pocket_RIGHT_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/pocket_RING_SPOT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/pocket_RING_SPOT_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/velcro_LEFT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/velcro_LEFT_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/velcro_MIDDLE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/velcro_MIDDLE_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/velcro_RIGHT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/velcro_RIGHT_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/wip_blind.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/wip_blind_2.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/blind_img/wip_blind_3.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/css/workings.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/js/workings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/backgrounds/crissXcross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/backgrounds/dark_embroidery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/backgrounds/dark_wood.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/backgrounds/escheresque_ste.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/backgrounds/footer_lodyas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/backgrounds/grey_wash_wall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/backgrounds/ignasi_pattern_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/backgrounds/low_contrast_linen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/backgrounds/mochaGrunge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/backgrounds/skulls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/backgrounds/vichy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/favicons/android-chrome-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/favicons/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/favicons/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/favicons/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/favicons/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/favicons/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/favicons/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/favicons/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/favicons/safari-pinned-tab.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/Views/Workings/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/wwwroot/css/workings.css" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/wwwroot/css/workings.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/wwwroot/js/workings.js" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/wwwroot/js/workings.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,31 +78,13 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/archy_dev/Views/Home/Index.cshtml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+                <state relative-caret-position="24">
+                  <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
                   <folding>
-                    <marker date="1565108664047" expanded="true" signature="0:40" ph="@..." />
-                    <marker date="1565108664047" expanded="true" signature="253:499" ph="@..." />
-                    <marker date="1565108664047" expanded="true" signature="292:499" ph="{...}" />
-                    <marker date="1565108664047" expanded="true" signature="382:489" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/archy_dev/Data/DbSeed.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-                  <folding>
-                    <marker date="1563460257411" expanded="true" signature="6:155" ph="..." />
-                    <marker date="1563460257411" expanded="true" signature="181:5380" ph="{...}" />
-                    <marker date="1563460257411" expanded="true" signature="207:5378" ph="{...}" />
-                    <marker date="1563460257411" expanded="true" signature="284:4495" ph="{...}" />
-                    <marker date="1563460257411" expanded="true" signature="4763:5372" ph="{...}" />
-                    <marker date="1563460257411" expanded="true" signature="4858:5362" ph="{...}" />
-                    <marker date="1563460257411" expanded="true" signature="4983:5346" ph="{...}" />
+                    <marker date="1565114363904" expanded="true" signature="0:40" ph="@..." />
+                    <marker date="1565114363904" expanded="true" signature="253:499" ph="@..." />
+                    <marker date="1565114363904" expanded="true" signature="292:499" ph="{...}" />
+                    <marker date="1565114363904" expanded="true" signature="382:489" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -139,21 +94,51 @@
             <entry file="file://$PROJECT_DIR$/archy_dev/Views/Shared/_Layout.cshtml">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="252">
-                  <caret line="52" column="36" lean-forward="true" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+                  <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="297">
+                  <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+                  <folding>
+                    <element signature="n#style#0;n#input#4;n#div#0;n#fieldset#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#input#3;n#div#0;n#fieldset#1;n#form#0;n#div#0;n#!!top" expanded="true" />
+                    <marker date="1565114372577" expanded="true" signature="0:57" ph="@..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/archy_dev/Views/_ViewImports.cshtml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="72">
+                  <caret line="3" selection-start-line="3" selection-end-line="3" />
+                  <folding>
+                    <marker date="1561054814610" expanded="true" signature="7:40" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/archy_dev/wwwroot/js/workings.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="365">
+                  <caret line="1416" column="29" lean-forward="true" selection-start-line="1416" selection-start-column="29" selection-end-line="1416" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml">
+            <entry file="file://$PROJECT_DIR$/archy_dev/wwwroot/css/workings.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-                  <folding>
-                    <element signature="n#style#0;n#input#4;n#div#0;n#fieldset#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#input#3;n#div#0;n#fieldset#1;n#form#0;n#div#0;n#!!top" expanded="true" />
-                    <marker date="1565112142266" expanded="true" signature="0:40" ph="@..." />
-                  </folding>
+                <state relative-caret-position="273">
+                  <caret line="402" column="17" lean-forward="true" selection-start-line="402" selection-start-column="17" selection-end-line="402" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -162,19 +147,10 @@
             <entry file="file://$PROJECT_DIR$/archy_dev/Views/_ViewStart.cshtml">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="48">
-                  <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+                  <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
                   <folding>
                     <marker date="1561054814657" expanded="true" signature="0:28" ph="@..." />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/archy_dev/Views/Workings/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="48">
-                  <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -224,7 +200,7 @@
             <entry file="file://$PROJECT_DIR$/archy_dev/Controllers/WorkingsController.cs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="288">
-                  <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+                  <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
                   <folding>
                     <marker date="1565110910565" expanded="true" signature="64:228" ph="{...}" />
                     <marker date="1565110910565" expanded="true" signature="115:226" ph="{...}" />
@@ -238,7 +214,7 @@
             <entry file="file://$PROJECT_DIR$/archy_dev/Controllers/HomeController.cs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="888">
-                  <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+                  <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
                   <folding>
                     <marker date="1563460246262" expanded="true" signature="6:260" ph="..." />
                     <marker date="1563460246262" expanded="true" signature="293:1265" ph="{...}" />
@@ -275,6 +251,9 @@
       <find>aspnetcoremodule</find>
       <find>add</find>
       <find>name</find>
+      <find>img</find>
+      <find>vichy</find>
+      <find>src</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -317,11 +296,15 @@
         <option value="$PROJECT_DIR$/archy_dev/Models/ProjectItem.cs" />
         <option value="$PROJECT_DIR$/archy_dev/Program.cs" />
         <option value="$PROJECT_DIR$/archy_dev/Startup.cs" />
-        <option value="$PROJECT_DIR$/archy_dev/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Home/ProjectItemPartial.cshtml" />
         <option value="$PROJECT_DIR$/archy_dev/Controllers/WorkingsController.cs" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/archy_dev/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml" />
+        <option value="$PROJECT_DIR$/archy_dev/wwwroot/img/workings.css" />
+        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/index.html" />
+        <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/workings.js" />
+        <option value="$PROJECT_DIR$/archy_dev/wwwroot/css/workings.css" />
       </list>
     </option>
   </component>
@@ -392,6 +375,20 @@
               <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
               <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
               <item name="wwwroot" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="wwwroot" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="css" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="wwwroot" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="img" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
@@ -511,7 +508,7 @@
       <workItem from="1561741643963" duration="2087000" />
       <workItem from="1563450746157" duration="7608000" />
       <workItem from="1563471488592" duration="1521000" />
-      <workItem from="1565106851364" duration="4709000" />
+      <workItem from="1565106851364" duration="6961000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed bug where project wasn't being recognised as CORE">
       <created>1561067257165</created>
@@ -548,11 +545,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565110755580</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding Workings, a blind measurement generator. Adding controller, view, and scripts. Copying over files from static website, converting to Dotnet Core MVC framework.">
+      <created>1565112437836</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1565112437836</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22855000" />
+    <option name="totallyTimeSpent" value="25107000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -567,13 +571,13 @@
     <frame x="-6" y="-6" width="1633" height="1093" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10659899" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10659899" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Azure Explorer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4892132" visible="true" weight="0.32939914" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48477158" visible="true" weight="0.32939914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -588,8 +592,8 @@
       <window_info anchor="bottom" id="Unit Tests" order="14" />
       <window_info anchor="bottom" id="REST Client" order="15" />
       <window_info anchor="bottom" id="Terminal" order="16" weight="0.32939914" />
-      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.51078683" side_tool="true" visible="true" weight="0.32939914" />
-      <window_info anchor="bottom" id="Build" order="18" sideWeight="0.4892132" weight="0.32939914" />
+      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.51522845" side_tool="true" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Build" order="18" sideWeight="0.48477158" weight="0.32939914" />
       <window_info anchor="bottom" id="Database Console" order="19" sideWeight="0.49936548" weight="0.32939914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -611,7 +615,8 @@
     <MESSAGE value="Enter username and password to run in production or locally." />
     <MESSAGE value="Set up use of localdb to avoid changing production db during development." />
     <MESSAGE value="Comments added, projectitempartial has keywords in pill-badge form." />
-    <option name="LAST_COMMIT_MESSAGE" value="Comments added, projectitempartial has keywords in pill-badge form." />
+    <MESSAGE value="Adding Workings, a blind measurement generator. Adding controller, view, and scripts. Copying over files from static website, converting to Dotnet Core MVC framework." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Workings, a blind measurement generator. Adding controller, view, and scripts. Copying over files from static website, converting to Dotnet Core MVC framework." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -811,19 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/archy_dev/Views/Home/Index.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding>
-            <marker date="1565108664047" expanded="true" signature="0:40" ph="@..." />
-            <marker date="1565108664047" expanded="true" signature="253:499" ph="@..." />
-            <marker date="1565108664047" expanded="true" signature="292:499" ph="{...}" />
-            <marker date="1565108664047" expanded="true" signature="382:489" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/archy_dev/Data/DbSeed.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -851,37 +843,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/archy_dev/Views/Workings/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archy_dev/Views/_ViewStart.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding>
-            <marker date="1561054814657" expanded="true" signature="0:28" ph="@..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archy_dev/Views/_ViewImports.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <marker date="1561054814610" expanded="true" signature="7:40" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/archy_dev/Controllers/HomeController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="888">
-          <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
           <folding>
             <marker date="1563460246262" expanded="true" signature="6:260" ph="..." />
             <marker date="1563460246262" expanded="true" signature="293:1265" ph="{...}" />
@@ -899,7 +864,7 @@
     <entry file="file://$PROJECT_DIR$/archy_dev/Controllers/WorkingsController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
             <marker date="1565110910565" expanded="true" signature="64:228" ph="{...}" />
             <marker date="1565110910565" expanded="true" signature="115:226" ph="{...}" />
@@ -908,22 +873,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Views/_ViewImports.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <marker date="1561054814610" expanded="true" signature="7:40" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/archy_dev/Views/Shared/_Layout.cshtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="52" column="36" lean-forward="true" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+          <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Views/Home/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <folding>
+            <marker date="1565114363904" expanded="true" signature="0:40" ph="@..." />
+            <marker date="1565114363904" expanded="true" signature="253:499" ph="@..." />
+            <marker date="1565114363904" expanded="true" signature="292:499" ph="{...}" />
+            <marker date="1565114363904" expanded="true" signature="382:489" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Views/Workings/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Views/_ViewStart.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding>
+            <marker date="1561054814657" expanded="true" signature="0:28" ph="@..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="297">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#input#4;n#div#0;n#fieldset#0;n#form#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#3;n#div#0;n#fieldset#1;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1565112142266" expanded="true" signature="0:40" ph="@..." />
+            <marker date="1565114372577" expanded="true" signature="0:57" ph="@..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/wwwroot/js/workings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="1416" column="29" lean-forward="true" selection-start-line="1416" selection-start-column="29" selection-end-line="1416" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/wwwroot/css/workings.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="402" column="17" lean-forward="true" selection-start-line="402" selection-start-column="17" selection-end-line="402" selection-end-column="17" />
         </state>
       </provider>
     </entry>

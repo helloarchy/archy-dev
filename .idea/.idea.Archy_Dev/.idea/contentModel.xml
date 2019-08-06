@@ -39,6 +39,13 @@
           <e p="stdout_20190806163646_8644.log" t="Include" />
           <e p="stdout_20190806164155_13384.log" t="Include" />
           <e p="stdout_20190806164241_16364.log" t="Include" />
+          <e p="stdout_20190806175558_11204.log" t="Include" />
+          <e p="stdout_20190806175939_21540.log" t="Include" />
+          <e p="stdout_20190806180953_20468.log" t="Include" />
+          <e p="stdout_20190806181109_11064.log" t="Include" />
+          <e p="stdout_20190806181259_5032.log" t="Include" />
+          <e p="stdout_20190806181424_272.log" t="Include" />
+          <e p="stdout_20190806182454_21588.log" t="Include" />
         </e>
         <e p="Migrations" t="Include">
           <e p="20190625165807_init.cs" t="Include" />
@@ -85,7 +92,6 @@
           </e>
           <e p="Workings" t="Include">
             <e p="Index.cshtml" t="Include" />
-            <e p="index.html" t="Include" />
           </e>
         </e>
         <e p="Web.config" t="Include" />
@@ -98,6 +104,30 @@
           </e>
           <e p="favicon.ico" t="Include" />
           <e p="img" t="Include">
+            <e p="backgrounds" t="Include">
+              <e p="crissXcross.png" t="Include" />
+              <e p="dark_embroidery.png" t="Include" />
+              <e p="dark_wood.png" t="Include" />
+              <e p="escheresque_ste.png" t="Include" />
+              <e p="footer_lodyas.png" t="Include" />
+              <e p="grey_wash_wall.png" t="Include" />
+              <e p="ignasi_pattern_s.png" t="Include" />
+              <e p="low_contrast_linen.png" t="Include" />
+              <e p="mochaGrunge.png" t="Include" />
+              <e p="skulls.png" t="Include" />
+              <e p="vichy.png" t="Include" />
+            </e>
+            <e p="favicons" t="Include">
+              <e p="android-chrome-96x96.png" t="Include" />
+              <e p="apple-touch-icon.png" t="Include" />
+              <e p="browserconfig.xml" t="Include" />
+              <e p="favicon-16x16.png" t="Include" />
+              <e p="favicon-32x32.png" t="Include" />
+              <e p="favicon.ico" t="Include" />
+              <e p="manifest.json" t="Include" />
+              <e p="mstile-150x150.png" t="Include" />
+              <e p="safari-pinned-tab.svg" t="Include" />
+            </e>
             <e p="thumb" t="Include">
               <e p="SocialNetwork.png" t="Include" />
             </e>
