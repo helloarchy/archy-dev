@@ -7,12 +7,13 @@
         <h1 class="text-dark">Projects</h1>
     </div>
     <div class="card-columns">
+        @* Generate cards for each project *@
         @foreach (ProjectItem project in Model)
         {
+            /* Don't show hidden projects */
             if (project.IsVisible)
             {
-                // <partial name="ProjectItemPartial" model="@project"/>
-                <partial name="ProjectItemPartial" model="@project"/>
+                <partial name="ProjectItemPartial" model="@project"></partial>
             }
         }
     </div>
