@@ -17,6 +17,7 @@
         </e>
         <e p="Controllers" t="Include">
           <e p="HomeController.cs" t="Include" />
+          <e p="WorkingsController.cs" t="Include" />
         </e>
         <e p="Data" t="Include">
           <e p="DbSeed.cs" t="Include" />
@@ -82,6 +83,10 @@
             <e p="_ValidationScriptsPartial.cshtml" t="Include" />
             <e p="Error.cshtml" t="Include" />
           </e>
+          <e p="Workings" t="Include">
+            <e p="Index.cshtml" t="Include" />
+            <e p="index.html" t="Include" />
+          </e>
         </e>
         <e p="Web.config" t="Include" />
         <e p="wwwroot" t="Include">
@@ -89,15 +94,66 @@
             <e p="package-lock.json" t="Include" />
             <e p="package.json" t="Include" />
             <e p="site.scss" t="Include" />
+            <e p="workings.css" t="Include" />
           </e>
           <e p="favicon.ico" t="Include" />
           <e p="img" t="Include">
             <e p="thumb" t="Include">
               <e p="SocialNetwork.png" t="Include" />
             </e>
+            <e p="Workings" t="Include">
+              <e p="blind_img" t="Include">
+                <e p="arrow_down.png" t="Include" />
+                <e p="arrow_left.png" t="Include" />
+                <e p="arrow_right.png" t="Include" />
+                <e p="arrow_up.png" t="Include" />
+                <e p="blank_LEFT.png" t="Include" />
+                <e p="blank_LEFT_2.png" t="Include" />
+                <e p="blank_MIDDLE.png" t="Include" />
+                <e p="blank_MIDDLE_2.png" t="Include" />
+                <e p="blank_MIDDLE_DW.png" t="Include" />
+                <e p="blank_MIDDLE_DW_2.png" t="Include" />
+                <e p="blank_RIGHT.png" t="Include" />
+                <e p="blank_RIGHT_2.png" t="Include" />
+                <e p="fold_LEFT.png" t="Include" />
+                <e p="fold_LEFT_2.png" t="Include" />
+                <e p="fold_MIDDLE.png" t="Include" />
+                <e p="fold_MIDDLE_2.png" t="Include" />
+                <e p="fold_RIGHT.png" t="Include" />
+                <e p="fold_RIGHT_2.png" t="Include" />
+                <e p="hem_LEFT.png" t="Include" />
+                <e p="hem_LEFT_2.png" t="Include" />
+                <e p="hem_MIDDLE.png" t="Include" />
+                <e p="hem_MIDDLE_2.png" t="Include" />
+                <e p="hem_RIGHT.png" t="Include" />
+                <e p="hem_RIGHT_2.png" t="Include" />
+                <e p="line_horizontal.png" t="Include" />
+                <e p="line_vertical.png" t="Include" />
+                <e p="pocket_LEFT.png" t="Include" />
+                <e p="pocket_LEFT_2.png" t="Include" />
+                <e p="pocket_MIDDLE.png" t="Include" />
+                <e p="pocket_MIDDLE_2.png" t="Include" />
+                <e p="pocket_RIGHT.png" t="Include" />
+                <e p="pocket_RIGHT_2.png" t="Include" />
+                <e p="pocket_RING_SPOT.png" t="Include" />
+                <e p="pocket_RING_SPOT_2.png" t="Include" />
+                <e p="velcro_LEFT.png" t="Include" />
+                <e p="velcro_LEFT_2.png" t="Include" />
+                <e p="velcro_MIDDLE.png" t="Include" />
+                <e p="velcro_MIDDLE_2.png" t="Include" />
+                <e p="velcro_RIGHT.png" t="Include" />
+                <e p="velcro_RIGHT_2.png" t="Include" />
+                <e p="wip_blind.psd" t="Include" />
+                <e p="wip_blind_2.psd" t="Include" />
+                <e p="wip_blind_3.psd" t="Include" />
+              </e>
+              <e p="favicon.ico" t="Include" />
+              <e p="LogoLarge.png" t="Include" />
+            </e>
           </e>
           <e p="js" t="Include">
             <e p="site.js" t="Include" />
+            <e p="workings.js" t="Include" />
           </e>
           <e p="lib" t="Include">
             <e p="bootstrap" t="Include">

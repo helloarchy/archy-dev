@@ -1,0 +1,578 @@
+/* Styling for home page */
+
+.accent_01 { color: rgba(16, 91, 99, 1); }
+.accent_02 { color: rgba(255, 250, 213, 1); }
+.accent_03 { color: rgba(255, 211, 78, 1); }
+.accent_04 { color: rgba(219, 158, 54, 1); }
+.accent_05 { color: rgba(189, 73, 50, 1); }
+
+.accent_11 { color: #C0B283; }
+.accent_12 { color: #E4DACE; }
+.accent_13 { color: #F4F4F4; }
+.accent_14 { color: #373737; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+    background-image: url("../_assets/backgrounds/vichy.png");
+}
+
+/*
+HEADER (start) ------------------------ \/
+ */
+#formBlinds {
+    /*backgrounds-color: #F4F4F4;*/
+    background: linear-gradient(
+            to right,
+            rgba(244, 244, 244, 1) 0%,
+            rgba(244, 244, 244, 1) 97.5%,
+            rgba(255, 255, 255, 0) 100%
+    );
+    border-bottom: 2px solid #373737;
+    color: #373737;
+}
+
+fieldset {
+    box-shadow: none;
+    border: none #F4F4F4;
+    border-image: none;
+    background-color: transparent;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    border-bottom: 2px solid #373737;
+    /*backgrounds-color: #E4DACE;*/
+    background: linear-gradient(
+            to right,
+            rgba(228, 218, 206, 1) 0%,
+            rgba(228, 218, 206, 1) 97.5%,
+            rgba(255, 255, 255, 0) 100%
+    );
+    color: black;
+}
+
+#headerDroppedCap {
+    font-family: 'Cookie', cursive;
+    font-size: 143px;
+    float: left;
+    line-height: 80px;
+    padding-left: 2px;
+    padding-top: 20px;
+}
+
+#headerText {
+    position: relative;
+    font-family: 'Cookie', cursive;
+    font-size: 86px;
+    float: left;
+    padding-left: 2px;
+    line-height: 70px;
+
+}
+
+#headerPitifulSelf {
+    position: relative;
+    float: right;
+    font-family: 'Playfair Display', serif;
+    font-size: 12.5px;
+    text-transform: none;
+    margin-right: 3px;
+    padding-top: 12px;
+    color: #373737;
+}
+
+a {
+    color: #373737;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F4F4F4;
+    transition: 0.5s;
+}
+
+/* Adjust for different viewport sizes */
+/* TOP STRIP TABLET */
+@media screen and (max-width: 900px){
+}
+/* FULL WIDTH MOBILE */
+/* Was 400, but has to be 432+ due to button widths sum */
+@media screen and (max-width: 432px) {
+    #header {
+        height: 150px;
+        width: 100%;
+        font-size: 50px;
+    }
+    #headerText {
+        top: 3px;
+        transform: translateY(0px);
+
+    }
+}
+
+
+/*
+BLINDS FORM:
+ */
+#formBlinds {
+    width: 290px;
+    float: left;
+    padding: 0;
+}
+/* Toggles visibility of additional drop down options for blind stack */
+#waterfall {
+    display: none;
+}
+#showingHem {
+    display: none;
+}
+
+#submitButtons {
+    float: right;
+    margin-right: 5px;
+}
+
+
+/* Various inputs and their sizes, fonts. */
+input, select, output {
+    font-family: 'Lato', sans-serif;
+    font-size: medium;
+    /*text-transform: capitalize;*/
+    margin: 1px;
+}
+input {
+    font-style: italic;
+}
+input[type="text"] {
+    width: 163px;
+}
+input[type="number"] {
+    width: 106px;
+}
+input[type="range"] {
+    width: 145px;
+}
+
+/* Stuff to have click-able mouse pointer */
+input[type="button"], input[type="submit"], input[type="reset"], legend {
+    cursor: pointer;
+}
+#selectStack {
+    width: 166px;
+}
+.unitsSelect {
+    width:50px;
+}
+
+.buttonIncrement {
+    background-color: #E4DACE;
+    transition: 0.25s;
+    margin: 0 4px 0 0;
+    padding: 3px 6px 3px 6px;
+    border: none;
+    border-radius: 2px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    /*box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.19);*/
+}
+
+.buttonIncrement:hover {
+    background-color: #C0B283;
+    /*font-style: italic;*/
+    color: #F4F4F4;
+}
+
+
+
+.button {
+    background-color: #E4DACE;
+    transition: 0.25s;
+    margin: 4px 4px 4px 0;
+    padding: 3px 6px 3px 6px;
+    border: none;
+    border-radius: 2px;
+    font-style: normal;
+    font-family: "Playfair Display", serif;
+    /*box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.19);*/
+}
+
+.button:hover {
+    background-color: #C0B283;
+    /*font-style: italic;*/
+    color: #F4F4F4;
+}
+
+
+
+
+
+
+legend {
+    font-family: 'Cookie', cursive;
+    font-size: 32px;
+    width: 100%;
+    color: #373737;
+    /*border: 2px solid #373737;*/
+    border-top: 0;
+    border-bottom: 2px solid #C0B283;
+    height: 30px;
+    vertical-align: bottom;
+    line-height: 40px;
+}
+
+label {
+    font-family: 'Playfair Display', serif;
+    font-size: medium;
+    width: 80px;
+    text-align: right;
+    display: inline-block;
+    text-transform: lowercase;
+    padding: 0;
+}
+
+fieldset {
+    border-bottom: 2px solid #373737;
+    background-color: transparent;
+}
+
+.arrowDown, .arrowUp{
+    display: inline-block;
+    float: right;
+    font-size: 32px;
+    line-height: 14px;
+    padding-top: 14px;
+    color: #C0B283;
+}
+.arrowUp {
+    display: none;
+}
+
+/* Fields to close by default. */
+.closedByDefault .arrowUp {
+    display: inline-block;
+}
+.closedByDefault .arrowDown {
+    display: none;
+}
+.closedByDefault .fieldContent {
+    display: none;
+}
+
+/* The "range" slider */
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    background: #373737;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: .25s;
+    margin: 0;
+    padding: 0;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #E9C893;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.slider::-webkit-slider-thumb:hover {
+    background-color: #C0B283;
+    transition: .25s;
+}
+
+
+/*
+BLINDS DRAWING BOX: (A4 page)
+ */
+#drawingBox {
+    width: 21.6cm;
+    height: 27.94cm;
+    background-color: #F4F4F4;
+    float: left;
+    margin: 10px 0 0 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#jobDetails {
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 3cm;
+    font-family: Lato, sans-serif;
+}
+
+#jobDetailsLeft {
+    margin-right: auto;
+}
+
+#drawingDetailsClient {
+    font-size: 28px;
+    padding: 10px 0 0 10px;
+    font-style: italic;
+    font-weight: bold;
+    width: 500px;
+}
+
+#drawingDetailsCustAndRef {
+    padding: 0 0 10px 15px;
+    font-size: 22px;
+}
+
+#initialCalcs {
+    float: right;
+    width: 40%;
+    display: flex;
+    padding: 10px 10px 5px 0; /* Extra padding on right */
+    margin: 0;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+#initialCalcsTable {
+    float: right;
+    list-style-type: none;
+    margin: auto 0 auto 0;
+    padding: 0;
+    text-align: right;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.initCalcsLabels {
+    text-align: left;
+    padding: 0 0 0 5px;
+    margin: 0;
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 14px;
+}
+
+#initCalcsResult {
+    font-style: normal;
+    font-size: 22px;
+    border-top: 2px solid black;
+}
+
+#initCalcsLabelsResult {
+    text-align: left;
+    padding: 0 0 0 5px;
+    margin: 0;
+    text-transform: lowercase;
+    font-size: 22px;
+    font-style: normal;
+    border-top: 2px solid black;
+}
+
+
+#blindTable {
+    display: inline-block;
+    /*width: auto;
+    max-width: 100%;*/
+    max-height: 20cm;
+    min-height: 19cm;
+    table-layout: fixed;
+    border-spacing: 0;
+    margin: 0 auto 0 auto;
+    padding-left: 0.6cm;
+}
+
+.labelImg/*[valign="top"]*/ {
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 100%;
+    font-family: Lato, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+/*.labelImg[valign="top"][style="width: 15%"] {
+    white-space: nowrap;
+    display: table-cell;
+    left: -100%;
+}*/
+
+.labelImg span {
+    position: absolute;
+    /*display: table-cell;*/
+    /*top: 50%;
+    left: 10%;*/
+    /*transform: translateY(-50%);*/
+    /*width: 100%;
+    height: 100%;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*text-align: center;*/
+    /*vertical-align: middle;
+    line-height: 100%;*/
+    /*top: 7.5%;
+    left: 12.5%;*/
+}
+
+.labelImg .lblImgSmall {
+    font-size: 75%;
+    /*left: 0;*/
+    font-style: italic;
+    /*background: radial-gradient(circle, #F4F4F4 40%, rgba(0,0,0,0) 50%);*/
+}
+
+.labelImgDimensions span {
+    background: #F4F4F4;
+    font-weight: bold;
+    padding: 5%;
+    /*height: 75%;
+    line-height: 140%;*/
+    /*vertical-align: middle;*/
+}
+
+
+/* No gaps between images in grid */
+table, th, td, img {
+    padding: 0;
+    margin: 0 -2px -6px 0;
+    border: 0;
+}
+
+
+/* Writing in middle of drawing prior to generating */
+#centrePlaceHolder{
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#placeHolder {
+    font-family: "Cookie", sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+    color: #373737;
+    margin: auto auto 650px auto;
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    background: -webkit-linear-gradient(left,rgba(255,0,0,0), #E4DACE ,rgba(255,0,0,0))
+}
+
+
+
+#measureDetails {
+    display: -webkit-flex;
+    display: flex;
+    width: auto;
+    height: 2.75cm;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    /*margin-top: 5px;*/
+    padding: 0 75px 0 75px;
+}
+
+#measureDetails div {
+    margin: auto;
+    font-size: 22px;
+}
+
+#measureDetails ul {
+    /*height: 5.5cm;*/
+    list-style-type: none;
+    margin: 0;
+    text-align: right;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.cutSum {
+    font-style: normal;
+    font-size: 22px;
+    border-top: 2px solid black;
+}
+
+.cutSumCalc {
+    font-size: 18px;
+    font-style: italic;
+}
+
+#numWidthsInfo {
+    width: auto;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    padding: 10px 0 15px 0;
+    background: #F4F4F4;
+    text-align: center;
+}
+
+
+#disclaimer {
+    display: -webkit-flex;
+    display: flex;
+    width: auto;
+    height: 1.5cm;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    padding: 0 100px 0 100px;
+    font-style: italic;
+    border-top: 1px solid black;
+    background-color: #F4F4F4;
+}
+
+#disclaimer ul {
+    font-size: 14px;
+}
+/*
+BLINDS DRAWING BOX (end) ------------------------ /\
+ */
+
+
+/*
+PRINT SETTINGS: Get rid of all shadows etc to prepare for printing, hide all and show only what is set for printing.
+ */
+@media print {
+    body * {
+        visibility: hidden;
+        background: transparent !important;
+        color: black !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        filter: none !important;
+        -ms-filter: none !important;
+    }
+
+    #section-to-print, #section-to-print * {
+        visibility: visible;
+    }
+
+    #section-to-print {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .labelImgDimensions span {
+        background: #F4F4F4 !important;
+    }
+}
+
+/*@page {
+    size: A4 portrait;
+    margin: 2cm;
+}*/
+
+
+
