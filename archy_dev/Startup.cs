@@ -48,11 +48,11 @@ namespace Portfolio
             */
             
             var builder = new SqlConnectionStringBuilder {
-                    // ConnectionString = @"Server=(localdb)\mssqllocaldb;Database=archy_dev_db;Trusted_Connection=True;ConnectRetryCount=0"
+                    ConnectionString = @"Server=(localdb)\mssqllocaldb;Database=archy_dev_db;Trusted_Connection=True;ConnectRetryCount=0"
                     
-                    ConnectionString = "Server=mssqluk18.prosql.net;Database=archy_dev_db;ConnectRetryCount=0",
-                    UserID = "superarch", 
-                    Password = "Rob+Nat1920"
+                    /*ConnectionString = "Server=mssqluk18.prosql.net;Database=archy_dev_db;ConnectRetryCount=0",
+                    UserID = "", 
+                    Password = ""*/
                 };
             _connection = builder.ConnectionString;
 

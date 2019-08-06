@@ -8,23 +8,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be73c586-57e8-4fe1-9a31-58cb5a0a6022" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/project_thumbs/amazon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/project_thumbs/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/project_thumbs/decider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/project_thumbs/placeHolder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/project_thumbs/superTappy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/project_thumbs/workings.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/Data/DbSeed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Data/DbSeed.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/Migrations/20190625165807_init.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/Migrations/20190625165807_init.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/Migrations/ArchyDevContextModelSnapshot.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/archy_dev/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/Views/Home/ProjectItemPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Views/Home/ProjectItemPartial.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/archy_dev.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/archy_dev.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/wwwroot/css/site.scss" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/wwwroot/css/site.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/wwwroot/img/thumb/SocialNetwork.png" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/wwwroot/img/project_thumbs/socialNetwork.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/published/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/published/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/published/Views/Home/ProjectItemPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/published/Views/Home/ProjectItemPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/published/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/published/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/published/archy_dev.dll" beforeDir="false" afterPath="$PROJECT_DIR$/published/archy_dev.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/published/wwwroot/css/site.scss" beforeDir="false" afterPath="$PROJECT_DIR$/published/wwwroot/css/site.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/published/wwwroot/img/thumb/SocialNetwork.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +61,7 @@
             <entry file="file://$PROJECT_DIR$/archy_dev/Data/DbSeed.cs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="212">
-                  <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+                  <caret line="96" selection-start-line="96" selection-end-line="96" />
                   <folding>
                     <marker date="1565119154082" expanded="true" signature="6:187" ph="..." />
                     <marker date="1565119154082" expanded="true" signature="213:5552" ph="{...}" />
@@ -114,8 +105,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/archy_dev/Views/Home/ProjectItemPartial.cshtml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="24">
-                  <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+                <state relative-caret-position="168">
+                  <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
                   <folding>
                     <marker date="1565121548503" expanded="true" signature="124:167" ph="@*...*@" />
                     <marker date="1565121548503" expanded="true" signature="318:385" ph="@*...*@" />
@@ -139,24 +130,25 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/archy_dev/Startup.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+                <state relative-caret-position="120">
+                  <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
                   <folding>
-                    <marker date="1565117884280" expanded="true" signature="6:475" ph="..." />
-                    <marker date="1565117884280" expanded="true" signature="496:3344" ph="{...}" />
-                    <marker date="1565117884280" expanded="true" signature="523:3342" ph="{...}" />
-                    <marker date="1565117884280" expanded="true" signature="626:689" ph="{...}" />
-                    <marker date="1565117884280" expanded="true" signature="912:2313" ph="{...}" />
-                    <marker date="1565117884280" expanded="true" signature="998:1262" ph="{...}" />
-                    <marker date="1565117884280" expanded="true" signature="1368:1682" ph="/* USING SECRETS ... */" />
-                    <marker date="1565117884280" expanded="true" signature="1753:2134" ph="{...}" />
-                    <marker date="1565117884280" expanded="true" signature="2526:3336" ph="{...}" />
-                    <marker date="1565117884280" expanded="true" signature="2573:2650" ph="{...}" />
-                    <marker date="1565117884280" expanded="true" signature="2667:2926" ph="{...}" />
-                    <marker date="1565117884280" expanded="true" signature="3164:3322" ph="{...}" />
+                    <marker date="1565123412106" expanded="true" signature="6:475" ph="..." />
+                    <marker date="1565123412106" expanded="true" signature="496:3325" ph="{...}" />
+                    <marker date="1565123412106" expanded="true" signature="523:3323" ph="{...}" />
+                    <marker date="1565123412106" expanded="true" signature="626:689" ph="{...}" />
+                    <marker date="1565123412106" expanded="true" signature="912:2294" ph="{...}" />
+                    <marker date="1565123412106" expanded="true" signature="998:1262" ph="{...}" />
+                    <marker date="1565123412106" expanded="true" signature="1368:1682" ph="/* USING SECRETS ... */" />
+                    <marker date="1565123412106" expanded="true" signature="1753:2115" ph="{...}" />
+                    <marker date="1565123412106" expanded="true" signature="1934:2097" ph="/* ConnectionString = &quot;Server=mssqluk18.prosql.net;Database=archy_dev_db;ConnectRetryCount=0&quot;, ... */" />
+                    <marker date="1565123412106" expanded="true" signature="2507:3317" ph="{...}" />
+                    <marker date="1565123412106" expanded="true" signature="2554:2631" ph="{...}" />
+                    <marker date="1565123412106" expanded="true" signature="2648:2907" ph="{...}" />
+                    <marker date="1565123412106" expanded="true" signature="3145:3303" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -196,7 +188,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/archy_dev/wwwroot/css/site.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="485">
@@ -277,10 +269,10 @@
         <option value="$PROJECT_DIR$/archy_dev/wwwroot/css/workings.css" />
         <option value="$PROJECT_DIR$/archy_dev/Models/ProjectItem.cs" />
         <option value="$PROJECT_DIR$/archy_dev/Migrations/ArchyDevContextModelSnapshot.cs" />
-        <option value="$PROJECT_DIR$/archy_dev/Startup.cs" />
         <option value="$PROJECT_DIR$/archy_dev/Data/DbSeed.cs" />
         <option value="$PROJECT_DIR$/archy_dev/wwwroot/css/site.scss" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Home/ProjectItemPartial.cshtml" />
+        <option value="$PROJECT_DIR$/archy_dev/Startup.cs" />
       </list>
     </option>
   </component>
@@ -306,85 +298,6 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
               <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Data" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Home" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Shared" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Workings" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="wwwroot" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="wwwroot" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="css" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="wwwroot" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="img" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="wwwroot" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="js" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="wwwroot" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="lib" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -441,7 +354,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.archy_dev: IIS Express">
+  <component name="RunManager" selected="Publish to folder.Publish to folder">
     <configuration name="Publish to folder" type="DotNetFolderPublish" factoryName="Publish to folder">
       <riderPublish runtime="win-x64" self_contained="true" target_folder="$PROJECT_DIR$/published" target_framework="netcoreapp2.2" uuid_high="3455713776650699339" uuid_low="-6559979096010621758" />
       <method v="2" />
@@ -497,7 +410,7 @@
       <workItem from="1561741643963" duration="2087000" />
       <workItem from="1563450746157" duration="7608000" />
       <workItem from="1563471488592" duration="1521000" />
-      <workItem from="1565106851364" duration="12566000" />
+      <workItem from="1565106851364" duration="13864000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed bug where project wasn't being recognised as CORE">
       <created>1561067257165</created>
@@ -555,11 +468,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565117523400</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Cards edited on home page to fix images, and text over images.">
+      <created>1565121668882</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1565121668882</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30712000" />
+    <option name="totallyTimeSpent" value="32010000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -580,7 +500,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.47715735" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47652283" weight="0.32939914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -590,14 +510,14 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Azure Activity Log" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.32939914" />
+      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.49936548" weight="0.32939914" />
       <window_info anchor="bottom" id="Database Changes" order="13" sideWeight="0.49936548" weight="0.32939914" />
       <window_info anchor="bottom" id="Unit Tests" order="14" />
       <window_info anchor="bottom" id="REST Client" order="15" />
       <window_info anchor="bottom" id="Terminal" order="16" sideWeight="0.4930203" weight="0.32939914" />
-      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.52284265" side_tool="true" visible="true" weight="0.32939914" />
-      <window_info anchor="bottom" id="Build" order="18" sideWeight="0.47525382" weight="0.32939914" />
-      <window_info anchor="bottom" id="Database Console" order="19" sideWeight="0.49809644" weight="0.32939914" />
+      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.5266498" side_tool="true" visible="true" weight="0.32939914" />
+      <window_info active="true" anchor="bottom" id="Build" order="18" sideWeight="0.47335026" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Database Console" order="19" sideWeight="0.49746192" weight="0.32939914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -621,7 +541,8 @@
     <MESSAGE value="Adding Workings, a blind measurement generator. Adding controller, view, and scripts. Copying over files from static website, converting to Dotnet Core MVC framework." />
     <MESSAGE value="Workings added, bug free." />
     <MESSAGE value="Updating database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating database" />
+    <MESSAGE value="Cards edited on home page to fix images, and text over images." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cards edited on home page to fix images, and text over images." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -674,15 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://8a681c26-608a-4840-a812-81713b4bd2c4/database/archy_dev_db/schema/superarch/table/ProjectItem">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="f3554392-060b-40ce-8570-49c52fef9315">
-          <filtering>
-            <filter text="" />
-          </filtering>
         </state>
       </provider>
     </entry>
@@ -900,27 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/archy_dev/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
-          <folding>
-            <marker date="1565117884280" expanded="true" signature="6:475" ph="..." />
-            <marker date="1565117884280" expanded="true" signature="496:3344" ph="{...}" />
-            <marker date="1565117884280" expanded="true" signature="523:3342" ph="{...}" />
-            <marker date="1565117884280" expanded="true" signature="626:689" ph="{...}" />
-            <marker date="1565117884280" expanded="true" signature="912:2313" ph="{...}" />
-            <marker date="1565117884280" expanded="true" signature="998:1262" ph="{...}" />
-            <marker date="1565117884280" expanded="true" signature="1368:1682" ph="/* USING SECRETS ... */" />
-            <marker date="1565117884280" expanded="true" signature="1753:2134" ph="{...}" />
-            <marker date="1565117884280" expanded="true" signature="2526:3336" ph="{...}" />
-            <marker date="1565117884280" expanded="true" signature="2573:2650" ph="{...}" />
-            <marker date="1565117884280" expanded="true" signature="2667:2926" ph="{...}" />
-            <marker date="1565117884280" expanded="true" signature="3164:3322" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/archy_dev/Models/ProjectItem.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -950,7 +841,7 @@
     <entry file="file://$PROJECT_DIR$/archy_dev/Data/DbSeed.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
-          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
           <folding>
             <marker date="1565119154082" expanded="true" signature="6:187" ph="..." />
             <marker date="1565119154082" expanded="true" signature="213:5552" ph="{...}" />
@@ -973,10 +864,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://8a681c26-608a-4840-a812-81713b4bd2c4/database/archy_dev_db/schema/superarch/table/ProjectItem">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="05628394-e158-48e6-8250-70e12c2856a0">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/archy_dev/Views/Home/ProjectItemPartial.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="168">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding>
             <marker date="1565121548503" expanded="true" signature="124:167" ph="@*...*@" />
             <marker date="1565121548503" expanded="true" signature="318:385" ph="@*...*@" />
@@ -986,6 +886,28 @@
             <marker date="1565121548503" expanded="true" signature="1050:1207" ph="{...}" />
             <marker date="1565121548503" expanded="true" signature="1220:1466" ph="@..." />
             <marker date="1565121548503" expanded="true" signature="1250:1466" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding>
+            <marker date="1565123412106" expanded="true" signature="6:475" ph="..." />
+            <marker date="1565123412106" expanded="true" signature="496:3325" ph="{...}" />
+            <marker date="1565123412106" expanded="true" signature="523:3323" ph="{...}" />
+            <marker date="1565123412106" expanded="true" signature="626:689" ph="{...}" />
+            <marker date="1565123412106" expanded="true" signature="912:2294" ph="{...}" />
+            <marker date="1565123412106" expanded="true" signature="998:1262" ph="{...}" />
+            <marker date="1565123412106" expanded="true" signature="1368:1682" ph="/* USING SECRETS ... */" />
+            <marker date="1565123412106" expanded="true" signature="1753:2115" ph="{...}" />
+            <marker date="1565123412106" expanded="true" signature="1934:2097" ph="/* ConnectionString = &quot;Server=mssqluk18.prosql.net;Database=archy_dev_db;ConnectRetryCount=0&quot;, ... */" />
+            <marker date="1565123412106" expanded="true" signature="2507:3317" ph="{...}" />
+            <marker date="1565123412106" expanded="true" signature="2554:2631" ph="{...}" />
+            <marker date="1565123412106" expanded="true" signature="2648:2907" ph="{...}" />
+            <marker date="1565123412106" expanded="true" signature="3145:3303" ph="{...}" />
           </folding>
         </state>
       </provider>
