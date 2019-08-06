@@ -6,14 +6,14 @@
     @* Image *@
     <img class="card-img img-fluid" src="@Model.ThumbnailImage"
          alt="Thumbnail image showing a glimpse of the @Model.Name project">
-    
+
     @* Title and description *@
     <div class="card-img-overlay">
         <h4 class="card-title">@Model.Name</h4>
         <h6 class="card-subtitle">@Model.ProgrammingLanguages</h6>
         <p class="card-text">@Model.ShortDescription</p>
     </div>
-    
+
     @* Subsection *@
     <ul class="list-group list-group-flush text-dark bg-light">
         @* Keywords (create pill-badge from each) *@
@@ -26,7 +26,19 @@
         @* Links *@
         <li class="list-group-item">
             <a href="@Model.Repository" class="card-link">Repository</a>
-            <a href="#" class="card-link">More info</a>
+            @if (Model.Repository != null)
+            {
+                <a class="card-link" href="@Model.Repository">
+                    Repository
+                </a>
+            }
+            @if (Model.Controller != null)
+            {
+                <a class="card-link" asp-area=""
+                   asp-controller="@Model.Controller" asp-action="Index">
+                    Home
+                </a>
+            }
         </li>
     </ul>
 </div>

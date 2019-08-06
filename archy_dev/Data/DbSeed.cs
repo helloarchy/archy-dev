@@ -1,5 +1,6 @@
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Internal;
 using Portfolio.Models;
@@ -28,7 +29,7 @@ namespace Portfolio.Data
                       "company. Used to calculate fabric requirements and " +
                       "manufacturing dimensions.", "JavaScript",
                 "Responsive, Print Friendly, Freelance work, Forms",
-                "/img/thumb/SocialNetwork.png");
+                "/img/thumb/SocialNetwork.png", "WorkingsController");
 
             /* Decider */
             name = "Decider";
@@ -98,7 +99,7 @@ namespace Portfolio.Data
         private static async Task CreateProjectItem(ArchyDevContext context,
             string name, string nameNormalised, bool isVisible,
             string shortDescription, string programmingLanguages, string keyWords,
-            string thumbnailImage = null)
+            string thumbnailImage = null, string controller = null)
         {
             if (!context.ProjectItem.Any(pi => pi.NameNormalised == nameNormalised))
             {
@@ -111,7 +112,8 @@ namespace Portfolio.Data
                     ShortDescription = shortDescription,
                     ProgrammingLanguages = programmingLanguages,
                     KeyWords = keyWords,
-                    IsVisible = isVisible
+                    IsVisible = isVisible,
+                    Controller = controller
                 });
             }
         }
