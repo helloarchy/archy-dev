@@ -4,18 +4,13 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/archy_dev/Startup.cs" line="52" />
+    <bookmark url="file://$PROJECT_DIR$/archy_dev/Startup.cs" line="59" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be73c586-57e8-4fe1-9a31-58cb5a0a6022" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/archy_dev/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/published/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/published/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/published/Views/Home/ProjectItemPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/published/Views/Home/ProjectItemPartial.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/published/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/published/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/published/archy_dev.dll" beforeDir="false" afterPath="$PROJECT_DIR$/published/archy_dev.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/published/wwwroot/css/site.scss" beforeDir="false" afterPath="$PROJECT_DIR$/published/wwwroot/css/site.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/published/wwwroot/img/thumb/SocialNetwork.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +49,13 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5785877">
+    <splitter split-orientation="horizontal" split-proportion="0.48823082">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/archy_dev/Data/DbSeed.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="212">
+                <state relative-caret-position="2136">
                   <caret line="96" selection-start-line="96" selection-end-line="96" />
                   <folding>
                     <marker date="1565119154082" expanded="true" signature="6:187" ph="..." />
@@ -78,7 +73,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/archy_dev/Models/ProjectItem.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="132">
+                <state relative-caret-position="96">
                   <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
                   <folding>
                     <marker date="1565116492165" expanded="true" signature="61:578" ph="{...}" />
@@ -91,11 +86,9 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="297">
+                <state relative-caret-position="336">
                   <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
                   <folding>
-                    <element signature="n#style#0;n#input#4;n#div#0;n#fieldset#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#input#3;n#div#0;n#fieldset#1;n#form#0;n#div#0;n#!!top" expanded="true" />
                     <marker date="1565114372577" expanded="true" signature="0:57" ph="@..." />
                   </folding>
                 </state>
@@ -129,26 +122,27 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/archy_dev/Startup.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+                <state relative-caret-position="153">
+                  <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
                   <folding>
-                    <marker date="1565123412106" expanded="true" signature="6:475" ph="..." />
-                    <marker date="1565123412106" expanded="true" signature="496:3325" ph="{...}" />
-                    <marker date="1565123412106" expanded="true" signature="523:3323" ph="{...}" />
-                    <marker date="1565123412106" expanded="true" signature="626:689" ph="{...}" />
-                    <marker date="1565123412106" expanded="true" signature="912:2294" ph="{...}" />
-                    <marker date="1565123412106" expanded="true" signature="998:1262" ph="{...}" />
-                    <marker date="1565123412106" expanded="true" signature="1368:1682" ph="/* USING SECRETS ... */" />
-                    <marker date="1565123412106" expanded="true" signature="1753:2115" ph="{...}" />
-                    <marker date="1565123412106" expanded="true" signature="1934:2097" ph="/* ConnectionString = &quot;Server=mssqluk18.prosql.net;Database=archy_dev_db;ConnectRetryCount=0&quot;, ... */" />
-                    <marker date="1565123412106" expanded="true" signature="2507:3317" ph="{...}" />
-                    <marker date="1565123412106" expanded="true" signature="2554:2631" ph="{...}" />
-                    <marker date="1565123412106" expanded="true" signature="2648:2907" ph="{...}" />
-                    <marker date="1565123412106" expanded="true" signature="3145:3303" ph="{...}" />
+                    <marker date="1565172587520" expanded="true" signature="6:475" ph="..." />
+                    <marker date="1565172587520" expanded="true" signature="496:3619" ph="{...}" />
+                    <marker date="1565172587520" expanded="true" signature="523:3617" ph="{...}" />
+                    <marker date="1565172587520" expanded="true" signature="626:689" ph="{...}" />
+                    <marker date="1565172587520" expanded="true" signature="912:2588" ph="{...}" />
+                    <marker date="1565172587520" expanded="true" signature="998:1262" ph="{...}" />
+                    <marker date="1565172587520" expanded="true" signature="1492:1634" ph="{...}" />
+                    <marker date="1565172587520" expanded="true" signature="1662:1976" ph="/* USING SECRETS ... */" />
+                    <marker date="1565172587520" expanded="true" signature="2047:2409" ph="{...}" />
+                    <marker date="1565172587520" expanded="true" signature="2228:2391" ph="/* ConnectionString = &quot;Server=mssqluk18.prosql.net;Database=archy_dev_db;ConnectRetryCount=0&quot;, ... */" />
+                    <marker date="1565172587520" expanded="true" signature="2801:3611" ph="{...}" />
+                    <marker date="1565172587520" expanded="true" signature="2848:2925" ph="{...}" />
+                    <marker date="1565172587520" expanded="true" signature="2942:3201" ph="{...}" />
+                    <marker date="1565172587520" expanded="true" signature="3439:3597" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -157,7 +151,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/archy_dev/Controllers/WorkingsController.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
+                <state relative-caret-position="240">
                   <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
                   <folding>
                     <marker date="1565110910565" expanded="true" signature="64:228" ph="{...}" />
@@ -171,10 +165,10 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/archy_dev/Controllers/HomeController.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="888">
+                <state relative-caret-position="600">
                   <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
                   <folding>
-                    <marker date="1563460246262" expanded="true" signature="6:260" ph="..." />
+                    <marker date="1563460246262" expanded="false" signature="6:260" ph="..." />
                     <marker date="1563460246262" expanded="true" signature="293:1265" ph="{...}" />
                     <marker date="1563460246262" expanded="true" signature="340:1263" ph="{...}" />
                     <marker date="1563460246262" expanded="true" signature="453:505" ph="{...}" />
@@ -191,8 +185,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/archy_dev/wwwroot/css/site.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="485">
-                  <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+                <state relative-caret-position="77">
+                  <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -221,6 +215,7 @@
       <find>vichy</find>
       <find>img</find>
       <find>src</find>
+      <find>services.</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -287,24 +282,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="archy_dev" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer">
         <subPane>
           <expand>
@@ -354,7 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Publish to folder.Publish to folder">
+  <component name="RunManager" selected=".NET Launch Settings Profile.archy_dev: IIS Express">
     <configuration name="Publish to folder" type="DotNetFolderPublish" factoryName="Publish to folder">
       <riderPublish runtime="win-x64" self_contained="true" target_folder="$PROJECT_DIR$/published" target_framework="netcoreapp2.2" uuid_high="3455713776650699339" uuid_low="-6559979096010621758" />
       <method v="2" />
@@ -410,7 +391,8 @@
       <workItem from="1561741643963" duration="2087000" />
       <workItem from="1563450746157" duration="7608000" />
       <workItem from="1563471488592" duration="1521000" />
-      <workItem from="1565106851364" duration="13864000" />
+      <workItem from="1565106851364" duration="16429000" />
+      <workItem from="1565184160288" duration="661000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed bug where project wasn't being recognised as CORE">
       <created>1561067257165</created>
@@ -475,11 +457,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565121668882</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Cards edited on home page to fix images, and text over images.">
+      <created>1565123423666</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565123423666</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32010000" />
+    <option name="totallyTimeSpent" value="35236000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -494,13 +483,13 @@
     <frame x="-6" y="-6" width="1633" height="1093" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16434011" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13071066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Azure Explorer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47652283" weight="0.32939914" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.47271574" visible="true" weight="0.32939914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -515,14 +504,14 @@
       <window_info anchor="bottom" id="Unit Tests" order="14" />
       <window_info anchor="bottom" id="REST Client" order="15" />
       <window_info anchor="bottom" id="Terminal" order="16" sideWeight="0.4930203" weight="0.32939914" />
-      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.5266498" side_tool="true" visible="true" weight="0.32939914" />
-      <window_info active="true" anchor="bottom" id="Build" order="18" sideWeight="0.47335026" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.52728426" side_tool="true" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Build" order="18" sideWeight="0.47017765" weight="0.32939914" />
       <window_info anchor="bottom" id="Database Console" order="19" sideWeight="0.49746192" weight="0.32939914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Errors In Solution" order="3" sideWeight="0.4992" weight="0.32994923" />
-      <window_info anchor="right" id="Database" order="4" sideWeight="0.4992" weight="0.18401015" />
+      <window_info anchor="right" id="Database" order="4" sideWeight="0.4992" visible="true" weight="0.18401015" />
       <window_info anchor="right" id="Unit Tests Coverage" order="5" />
       <window_info anchor="right" id="Designer Toolbox" order="6" sideWeight="0.5008" side_tool="true" visible="true" weight="0.32994923" />
     </layout>
@@ -601,23 +590,7 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8a681c26-608a-4840-a812-81713b4bd2c4/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/archy_dev/Migrations/20190625165807_init.cs">
-      <provider editor-type-id="WinFormsEditor" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <marker date="1561481887199" expanded="false" signature="6:93" ph="..." />
-            <marker date="1561481887199" expanded="true" signature="125:1576" ph="{...}" />
-            <marker date="1561481887199" expanded="true" signature="169:1574" ph="{...}" />
-            <marker date="1561481887199" expanded="true" signature="245:1397" ph="{...}" />
-            <marker date="1561481887199" expanded="true" signature="389:1243" ph="{...}" />
-            <marker date="1561481887199" expanded="true" signature="1299:1385" ph="{...}" />
-            <marker date="1561481887199" expanded="true" signature="1470:1568" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Migrations/20190625165807_init.cs" />
     <entry file="file://$PROJECT_DIR$/archy_dev/Data/ProjectItemSettings.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -686,24 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/archy_dev/Controllers/HomeController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
-          <folding>
-            <marker date="1563460246262" expanded="true" signature="6:260" ph="..." />
-            <marker date="1563460246262" expanded="true" signature="293:1265" ph="{...}" />
-            <marker date="1563460246262" expanded="true" signature="340:1263" ph="{...}" />
-            <marker date="1563460246262" expanded="true" signature="453:505" ph="{...}" />
-            <marker date="1563460246262" expanded="true" signature="564:807" ph="{...}" />
-            <marker date="1563460246262" expanded="true" signature="642:729" ph="{...}" />
-            <marker date="1563460246262" expanded="true" signature="843:890" ph="{...}" />
-            <marker date="1563460246262" expanded="true" signature="939:986" ph="{...}" />
-            <marker date="1563460246262" expanded="true" signature="1126:1257" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/archy_dev/Views/_ViewImports.cshtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -714,13 +669,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/archy_dev/Views/Workings/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Views/Workings/index.html" />
     <entry file="file://$PROJECT_DIR$/archy_dev/Views/_ViewStart.cshtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -772,18 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#input#4;n#div#0;n#fieldset#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#3;n#div#0;n#fieldset#1;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1565114372577" expanded="true" signature="0:57" ph="@..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://8a681c26-608a-4840-a812-81713b4bd2c4/database/archy_dev_db/schema/superarch/table/__EFMigrationsHistory">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="05628394-e158-48e6-8250-70e12c2856a0">
@@ -800,47 +737,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/archy_dev/Controllers/WorkingsController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <marker date="1565110910565" expanded="true" signature="64:228" ph="{...}" />
-            <marker date="1565110910565" expanded="true" signature="115:226" ph="{...}" />
-            <marker date="1565110910565" expanded="true" signature="173:220" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archy_dev/Models/ProjectItem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding>
-            <marker date="1565116492165" expanded="true" signature="61:578" ph="{...}" />
-            <marker date="1565116492165" expanded="true" signature="92:576" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archy_dev/wwwroot/img/project_thumbs/redPillBluePill.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/wwwroot/img/project_thumbs/redPillBluePill.jpg" />
     <entry file="file://$PROJECT_DIR$/archy_dev/wwwroot/img/project_thumbs/decider.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/archy_dev/wwwroot/img/project_thumbs/superintendent.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/wwwroot/img/project_thumbs/superintendent.jpg" />
     <entry file="file://$PROJECT_DIR$/archy_dev/wwwroot/img/project_thumbs/workings.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/archy_dev/wwwroot/img/project_thumbs/background.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="das://8a681c26-608a-4840-a812-81713b4bd2c4/database/archy_dev_db/schema/superarch/table/ProjectItem">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="05628394-e158-48e6-8250-70e12c2856a0">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/archy_dev/Data/DbSeed.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
+        <state relative-caret-position="2136">
           <caret line="96" selection-start-line="96" selection-end-line="96" />
           <folding>
             <marker date="1565119154082" expanded="true" signature="6:187" ph="..." />
@@ -854,22 +773,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archy_dev/wwwroot/css/site.scss">
+    <entry file="file://$PROJECT_DIR$/archy_dev/Models/ProjectItem.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+        <state relative-caret-position="96">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <marker date="1565116492165" expanded="true" signature="61:578" ph="{...}" />
+            <marker date="1565116492165" expanded="true" signature="92:576" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://8a681c26-608a-4840-a812-81713b4bd2c4/database/archy_dev_db/schema/superarch/table/ProjectItem">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="05628394-e158-48e6-8250-70e12c2856a0">
-          <filtering>
-            <filter text="" />
-          </filtering>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <marker date="1565114372577" expanded="true" signature="0:57" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/wwwroot/lib/bootstrap/dist/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Controllers/WorkingsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <marker date="1565110910565" expanded="true" signature="64:228" ph="{...}" />
+            <marker date="1565110910565" expanded="true" signature="115:226" ph="{...}" />
+            <marker date="1565110910565" expanded="true" signature="173:220" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+          <folding>
+            <marker date="1563460246262" expanded="false" signature="6:260" ph="..." />
+            <marker date="1563460246262" expanded="true" signature="293:1265" ph="{...}" />
+            <marker date="1563460246262" expanded="true" signature="340:1263" ph="{...}" />
+            <marker date="1563460246262" expanded="true" signature="453:505" ph="{...}" />
+            <marker date="1563460246262" expanded="true" signature="564:807" ph="{...}" />
+            <marker date="1563460246262" expanded="true" signature="642:729" ph="{...}" />
+            <marker date="1563460246262" expanded="true" signature="843:890" ph="{...}" />
+            <marker date="1563460246262" expanded="true" signature="939:986" ph="{...}" />
+            <marker date="1563460246262" expanded="true" signature="1126:1257" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archy_dev/wwwroot/css/site.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -892,22 +853,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/archy_dev/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+        <state relative-caret-position="153">
+          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
           <folding>
-            <marker date="1565123412106" expanded="true" signature="6:475" ph="..." />
-            <marker date="1565123412106" expanded="true" signature="496:3325" ph="{...}" />
-            <marker date="1565123412106" expanded="true" signature="523:3323" ph="{...}" />
-            <marker date="1565123412106" expanded="true" signature="626:689" ph="{...}" />
-            <marker date="1565123412106" expanded="true" signature="912:2294" ph="{...}" />
-            <marker date="1565123412106" expanded="true" signature="998:1262" ph="{...}" />
-            <marker date="1565123412106" expanded="true" signature="1368:1682" ph="/* USING SECRETS ... */" />
-            <marker date="1565123412106" expanded="true" signature="1753:2115" ph="{...}" />
-            <marker date="1565123412106" expanded="true" signature="1934:2097" ph="/* ConnectionString = &quot;Server=mssqluk18.prosql.net;Database=archy_dev_db;ConnectRetryCount=0&quot;, ... */" />
-            <marker date="1565123412106" expanded="true" signature="2507:3317" ph="{...}" />
-            <marker date="1565123412106" expanded="true" signature="2554:2631" ph="{...}" />
-            <marker date="1565123412106" expanded="true" signature="2648:2907" ph="{...}" />
-            <marker date="1565123412106" expanded="true" signature="3145:3303" ph="{...}" />
+            <marker date="1565172587520" expanded="true" signature="6:475" ph="..." />
+            <marker date="1565172587520" expanded="true" signature="496:3619" ph="{...}" />
+            <marker date="1565172587520" expanded="true" signature="523:3617" ph="{...}" />
+            <marker date="1565172587520" expanded="true" signature="626:689" ph="{...}" />
+            <marker date="1565172587520" expanded="true" signature="912:2588" ph="{...}" />
+            <marker date="1565172587520" expanded="true" signature="998:1262" ph="{...}" />
+            <marker date="1565172587520" expanded="true" signature="1492:1634" ph="{...}" />
+            <marker date="1565172587520" expanded="true" signature="1662:1976" ph="/* USING SECRETS ... */" />
+            <marker date="1565172587520" expanded="true" signature="2047:2409" ph="{...}" />
+            <marker date="1565172587520" expanded="true" signature="2228:2391" ph="/* ConnectionString = &quot;Server=mssqluk18.prosql.net;Database=archy_dev_db;ConnectRetryCount=0&quot;, ... */" />
+            <marker date="1565172587520" expanded="true" signature="2801:3611" ph="{...}" />
+            <marker date="1565172587520" expanded="true" signature="2848:2925" ph="{...}" />
+            <marker date="1565172587520" expanded="true" signature="2942:3201" ph="{...}" />
+            <marker date="1565172587520" expanded="true" signature="3439:3597" ph="{...}" />
           </folding>
         </state>
       </provider>

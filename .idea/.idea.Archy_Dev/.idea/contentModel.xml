@@ -58,6 +58,13 @@
           <e p="stdout_20190806193305_18696.log" t="Include" />
           <e p="stdout_20190806194338_24244.log" t="Include" />
           <e p="stdout_20190806195819_20944.log" t="Include" />
+          <e p="stdout_20190806200744_23032.log" t="Include" />
+          <e p="stdout_20190807100144_18884.log" t="Include" />
+          <e p="stdout_20190807100223_24500.log" t="Include" />
+          <e p="stdout_20190807100959_13188.log" t="Include" />
+          <e p="stdout_20190807101022_12176.log" t="Include" />
+          <e p="stdout_20190807101331_16652.log" t="Include" />
+          <e p="stdout_20190807132315_14632.log" t="Include" />
         </e>
         <e p="Migrations" t="Include">
           <e p="20190806192051_InitialCreate.cs" t="Include" />

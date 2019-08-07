@@ -39,6 +39,13 @@ namespace Portfolio
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
+            /* Trying to fix http failure and auto redirect to https */
+            services.AddHttpsRedirection(options =>
+            {
+                options.RedirectStatusCode = StatusCodes.Status307TemporaryRedirect;
+                options.HttpsPort = 5001;
+            });
+            
             /* USING SECRETS
             var projectItemConfig = Configuration.GetSection("ProjectItems").Get<ProjectItemSettings>();
             var builder = new SqlConnectionStringBuilder(projectItemConfig.ConnectionString)
