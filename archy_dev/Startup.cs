@@ -27,12 +27,14 @@ namespace Portfolio
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
+        /* This method gets called by the runtime. Use this method to add services
+         to the container.*/
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<CookiePolicyOptions>(options =>
             {
-                // This lambda determines whether user consent for non-essential cookies is needed for a given request.
+                /* This lambda determines whether user consent for non-essential
+                 cookies is needed for a given request.*/
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
@@ -45,29 +47,33 @@ namespace Portfolio
                 options.RedirectStatusCode = StatusCodes.Status307TemporaryRedirect;
                 options.HttpsPort = 5001;
             });
-            
-            /* USING SECRETS
-            var projectItemConfig = Configuration.GetSection("ProjectItems").Get<ProjectItemSettings>();
+
+            /* Comment below for production */
+            /* USING SECRETS */
+            var projectItemConfig = 
+                Configuration.GetSection("ProjectItems").Get<ProjectItemSettings>();
             var builder = new SqlConnectionStringBuilder(projectItemConfig.ConnectionString)
             {
                 Password = projectItemConfig.DbPassword
             };
-            */
-            
-            var builder = new SqlConnectionStringBuilder {
+
+            /* Uncomment below for production */
+            /*var builder = new SqlConnectionStringBuilder {
                     ConnectionString = @"Server=(localdb)\mssqllocaldb;Database=archy_dev_db;Trusted_Connection=True;ConnectRetryCount=0"
                     
                     /*ConnectionString = "Server=mssqluk18.prosql.net;Database=archy_dev_db;ConnectRetryCount=0",
                     UserID = "", 
-                    Password = ""*/
-                };
+                    Password = ""#1#
+                };*/
+            
             _connection = builder.ConnectionString;
 
             services.AddDbContext<ArchyDevContext>
                 (options => options.UseSqlServer(_connection));
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        /* This method gets called by the runtime. Use this method to configure
+         the HTTP request pipeline. */
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ArchyDevContext context)
         {
             if (env.IsDevelopment())
@@ -77,7 +83,7 @@ namespace Portfolio
             else
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+                // Default HSTS value is 30 days
                 app.UseHsts();
             }
 
@@ -94,8 +100,6 @@ namespace Portfolio
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
-
-
         }
     }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\_VCS\archy.dev" t="IncludeFlat">
+    <e p="C:\_VCS\archy-dev" t="IncludeFlat">
       <e p=".git\info\exclude" t="IncludeRecursive" />
       <e p="archy_dev" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
@@ -24,53 +24,9 @@
           <e p="ProjectItemSettings.cs" t="Include" />
         </e>
         <e p="logs" t="Include">
-          <e p="stdout_20190625170933_16396.log" t="Include" />
-          <e p="stdout_20190625172020_12300.log" t="Include" />
-          <e p="stdout_20190625172116_21288.log" t="Include" />
-          <e p="stdout_20190718140256_6436.log" t="Include" />
-          <e p="stdout_20190718142905_6388.log" t="Include" />
-          <e p="stdout_20190718142939_14332.log" t="Include" />
-          <e p="stdout_20190718143158_11016.log" t="Include" />
-          <e p="stdout_20190718143309_4252.log" t="Include" />
-          <e p="stdout_20190718143420_6588.log" t="Include" />
-          <e p="stdout_20190718144334_4800.log" t="Include" />
-          <e p="stdout_20190718174215_9008.log" t="Include" />
-          <e p="stdout_20190718174850_18344.log" t="Include" />
-          <e p="stdout_20190806163646_8644.log" t="Include" />
-          <e p="stdout_20190806164155_13384.log" t="Include" />
-          <e p="stdout_20190806164241_16364.log" t="Include" />
-          <e p="stdout_20190806175558_11204.log" t="Include" />
-          <e p="stdout_20190806175939_21540.log" t="Include" />
-          <e p="stdout_20190806180953_20468.log" t="Include" />
-          <e p="stdout_20190806181109_11064.log" t="Include" />
-          <e p="stdout_20190806181259_5032.log" t="Include" />
-          <e p="stdout_20190806181424_272.log" t="Include" />
-          <e p="stdout_20190806182454_21588.log" t="Include" />
-          <e p="stdout_20190806184410_13640.log" t="Include" />
-          <e p="stdout_20190806185815_17244.log" t="Include" />
-          <e p="stdout_20190806185933_13760.log" t="Include" />
-          <e p="stdout_20190806190204_16112.log" t="Include" />
-          <e p="stdout_20190806190331_18484.log" t="Include" />
-          <e p="stdout_20190806190406_21168.log" t="Include" />
-          <e p="stdout_20190806190526_23536.log" t="Include" />
-          <e p="stdout_20190806190624_23384.log" t="Include" />
-          <e p="stdout_20190806192113_8900.log" t="Include" />
-          <e p="stdout_20190806193305_18696.log" t="Include" />
-          <e p="stdout_20190806194338_24244.log" t="Include" />
-          <e p="stdout_20190806195819_20944.log" t="Include" />
-          <e p="stdout_20190806200744_23032.log" t="Include" />
-          <e p="stdout_20190807100144_18884.log" t="Include" />
-          <e p="stdout_20190807100223_24500.log" t="Include" />
-          <e p="stdout_20190807100959_13188.log" t="Include" />
-          <e p="stdout_20190807101022_12176.log" t="Include" />
-          <e p="stdout_20190807101331_16652.log" t="Include" />
-          <e p="stdout_20190807132315_14632.log" t="Include" />
+          <e p="stdout_20191123222448_17972.log" t="Include" />
         </e>
-        <e p="Migrations" t="Include">
-          <e p="20190806192051_InitialCreate.cs" t="Include" />
-          <e p="20190806192051_InitialCreate.Designer.cs" t="Include" />
-          <e p="ArchyDevContextModelSnapshot.cs" t="Include" />
-        </e>
+        <e p="Migrations" t="Include" />
         <e p="Models" t="Include">
           <e p="ArchyDevContext.cs" t="Include" />
           <e p="ErrorViewModel.cs" t="Include" />
@@ -87,11 +43,6 @@
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
-          <e p="PublishProfiles" t="Include">
-            <e p="archy.dev - Web Deploy.pubxml" t="Include" />
-            <e p="archy.dev.publishsettings" t="Include" />
-            <e p="IIS.pubxml" t="Include" />
-          </e>
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="Views" t="Include">
@@ -274,9 +225,9 @@
       <e p="archy_dev.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\hardy\.Rider2019.1\config\consoles\db" t="IncludeRecursive" />
-    <e p="C:\Users\hardy\.Rider2019.1\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\hardy\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\hardy\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_archy_dev.-583673461.00" t="ExcludeRecursive" />
+    <e p="C:\Users\hardy\.Rider2019.2\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\hardy\.Rider2019.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\hardy\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\hardy\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Archy_Dev.413398892.00" t="ExcludeRecursive" />
   </component>
 </project>
