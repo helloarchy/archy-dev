@@ -4,6 +4,7 @@
     <e p="C:\_VCS\archy-dev" t="IncludeFlat">
       <e p=".git\info\exclude" t="IncludeRecursive" />
       <e p="archy_dev" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="archy_dev.csproj" t="IncludeRecursive" />
@@ -23,6 +24,7 @@
           <e p="DbSeed.cs" t="Include" />
           <e p="ProjectItemSettings.cs" t="Include" />
         </e>
+        <e p="gulpfile.js" t="Include" />
         <e p="logs" t="Include">
           <e p="stdout_20191123222448_17972.log" t="Include" />
         </e>
@@ -33,6 +35,13 @@
           <e p="ProjectGalleryViewModel.cs" t="Include" />
           <e p="ProjectItem.cs" t="Include" />
         </e>
+        <e p="node_modules\@types" t="IncludeRecursive">
+          <e p="events" t="IncludeRecursive" />
+          <e p="minimatch" t="IncludeRecursive" />
+          <e p="node" t="IncludeRecursive" />
+        </e>
+        <e p="node_modules\del" t="IncludeRecursive" />
+        <e p="node_modules\gulp" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
@@ -41,9 +50,24 @@
           </e>
         </e>
         <e p="package-lock.json" t="Include" />
+        <e p="package.json" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="tsconfig.json" t="Include" />
+          <e p="Workings" t="Include">
+            <e p="blind.js" t="Include" />
+            <e p="blind.js.map" t="Include" />
+            <e p="blind.ts" t="Include" />
+            <e p="job.js" t="Include" />
+            <e p="job.js.map" t="Include" />
+            <e p="job.ts" t="Include" />
+            <e p="main.js" t="Include" />
+            <e p="main.js.map" t="Include" />
+            <e p="main.ts" t="Include" />
+          </e>
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="Views" t="Include">
@@ -160,15 +184,7 @@
           </e>
           <e p="js" t="Include">
             <e p="site.js" t="Include" />
-            <e p="Workings" t="Include">
-              <e p="blind.js" t="Include" />
-              <e p="blind.ts" t="Include" />
-              <e p="job.js" t="Include" />
-              <e p="job.ts" t="Include" />
-              <e p="main.js" t="Include" />
-              <e p="main.ts" t="Include" />
-              <e p="workings.js" t="Include" />
-            </e>
+            <e p="workings.js" t="Include" />
           </e>
           <e p="lib" t="Include">
             <e p="bootstrap" t="Include">
@@ -229,6 +245,19 @@
               <e p="LICENSE.txt" t="Include" />
             </e>
           </e>
+          <e p="Scripts" t="Include">
+            <e p="Workings" t="Include">
+              <e p="blind.js" t="Include" />
+              <e p="blind.js.map" t="Include" />
+              <e p="blind.ts" t="Include" />
+              <e p="job.js" t="Include" />
+              <e p="job.js.map" t="Include" />
+              <e p="job.ts" t="Include" />
+              <e p="main.js" t="Include" />
+              <e p="main.js.map" t="Include" />
+              <e p="main.ts" t="Include" />
+            </e>
+          </e>
         </e>
       </e>
       <e p="archy_dev.sln" t="IncludeFlat" />
@@ -236,6 +265,8 @@
     </e>
     <e p="C:\Users\hardy\.Rider2019.2\config\consoles\db" t="IncludeRecursive" />
     <e p="C:\Users\hardy\.Rider2019.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\hardy\.Rider2019.2\config\javascript\nodejs\13.2.0\core-modules" t="IncludeRecursive" />
+    <e p="C:\Users\hardy\.Rider2019.2\config\javascript\nodejs\13.2.0\node-typings\node_modules\@types" t="IncludeRecursive" />
     <e p="C:\Users\hardy\.Rider2019.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\hardy\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Archy_Dev.413398892.00" t="ExcludeRecursive" />
   </component>

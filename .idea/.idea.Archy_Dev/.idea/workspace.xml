@@ -8,16 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be73c586-57e8-4fe1-9a31-58cb5a0a6022" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/archy_dev/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/blind.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/job.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/archy_dev.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/archy_dev.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/wwwroot/js/workings.js" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/workings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +35,9 @@
       <list>
         <option value="MsDeploy.Remote" />
         <option value="TypeScript File" />
+        <option value="tsconfig.json" />
+        <option value="package.json" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -100,12 +94,15 @@
         <option value="$PROJECT_DIR$/archy_dev/Data/DbSeed.cs" />
         <option value="$PROJECT_DIR$/archy_dev/wwwroot/css/site.scss" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Home/ProjectItemPartial.cshtml" />
-        <option value="$PROJECT_DIR$/archy_dev/Startup.cs" />
-        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml" />
         <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/main.ts" />
         <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/job.ts" />
         <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/lining.ts" />
         <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/blind.ts" />
+        <option value="$PROJECT_DIR$/archy_dev/Startup.cs" />
+        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml" />
+        <option value="$PROJECT_DIR$/archy_dev/Scripts/tsconfig.json" />
+        <option value="$PROJECT_DIR$/archy_dev/package.json" />
+        <option value="$PROJECT_DIR$/archy_dev/gulpfile.js" />
       </list>
     </option>
   </component>
@@ -127,6 +124,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="13.2.0" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/archy_dev/node_modules/gulp" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/published" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -134,10 +133,12 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="wsl://UBUNTU@/usr/bin/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="C:\Users\hardy\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\192.7317.11\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunDashboard">
@@ -152,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.archy_dev: IIS Express">
+  <component name="RunManager" selected="Gulp.js.default">
     <configuration name="Publish to folder" type="DotNetFolderPublish" factoryName="Publish to folder">
       <riderPublish runtime="win-x64" self_contained="true" target_folder="$PROJECT_DIR$/published" target_framework="netcoreapp2.2" uuid_high="3455713776650699339" uuid_low="-6559979096010621758" />
       <method v="2" />
@@ -184,12 +185,29 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+    <configuration name="default" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/archy_dev/gulpfile.js</gulpfile>
+      <tasks>
+        <task>default</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue=".NET Launch Settings Profile.archy_dev: IIS Express" />
+      <item itemvalue="Gulp.js.default" />
       <item itemvalue="Publish to custom server.archy.dev (FTP)" />
       <item itemvalue="Publish to folder.Publish to folder" />
       <item itemvalue="Publish to IIS.Unnamed" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gulp.js.default" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -210,7 +228,9 @@
       <workItem from="1563471488592" duration="1521000" />
       <workItem from="1565106851364" duration="16429000" />
       <workItem from="1565184160288" duration="661000" />
-      <workItem from="1574547595059" duration="5149000" />
+      <workItem from="1574547595059" duration="5561000" />
+      <workItem from="1574636504066" duration="2622000" />
+      <workItem from="1574639494134" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed bug where project wasn't being recognised as CORE">
       <created>1561067257165</created>
@@ -289,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574548022983</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="File set up. Blind implemented initially.">
+      <created>1574554477383</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1574554477383</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,6 +327,9 @@
         <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/main.js" />
         <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/blind.js" />
         <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/lining.js" />
+        <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/blind.js.map" />
+        <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/job.js.map" />
+        <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/main.js.map" />
       </list>
     </option>
   </component>
@@ -310,7 +340,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -329,7 +361,8 @@
     <MESSAGE value="Updating database" />
     <MESSAGE value="Cards edited on home page to fix images, and text over images." />
     <MESSAGE value="Simplified dev/prod process" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simplified dev/prod process" />
+    <MESSAGE value="File set up. Blind implemented initially." />
+    <option name="LAST_COMMIT_MESSAGE" value="File set up. Blind implemented initially." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
