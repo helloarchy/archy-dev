@@ -8,11 +8,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be73c586-57e8-4fe1-9a31-58cb5a0a6022" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/blind.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/job.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/archy_dev.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/archy_dev.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/wwwroot/js/workings.js" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/workings.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,24 +43,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="MsDeploy.Remote" />
+        <option value="TypeScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>environ</find>
-      <find>csproj</find>
-      <find>hostingmodel</find>
-      <find>connection</find>
-      <find>user</find>
-      <find>aspnetcoremodule</find>
-      <find>add</find>
-      <find>name</find>
-      <find>vichy</find>
-      <find>img</find>
-      <find>src</find>
-      <find>services.</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -101,7 +91,6 @@
         <option value="$PROJECT_DIR$/archy_dev/Controllers/WorkingsController.cs" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Home/Index.cshtml" />
-        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml" />
         <option value="$PROJECT_DIR$/archy_dev/wwwroot/img/workings.css" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Workings/index.html" />
         <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/workings.js" />
@@ -112,6 +101,11 @@
         <option value="$PROJECT_DIR$/archy_dev/wwwroot/css/site.scss" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Home/ProjectItemPartial.cshtml" />
         <option value="$PROJECT_DIR$/archy_dev/Startup.cs" />
+        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml" />
+        <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/main.ts" />
+        <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/job.ts" />
+        <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/lining.ts" />
+        <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/blind.ts" />
       </list>
     </option>
   </component>
@@ -122,8 +116,11 @@
     <option name="height" value="2000" />
   </component>
   <component name="ProjectId" id="1U2H5mCQXhlT2RkYQ8KgExjEQcg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="sqlserver" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
@@ -140,7 +137,8 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="ts.external.directory.path" value="C:\Users\hardy\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\192.7317.11\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -212,7 +210,7 @@
       <workItem from="1563471488592" duration="1521000" />
       <workItem from="1565106851364" duration="16429000" />
       <workItem from="1565184160288" duration="661000" />
-      <workItem from="1574547595059" duration="277000" />
+      <workItem from="1574547595059" duration="5149000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed bug where project wasn't being recognised as CORE">
       <created>1561067257165</created>
@@ -284,11 +282,26 @@
       <option name="project" value="LOCAL" />
       <updated>1565123423666</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Simplified dev/prod process">
+      <created>1574548022983</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1574548022983</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/job.js" />
+        <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/main.js" />
+        <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/blind.js" />
+        <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/Workings/lining.js" />
+      </list>
+    </option>
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
@@ -304,6 +317,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="Fixed bug where project wasn't being recognised as CORE" />
     <MESSAGE value="Deployment succeeds, running on remote server with database correctly. Local webconfig set up correctly too." />
@@ -314,7 +328,8 @@
     <MESSAGE value="Workings added, bug free." />
     <MESSAGE value="Updating database" />
     <MESSAGE value="Cards edited on home page to fix images, and text over images." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cards edited on home page to fix images, and text over images." />
+    <MESSAGE value="Simplified dev/prod process" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simplified dev/prod process" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

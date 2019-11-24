@@ -40,6 +40,7 @@
             </e>
           </e>
         </e>
+        <e p="package-lock.json" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
@@ -159,7 +160,15 @@
           </e>
           <e p="js" t="Include">
             <e p="site.js" t="Include" />
-            <e p="workings.js" t="Include" />
+            <e p="Workings" t="Include">
+              <e p="blind.js" t="Include" />
+              <e p="blind.ts" t="Include" />
+              <e p="job.js" t="Include" />
+              <e p="job.ts" t="Include" />
+              <e p="main.js" t="Include" />
+              <e p="main.ts" t="Include" />
+              <e p="workings.js" t="Include" />
+            </e>
           </e>
           <e p="lib" t="Include">
             <e p="bootstrap" t="Include">

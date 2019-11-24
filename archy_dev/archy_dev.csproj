@@ -18,4 +18,10 @@
       <Folder Include="Migrations" />
     </ItemGroup>
 
+    <ItemGroup>
+      <TypeScriptCompile Include="wwwroot\js\Workings\blind.ts" />
+      <TypeScriptCompile Include="wwwroot\js\Workings\job.ts" />
+      <TypeScriptCompile Include="wwwroot\js\Workings\main.ts" />
+    </ItemGroup>
+
 </Project>
