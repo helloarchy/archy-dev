@@ -32,6 +32,8 @@
           <e p="stdout_20191129195628_20028.log" t="Include" />
           <e p="stdout_20191129200039_8564.log" t="Include" />
           <e p="stdout_20191129204608_6084.log" t="Include" />
+          <e p="stdout_20191129205732_9132.log" t="Include" />
+          <e p="stdout_20191129223310_22340.log" t="Include" />
         </e>
         <e p="Migrations" t="Include" />
         <e p="Models" t="Include">
@@ -102,6 +104,7 @@
               <e p="_Stack.cshtml" t="Include" />
             </e>
             <e p="_Control_Panel.cshtml" t="Include" />
+            <e p="_Print.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
             <e p="Index_backup.cshtml" t="Include" />
           </e>

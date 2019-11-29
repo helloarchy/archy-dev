@@ -18,66 +18,7 @@
     @* Control Panel *@
     <partial name="_Control_Panel"/>
 
-    <!-- PRINTABLE SECTION -->
-    <div id="section-to-print">
-        <div id="drawingBox">
-            <!-- PLACEHOLDER removed by script -->
-            <div id="centrePlaceHolder">
-                <div id="placeHolder">Hit <b>generate</b> to produce drawing.</div>
-            </div>
-
-            <!-- DETAILS (job, client, reference, etc.) -->
-            <div id="jobDetails">
-                <div id="jobDetailsLeft">
-                    <div id="drawingDetailsClient"></div>
-                    <div id="drawingDetailsCustAndRef"></div>
-                </div>
-                <!-- Initial calculations -->
-                <div id="initialCalcs">
-                    <table id="initialCalcsTable" cellspacing="0">
-                        <tr id="initCalcsDropFig"></tr>
-                        <tr id="initCalcsVelcroFig"></tr>
-                        <tr id="initCalcsRevealFig"></tr>
-                        <tr id="initCalcsResultFig"></tr>
-                    </table>
-                </div>
-            </div>
-
-            <!-- DRAWINGS -->
-            <div id="blindDrawing">
-                <table id="blindTable">
-                    <!--cellspacing="0"-->
-                    <!-- Stuff added by script-->
-                </table>
-            </div>
-
-            <!-- MEASURES (3 horizontal cells) -->
-            <div id="measureDetails">
-                <div id="fabricMeasures">
-                    <!-- Stuff added by script -->
-                </div>
-                <div id="innerLiningMeasures">
-                    <!-- Stuff added by script -->
-                </div>
-                <div id="liningMeasures">
-                    <!-- Stuff added by script -->
-                </div>
-            </div>
-
-            <!-- SWB or DWB info -->
-            <div id="numWidthsInfo">
-                <!-- Stuff added by script -->
-            </div>
-
-            <!-- Disclaimer -->
-            <div id="disclaimer">
-                Disclaimer:
-                <ul>
-                    <li>Check if inner linings are needed, currently unsupported.</li>
-                    <li>Check fabric repeats for exact cut length needed.</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    @* Print Section *@
+    <partial name="_Print"/>
 </div>
 </body>

@@ -1,22 +1,46 @@
 /* Styling for home page */
+.accent_01 {
+    color: rgba(16, 91, 99, 1);
+}
 
-.accent_01 { color: rgba(16, 91, 99, 1); }
-.accent_02 { color: rgba(255, 250, 213, 1); }
-.accent_03 { color: rgba(255, 211, 78, 1); }
-.accent_04 { color: rgba(219, 158, 54, 1); }
-.accent_05 { color: rgba(189, 73, 50, 1); }
+.accent_02 {
+    color: rgba(255, 250, 213, 1);
+}
 
-.accent_11 { color: #C0B283; }
-.accent_12 { color: #E4DACE; }
-.accent_13 { color: #F4F4F4; }
-.accent_14 { color: #373737; }
+.accent_03 {
+    color: rgba(255, 211, 78, 1);
+}
+
+.accent_04 {
+    color: rgba(219, 158, 54, 1);
+}
+
+.accent_05 {
+    color: rgba(189, 73, 50, 1);
+}
+
+.accent_11 {
+    color: #C0B283;
+}
+
+.accent_12 {
+    color: #E4DACE;
+}
+
+.accent_13 {
+    color: #F4F4F4;
+}
+
+.accent_14 {
+    color: #373737;
+}
 
 html, body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-    background-image: url("/img/backgrounds/vichy.png");
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("/img/backgrounds/vichy.png"); /* Does work */
 }
 
 /*
@@ -72,14 +96,13 @@ fieldset {
     float: left;
     padding-left: 2px;
     line-height: 70px;
-
 }
 
 #headerPitifulSelf {
     position: relative;
     float: right;
     font-family: 'Playfair Display', serif;
-    font-size: 12.5px;
+    font-size: 12px;
     text-transform: none;
     margin-right: 3px;
     padding-top: 12px;
@@ -98,8 +121,9 @@ a:hover {
 
 /* Adjust for different viewport sizes */
 /* TOP STRIP TABLET */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
 }
+
 /* FULL WIDTH MOBILE */
 /* Was 400, but has to be 432+ due to button widths sum */
 @media screen and (max-width: 432px) {
@@ -108,6 +132,7 @@ a:hover {
         width: 100%;
         font-size: 50px;
     }
+
     #headerText {
         top: 3px;
         transform: translateY(0px);
@@ -124,10 +149,12 @@ BLINDS FORM:
     float: left;
     padding: 0;
 }
+
 /* Toggles visibility of additional drop down options for blind stack */
 #waterfall {
     display: none;
 }
+
 #showingHem {
     display: none;
 }
@@ -145,15 +172,19 @@ input, select, output {
     /*text-transform: capitalize;*/
     margin: 1px;
 }
+
 input {
     font-style: italic;
 }
+
 input[type="text"] {
     width: 163px;
 }
+
 input[type="number"] {
     width: 106px;
 }
+
 input[type="range"] {
     width: 145px;
 }
@@ -162,11 +193,13 @@ input[type="range"] {
 input[type="button"], input[type="submit"], input[type="reset"], legend {
     cursor: pointer;
 }
+
 #selectStack {
     width: 166px;
 }
+
 .unitsSelect {
-    width:50px;
+    width: 50px;
 }
 
 .buttonIncrement {
@@ -190,7 +223,6 @@ input[type="button"], input[type="submit"], input[type="reset"], legend {
 }
 
 
-
 .button {
     background-color: #E4DACE;
     transition: 0.25s;
@@ -208,10 +240,6 @@ input[type="button"], input[type="submit"], input[type="reset"], legend {
     /*font-style: italic;*/
     color: #F4F4F4;
 }
-
-
-
-
 
 
 legend {
@@ -242,7 +270,7 @@ fieldset {
     background-color: transparent;
 }
 
-.arrowDown, .arrowUp{
+.arrowDown, .arrowUp {
     display: inline-block;
     float: right;
     font-size: 32px;
@@ -250,6 +278,7 @@ fieldset {
     padding-top: 14px;
     color: #C0B283;
 }
+
 .arrowUp {
     display: none;
 }
@@ -258,9 +287,11 @@ fieldset {
 .closedByDefault .arrowUp {
     display: inline-block;
 }
+
 .closedByDefault .arrowDown {
     display: none;
 }
+
 .closedByDefault .fieldContent {
     display: none;
 }
@@ -340,8 +371,8 @@ BLINDS DRAWING BOX: (A4 page)
     display: flex;
     padding: 10px 10px 5px 0; /* Extra padding on right */
     margin: 0;
-    justify-content:flex-end;
-    align-items:center;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 #initialCalcsTable {
@@ -393,7 +424,8 @@ BLINDS DRAWING BOX: (A4 page)
     padding-left: 0.6cm;
 }
 
-.labelImg/*[valign="top"]*/ {
+.labelImg /*[valign="top"]*/
+{
     display: flex;
     align-items: center;
     position: relative;
@@ -402,6 +434,7 @@ BLINDS DRAWING BOX: (A4 page)
     width: 100%;
     height: 100%;
 }
+
 /*.labelImg[valign="top"][style="width: 15%"] {
     white-space: nowrap;
     display: table-cell;
@@ -452,12 +485,13 @@ table, th, td, img {
 
 
 /* Writing in middle of drawing prior to generating */
-#centrePlaceHolder{
+#centrePlaceHolder {
     display: -webkit-flex;
     display: flex;
     width: 100%;
     height: 100%;
 }
+
 #placeHolder {
     font-family: "Cookie", sans-serif;
     font-style: italic;
@@ -468,9 +502,8 @@ table, th, td, img {
     width: 500px;
     height: 50px;
     line-height: 50px;
-    background: -webkit-linear-gradient(left,rgba(255,0,0,0), #E4DACE ,rgba(255,0,0,0))
+    background: -webkit-linear-gradient(left, rgba(255, 0, 0, 0), #E4DACE, rgba(255, 0, 0, 0))
 }
-
 
 
 #measureDetails {
@@ -535,6 +568,7 @@ table, th, td, img {
 #disclaimer ul {
     font-size: 14px;
 }
+
 /*
 BLINDS DRAWING BOX (end) ------------------------ /\
  */
