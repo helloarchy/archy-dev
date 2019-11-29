@@ -1,11 +1,12 @@
-<!-- FABRIC -->
+@* Fabric *@
 <fieldset class="closedByDefault">
-    <legend>Fabric<span class="arrowDown">&#9663;</span>
-        <span class="arrowUp">&#9653;</span></legend>
+    <legend>
+        Fabric<span class="arrowDown">&#9663;</span>
+        <span class="arrowUp">&#9653;</span>
+    </legend>
 
     <div class="fieldContent">
-        &lt;!&ndash; WIDTH (cuttable area excluding selvedge)
-        see: http://fashion-incubator.com/what-is-cuttable-width/ &ndash;&gt;
+        @* Width (cutting area excluding selvage *@
         <label>Cut width:</label>
         <input id="fabricCutWidth" type="number" name="fabricCutWidth"
                step="0.05" placeholder="123.45">
@@ -15,7 +16,7 @@
             <option value="in">in</option>
         </select>
 
-        &lt;!&ndash; REPEAT (vertical measure of how pattern repeats) &ndash;&gt;
+        @* Repeat (vertical measure of pattern repeat) *@
         <br><label>Repeat:</label>
         <input id="fabricRepeat" type="number" name="fabricRepeat"
                step="0.05" placeholder="23.45">

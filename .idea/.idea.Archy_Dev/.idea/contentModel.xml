@@ -27,6 +27,11 @@
         <e p="gulpfile.js" t="Include" />
         <e p="logs" t="Include">
           <e p="stdout_20191123222448_17972.log" t="Include" />
+          <e p="stdout_20191129193134_14520.log" t="Include" />
+          <e p="stdout_20191129195245_21132.log" t="Include" />
+          <e p="stdout_20191129195628_20028.log" t="Include" />
+          <e p="stdout_20191129200039_8564.log" t="Include" />
+          <e p="stdout_20191129204608_6084.log" t="Include" />
         </e>
         <e p="Migrations" t="Include" />
         <e p="Models" t="Include">
@@ -86,14 +91,17 @@
             <e p="Error.cshtml" t="Include" />
           </e>
           <e p="Workings" t="Include">
-            <e p="_Details.cshtml" t="Include" />
-            <e p="_Dimensions.cshtml" t="Include" />
-            <e p="_Fabric.cshtml" t="Include" />
-            <e p="_Lining.cshtml" t="Include" />
-            <e p="_Pocket.cshtml" t="Include" />
-            <e p="_Railing.cshtml" t="Include" />
-            <e p="_Ring.cshtml" t="Include" />
-            <e p="_Stack.cshtml" t="Include" />
+            <e p="_Control_Panel" t="Include">
+              <e p="_Details.cshtml" t="Include" />
+              <e p="_Dimensions.cshtml" t="Include" />
+              <e p="_Fabric.cshtml" t="Include" />
+              <e p="_Lining.cshtml" t="Include" />
+              <e p="_Pocket.cshtml" t="Include" />
+              <e p="_Railing.cshtml" t="Include" />
+              <e p="_Ring.cshtml" t="Include" />
+              <e p="_Stack.cshtml" t="Include" />
+            </e>
+            <e p="_Control_Panel.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
             <e p="Index_backup.cshtml" t="Include" />
           </e>
@@ -274,6 +282,7 @@
     </e>
     <e p="C:\Users\hardy\.Rider2019.2\config\consoles\db" t="IncludeRecursive" />
     <e p="C:\Users\hardy\.Rider2019.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\hardy\.Rider2019.2\config\javascript\extLibs\http_ajax.googleapis.com_ajax_libs_jquery_3.2.1_jquery.js" t="IncludeRecursive" />
     <e p="C:\Users\hardy\.Rider2019.2\config\javascript\nodejs\13.2.0\core-modules" t="IncludeRecursive" />
     <e p="C:\Users\hardy\.Rider2019.2\config\javascript\nodejs\13.2.0\node-typings\node_modules\@types" t="IncludeRecursive" />
     <e p="C:\Users\hardy\.Rider2019.2\system\extResources" t="IncludeRecursive" />

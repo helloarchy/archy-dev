@@ -1,10 +1,12 @@
-<!-- RINGS -->
+@* Rings *@
 <fieldset class="closedByDefault">
-    <legend>Rings:<span class="arrowDown">&cudarrr;</span>
-        <span class="arrowUp">&#10548;</span></legend>
+    <legend>
+        Rings:<span class="arrowDown">&#9663;</span>
+        <span class="arrowUp">&#9653;</span>
+    </legend>
 
     <div class="fieldContent">
-        &lt;!&ndash; RING TYPE &ndash;&gt;
+        @* Type *@
         <label>Type:</label>
         <input id="ringsType" type="text" name="ringType"
                placeholder="Eyelets" list="ringTypeDataList">
@@ -13,7 +15,7 @@
             <option value="Outer rings"/>
         </datalist>
 
-        &lt;!&ndash; RING MARGINS &ndash;&gt;
+        @* Margin *@
         <br><label onclick="">Margins:</label>
         <input id="ringsMargin" type="number" name="ringsMargin"
                step="0.05" placeholder="10.5">
@@ -23,9 +25,10 @@
             <option value="in">in</option>
         </select>
 
+        @* Count *@
         <br><label>Count:</label>
-        <input id="ringsCount" type="range" name="ringCount" min="2"
-               max="8" step="1" oninput="ringsCountChange(this.value);">
+        <input id="ringsCount" type="range" name="ringCount" class="slider"
+               min="2" max="8" step="1" oninput="ringsCountChange(this.value);">
         <output id="ringsCountText">&lt;!&ndash;Value set by function&ndash;&gt;</output>
     </div>
 </fieldset>

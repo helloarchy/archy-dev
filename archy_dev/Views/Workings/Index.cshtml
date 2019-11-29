@@ -5,112 +5,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workings</title>
     <link rel="stylesheet" type="text/css" href="~/css/workings.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="~/js/workings.js"></script>
+    @* <script src="~/scripts/Workings/main.js"></script> TODO: Implement me *@
     <link href="https://fonts.googleapis.com/css?family=Cookie|Playfair+Display|Raleway|Josefin+Sans|Dancing+Script|Cookie|Great+Vibes|Kaushan+Script|Playball|Satisfy|Pacifico|Lato"
           rel="stylesheet" type="text/css">
 </head>
-
+<body>
 <div class="container-fluid">
-<!-- BLINDS FORM -->
-<form id="formBlinds">
-<!-- WORKINGS Header (Not really part of the form, just at top of it) -->
-<div id="header">
-    <div id="headerDroppedCap">W</div>
-    <div id="headerText">orkings</div>
-    <div id="headerPitifulSelf">
-        <a class="nav-link text-dark" asp-area=""
-           asp-controller="Home" asp-action="Index">
-            <i>by </i>RARH.io
-            <i> on behalf of </i>HARDY'S
-        </a>
-    </div>
-</div>
+    @* Control Panel *@
+    <partial name="_Control_Panel"/>
 
-
-@* MENU *@
-<partial name="_Details"/>
-<partial name="_Dimensions"/>
-<partial name="_Fabric"/>
-<partial name="_Lining"/>
-<partial name="_Railing"/>
-<partial name="_Stack"/>
-<partial name="_Pocket"/>
-<partial name="_Ring"/>
-
-
-<!-- SUBMIT BUTTONS -->
-<div id="submitButtons">
-    <!-- RESET BUTTON -->
-    <input class="button" type="reset" name="resetButton" value="Reset" id="resetButton">
-    <!-- GENERATE/SUBMIT BUTTON -->
-    <input class="button" type="submit" name="submit" value="Generate">
-    <!-- PRINT BUTTON -->
-    <input class="button" type="button" name="print" value="Print"
-           onclick="window.print()">
-</div>
-</form>
-
-<!-- PRINTABLE SECTION -->
-<div id="section-to-print">
-    <div id="drawingBox">
-        <!-- PLACEHOLDER removed by script -->
-        <div id="centrePlaceHolder">
-            <div id="placeHolder">Hit <b>generate</b> to produce drawing.</div>
-        </div>
-
-        <!-- DETAILS (job, client, reference, etc.) -->
-        <div id="jobDetails">
-            <div id="jobDetailsLeft">
-                <div id="drawingDetailsClient"></div>
-                <div id="drawingDetailsCustAndRef"></div>
+    <!-- PRINTABLE SECTION -->
+    <div id="section-to-print">
+        <div id="drawingBox">
+            <!-- PLACEHOLDER removed by script -->
+            <div id="centrePlaceHolder">
+                <div id="placeHolder">Hit <b>generate</b> to produce drawing.</div>
             </div>
-            <!-- Initial calculations -->
-            <div id="initialCalcs">
-                <table id="initialCalcsTable" cellspacing="0">
-                    <tr id="initCalcsDropFig"></tr>
-                    <tr id="initCalcsVelcroFig"></tr>
-                    <tr id="initCalcsRevealFig"></tr>
-                    <tr id="initCalcsResultFig"></tr>
+
+            <!-- DETAILS (job, client, reference, etc.) -->
+            <div id="jobDetails">
+                <div id="jobDetailsLeft">
+                    <div id="drawingDetailsClient"></div>
+                    <div id="drawingDetailsCustAndRef"></div>
+                </div>
+                <!-- Initial calculations -->
+                <div id="initialCalcs">
+                    <table id="initialCalcsTable" cellspacing="0">
+                        <tr id="initCalcsDropFig"></tr>
+                        <tr id="initCalcsVelcroFig"></tr>
+                        <tr id="initCalcsRevealFig"></tr>
+                        <tr id="initCalcsResultFig"></tr>
+                    </table>
+                </div>
+            </div>
+
+            <!-- DRAWINGS -->
+            <div id="blindDrawing">
+                <table id="blindTable">
+                    <!--cellspacing="0"-->
+                    <!-- Stuff added by script-->
                 </table>
             </div>
-        </div>
 
-        <!-- DRAWINGS -->
-        <div id="blindDrawing">
-            <table id="blindTable">
-                <!--cellspacing="0"-->
-                <!-- Stuff added by script-->
-            </table>
-        </div>
+            <!-- MEASURES (3 horizontal cells) -->
+            <div id="measureDetails">
+                <div id="fabricMeasures">
+                    <!-- Stuff added by script -->
+                </div>
+                <div id="innerLiningMeasures">
+                    <!-- Stuff added by script -->
+                </div>
+                <div id="liningMeasures">
+                    <!-- Stuff added by script -->
+                </div>
+            </div>
 
-        <!-- MEASURES (3 horizontal cells) -->
-        <div id="measureDetails">
-            <div id="fabricMeasures">
+            <!-- SWB or DWB info -->
+            <div id="numWidthsInfo">
                 <!-- Stuff added by script -->
             </div>
-            <div id="innerLiningMeasures">
-                <!-- Stuff added by script -->
-            </div>
-            <div id="liningMeasures">
-                <!-- Stuff added by script -->
-            </div>
-        </div>
 
-        <!-- SWB or DWB info -->
-        <div id="numWidthsInfo">
-            <!-- Stuff added by script -->
-        </div>
-
-        <!-- Disclaimer -->
-        <div id="disclaimer">
-            Disclaimer:
-            <ul>
-                <li>Check if inner linings are needed, currently unsupported.</li>
-                <li>Check fabric repeats for exact cut length needed.</li>
-            </ul>
+            <!-- Disclaimer -->
+            <div id="disclaimer">
+                Disclaimer:
+                <ul>
+                    <li>Check if inner linings are needed, currently unsupported.</li>
+                    <li>Check fabric repeats for exact cut length needed.</li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
-</div>
+</body>
