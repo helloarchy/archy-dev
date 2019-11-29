@@ -8,12 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be73c586-57e8-4fe1-9a31-58cb5a0a6022" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/_Print.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/wwwroot/css/workings.css" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/wwwroot/css/workings.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Dimensions.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Dimensions.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Fabric.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Fabric.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Lining.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Lining.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Pocket.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Pocket.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Railing.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Railing.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Ring.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Ring.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Stack.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Stack.cshtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,18 +130,18 @@
         <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Pocket.cshtml" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Railing.cshtml" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Stack.cshtml" />
-        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Details.cshtml" />
-        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Dimensions.cshtml" />
-        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Fabric.cshtml" />
-        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Lining.cshtml" />
-        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Stack.cshtml" />
-        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Railing.cshtml" />
-        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Pocket.cshtml" />
-        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Ring.cshtml" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel.cshtml" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Print.cshtml" />
         <option value="$PROJECT_DIR$/archy_dev/wwwroot/css/workings.css" />
+        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Ring.cshtml" />
+        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Details.cshtml" />
+        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Dimensions.cshtml" />
+        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Fabric.cshtml" />
+        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Lining.cshtml" />
+        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Pocket.cshtml" />
+        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Railing.cshtml" />
+        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Stack.cshtml" />
       </list>
     </option>
   </component>
@@ -272,7 +275,7 @@
       <workItem from="1575046288767" duration="2867000" />
       <workItem from="1575050734382" duration="1977000" />
       <workItem from="1575055088727" duration="348000" />
-      <workItem from="1575055527813" duration="6085000" />
+      <workItem from="1575055527813" duration="6931000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed bug where project wasn't being recognised as CORE">
       <created>1561067257165</created>
@@ -379,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575060760896</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Styling fixes and refactor.">
+      <created>1575066877228</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1575066877228</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +427,8 @@
     <MESSAGE value="Set up TypeScript support via node, gulp, nuget. Scripts folder to house TS files, auto exported to wwwroot." />
     <MESSAGE value="Abstracted index.cshtml code out into partial files - namely for side menu categories." />
     <MESSAGE value="Fixed styling on extra fields." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed styling on extra fields." />
+    <MESSAGE value="Styling fixes and refactor." />
+    <option name="LAST_COMMIT_MESSAGE" value="Styling fixes and refactor." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
