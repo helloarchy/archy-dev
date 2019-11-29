@@ -305,4 +305,3 @@ var Blind = /** @class */ (function () {
     });
     return Blind;
 }());
-//# sourceMappingURL=blind.js.map

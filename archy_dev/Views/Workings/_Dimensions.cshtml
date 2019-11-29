@@ -1,0 +1,36 @@
+<!-- DIMENSIONS -->
+<fieldset>
+    <legend>
+        Dimensions<span class="arrowDown">&#9663;</span>
+        <span class="arrowUp">&#9653;</span>
+    </legend>
+
+    <div class="fieldContent">
+        <!-- WIDTH -->
+        <label>Width:</label>
+        <input id="width" type="number" name="sizeWidth" placeholder="123.45"
+               step="0.01" min="26" max="269.99" onfocus="this.select()" required>
+        <select class="unitsSelect" id="widthUnit">
+            <option value="in">in</option>
+            <option value="mm">mm</option>
+            <option value="cm" selected disabled>cm</option>
+        </select>
+        <!-- HEIGHT -->
+        <br><label>Height:</label>
+        <input id="height" type="number" name="sizeHeight" placeholder="123.45"
+               step="0.01" min="40" max="279.99" onfocus="this.select()" required>
+        <select class="unitsSelect" id="heightUnit">
+            <option value="in">in</option>
+            <option value="mm">mm</option>
+            <option value="cm" selected disabled>cm</option>
+        </select>
+        <!-- NUMBER OF WIDTHS -->
+        <br><label>No. Widths:</label>
+        <input id="numOfWidths" type="number" name="jobNumOfWidths" placeholder="1"
+               min="1" step="1" onfocus="this.select()">
+        <input id="numWidthsPlus" class="buttonIncrement" type="button"
+               name="jobNumWidthsPlus" value="+" style="margin-left: 2px">
+        <input id="numWidthsMinus" class="buttonIncrement" type="button"
+               name="jobNumWidthsMinus" value="&minus;">
+    </div>
+</fieldset>

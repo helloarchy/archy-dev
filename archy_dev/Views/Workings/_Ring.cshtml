@@ -1,0 +1,31 @@
+<!-- RINGS -->
+<fieldset class="closedByDefault">
+    <legend>Rings:<span class="arrowDown">&cudarrr;</span>
+        <span class="arrowUp">&#10548;</span></legend>
+
+    <div class="fieldContent">
+        &lt;!&ndash; RING TYPE &ndash;&gt;
+        <label>Type:</label>
+        <input id="ringsType" type="text" name="ringType"
+               placeholder="Eyelets" list="ringTypeDataList">
+        <datalist id="ringTypeDataList">
+            <option value="Eyelets set in"/>
+            <option value="Outer rings"/>
+        </datalist>
+
+        &lt;!&ndash; RING MARGINS &ndash;&gt;
+        <br><label onclick="">Margins:</label>
+        <input id="ringsMargin" type="number" name="ringsMargin"
+               step="0.05" placeholder="10.5">
+        <select class="unitsSelect">
+            <option value="mm">mm</option>
+            <option value="cm" selected>cm</option>
+            <option value="in">in</option>
+        </select>
+
+        <br><label>Count:</label>
+        <input id="ringsCount" type="range" name="ringCount" min="2"
+               max="8" step="1" oninput="ringsCountChange(this.value);">
+        <output id="ringsCountText">&lt;!&ndash;Value set by function&ndash;&gt;</output>
+    </div>
+</fieldset>

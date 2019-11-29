@@ -1,0 +1,49 @@
+<!-- STACK -->
+<fieldset>
+    <legend>
+        Stack<span class="arrowDown">&#9663;</span>
+        <span class="arrowUp">&#9653;</span>
+    </legend>
+
+    <div class="fieldContent">
+        <!-- TYPE (depending on choice, show extra options) -->
+        <label for="selectStack">Type:</label>
+        <select id="selectStack">
+            <option value="normal" selected>Normal</option>
+            <option value="waterfall">Waterfall/Cascade</option>
+            <option value="showingHem">Showing hem</option>
+        </select>
+
+        <!-- If Waterfall: -->
+        <div id="waterfall">
+            <label>Increment:</label>
+            <input id="waterfallIncrements" type="number"
+                   name="waterfallIncrement" step="0.01"
+                   placeholder="2.5">
+            <select class="unitsSelect" id="waterfallUnit">
+                <option value="in">in</option>
+                <option value="mm">mm</option>
+                <option value="cm" selected disabled>cm</option>
+            </select>
+        </div>
+
+        <!-- If Showing hem: -->
+        <div id="showingHem">
+            <label>Reveal:</label>
+            <input id="showingHemSize" type="number" name="showingHemSize"
+                   step="0.05" placeholder="2.5">
+            <select class="unitsSelect" id="showingUnit">
+                <option value="in">in</option>
+                <option value="mm">mm</option>
+                <option value="cm" selected disabled>cm</option>
+            </select>
+        </div>
+
+        <!-- FOLDS -->
+        <label>Folds:</label>
+        <input id="sliderFoldsCount" type="range" name="foldsCount"
+               class="slider" min="1" max="7" step="1"
+               oninput="foldsChange(this.value);">
+        <output id="foldsValueText"><!--Value set by function--></output>
+    </div>
+</fieldset>

@@ -1,0 +1,42 @@
+<!-- DETAILS -->
+<fieldset>
+    <legend>
+        Details<span class="arrowDown">&#9663;</span>
+        <span class="arrowUp">&#9653;</span>
+    </legend>
+    <div class="fieldContent">
+        <!-- CLIENT -->
+        <label>Client:</label>
+        <input id="clientTextBox" type="text" list="clientDataList"
+               placeholder="Rob Interiors" onfocus="this.select()">
+        <!-- Updated 2017-07-04 to reflect new clients. -->
+        <datalist id="clientDataList">
+            <option value="Blinds n' Blessings"></option>
+            <option value="Chelsea Fabrics"></option>
+            <option value="Curtain Factory Outlet"></option>
+            <option value="Fabric House"></option>
+            <option value="Judy Fletcher"></option>
+            <option value="Posner Interiors"></option>
+        </datalist>
+        <!-- CUSTOMER -->
+        <br><label>Customer:</label>
+        <input id="customerTextBox" type="text" name="jobCustomerText"
+               placeholder="Joe Bloggs" onfocus="this.select()">
+        <!-- REFERENCE -->
+        <br><label>Reference:</label>
+        <input id="referenceTextBox" type="text" name="jobReferenceText"
+               placeholder="Kids room" onfocus="this.select()">
+        <!-- NUMBER OF BLINDS -->
+        <br><label>No. Blinds:</label>
+        <input id="numOfBlinds" type="number" name="jobNumOfBlinds" placeholder="1"
+               min="1" step="1" onfocus="this.select()">
+        <input id="numBlindsPlus" class="buttonIncrement" type="button"
+               name="jobNumBlindsPlus" value="+" style="margin-left: 2px">
+        <input id="numBlindsMinus" class="buttonIncrement" type="button"
+               name="jobNumBlindsMinus" value="&minus;">
+    </div>
+</fieldset>
+
+
+
+

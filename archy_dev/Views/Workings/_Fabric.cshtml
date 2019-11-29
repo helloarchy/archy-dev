@@ -1,0 +1,28 @@
+<!-- FABRIC -->
+<fieldset class="closedByDefault">
+    <legend>Fabric<span class="arrowDown">&#9663;</span>
+        <span class="arrowUp">&#9653;</span></legend>
+
+    <div class="fieldContent">
+        &lt;!&ndash; WIDTH (cuttable area excluding selvedge)
+        see: http://fashion-incubator.com/what-is-cuttable-width/ &ndash;&gt;
+        <label>Cut width:</label>
+        <input id="fabricCutWidth" type="number" name="fabricCutWidth"
+               step="0.05" placeholder="123.45">
+        <select class="unitsSelect">
+            <option value="mm">mm</option>
+            <option value="cm" selected>cm</option>
+            <option value="in">in</option>
+        </select>
+
+        &lt;!&ndash; REPEAT (vertical measure of how pattern repeats) &ndash;&gt;
+        <br><label>Repeat:</label>
+        <input id="fabricRepeat" type="number" name="fabricRepeat"
+               step="0.05" placeholder="23.45">
+        <select class="unitsSelect">
+            <option value="mm">mm</option>
+            <option value="cm" selected>cm</option>
+            <option value="in">in</option>
+        </select>
+    </div>
+</fieldset>

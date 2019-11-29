@@ -1,0 +1,29 @@
+<!--RAILING -->
+<fieldset>
+    <legend>
+        Railing<span class="arrowDown">&#9663;</span>
+        <span class="arrowUp">&#9653;</span>
+    </legend>
+
+    <div class="fieldContent">
+        <!-- TYPE -->
+        <label>Type:</label>
+        <input id="railingType" type="text" name="railingType" placeholder="Baton"
+               list="railingDataList" onfocus="this.select()">
+        <datalist id="railingDataList">
+            <option value="Baton"></option>
+            <option value="Evans"></option>
+            <option value="Hallis"></option>
+        </datalist>
+
+        <!-- DEPTH -->
+        <br><label>Depth:</label>
+        <input id="railingDepth" type="number" name="railingDepth"
+               step="0.01" placeholder="6" onfocus="this.select()">
+        <select class="unitsSelect" id="railingUnit">
+            <option value="in">in</option>
+            <option value="mm">mm</option>
+            <option value="cm" selected disabled>cm</option>
+        </select>
+    </div>
+</fieldset>

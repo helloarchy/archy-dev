@@ -4,4 +4,3 @@ var job = /** @class */ (function () {
     }
     return job;
 }());
-//# sourceMappingURL=job.js.map

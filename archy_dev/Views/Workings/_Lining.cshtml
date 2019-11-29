@@ -1,0 +1,33 @@
+<!-- LININGS -->
+<fieldset>
+    <legend>
+        Linings<span class="arrowDown">&#9663;</span>
+        <span class="arrowUp">&#9653;</span>
+    </legend>
+
+    <div class="fieldContent">
+        &lt;!&ndash; INNER LININGS &ndash;&gt;
+        <label>Inner:</label>
+        <input id="liningsInner" type="text" name="innerLining"
+               placeholder="Bonded" list="innerDataList">
+        <datalist id="innerDataList">
+            <option value="Blackout"/>
+            <option value="Interlining"/>
+            <option value="Bonded"/>
+            <option value="Bonded Blackout"/>
+            <option value="Thermal"/>
+        </datalist>
+
+        &lt;!&ndash; OUTER LININGS &ndash;&gt;
+        <br><label>Outer:</label>
+        <input id="liningsOuter" type="text" name="outerLining"
+               placeholder="Cotton Sateen" list="outerDataList">
+        <datalist id="outerDataList">
+            <option value="Cotton Sateen"/>
+            <option value="DB1"/>
+            <option value="Brushed"/>
+            <option value="Blackout"/>
+            <option value="Thermal"/>
+        </datalist>
+    </div>
+</fieldset>

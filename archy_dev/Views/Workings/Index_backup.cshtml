@@ -1,0 +1,374 @@
+﻿@{
+    ViewData["Title"] = "Workings";
+    Layout = "";
+}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="~/css/workings.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="~/js/workings.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cookie|Playfair+Display|Raleway|Josefin+Sans|Dancing+Script|Cookie|Great+Vibes|Kaushan+Script|Playball|Satisfy|Pacifico|Lato"
+          rel="stylesheet" type="text/css">
+</head>
+
+<div class="container-fluid">
+<!-- BLINDS FORM -->
+<form id="formBlinds">
+<!-- WORKINGS Header (Not really part of the form, just at top of it) -->
+<div id="header">
+    <div id="headerDroppedCap">W</div>
+    <div id="headerText">orkings</div>
+    <div id="headerPitifulSelf">
+        <a class="nav-link text-dark" asp-area=""
+           asp-controller="Home" asp-action="Index">
+            <i>by </i>RARH.io
+            <i> on behalf of </i>HARDY'S
+        </a>
+    </div>
+</div>
+
+@RenderBody()
+
+
+<!-- DETAILS -->
+<fieldset>
+    <legend>
+        Details<span class="arrowDown">&#9663;</span>
+        <span class="arrowUp">&#9653;</span>
+    </legend>
+    <div class="fieldContent">
+        <!-- CLIENT -->
+        <label>Client:</label>
+        <input id="clientTextBox" type="text" list="clientDataList"
+               placeholder="Rob Interiors" onfocus="this.select()">
+        <!-- Updated 2017-07-04 to reflect new clients. -->
+        <datalist id="clientDataList">
+            <option value="Blinds n' Blessings"></option>
+            <option value="Chelsea Fabrics"></option>
+            <option value="Curtain Factory Outlet"></option>
+            <option value="Fabric House"></option>
+            <option value="Judy Fletcher"></option>
+            <option value="Posner Interiors"></option>
+        </datalist>
+        <!-- CUSTOMER -->
+        <br><label>Customer:</label>
+        <input id="customerTextBox" type="text" name="jobCustomerText"
+               placeholder="Joe Bloggs" onfocus="this.select()">
+        <!-- REFERENCE -->
+        <br><label>Reference:</label>
+        <input id="referenceTextBox" type="text" name="jobReferenceText"
+               placeholder="Kids room" onfocus="this.select()">
+        <!-- NUMBER OF BLINDS -->
+        <br><label>No. Blinds:</label>
+        <input id="numOfBlinds" type="number" name="jobNumOfBlinds" placeholder="1"
+               min="1" step="1" onfocus="this.select()">
+        <input id="numBlindsPlus" class="buttonIncrement" type="button"
+               name="jobNumBlindsPlus" value="+" style="margin-left: 2px">
+        <input id="numBlindsMinus" class="buttonIncrement" type="button"
+               name="jobNumBlindsMinus" value="&minus;">
+    </div>
+</fieldset>
+
+<!-- DIMENSIONS -->
+<fieldset>
+    <legend>
+        Dimensions<span class="arrowDown">&#9663;</span>
+        <span class="arrowUp">&#9653;</span>
+    </legend>
+
+    <div class="fieldContent">
+        <!-- WIDTH -->
+        <label>Width:</label>
+        <input id="width" type="number" name="sizeWidth" placeholder="123.45"
+               step="0.01" min="26" max="269.99" onfocus="this.select()" required>
+        <select class="unitsSelect" id="widthUnit">
+            <option value="in">in</option>
+            <option value="mm">mm</option>
+            <option value="cm" selected disabled>cm</option>
+        </select>
+        <!-- HEIGHT -->
+        <br><label>Height:</label>
+        <input id="height" type="number" name="sizeHeight" placeholder="123.45"
+               step="0.01" min="40" max="279.99" onfocus="this.select()" required>
+        <select class="unitsSelect" id="heightUnit">
+            <option value="in">in</option>
+            <option value="mm">mm</option>
+            <option value="cm" selected disabled>cm</option>
+        </select>
+        <!-- NUMBER OF WIDTHS -->
+        <br><label>No. Widths:</label>
+        <input id="numOfWidths" type="number" name="jobNumOfWidths" placeholder="1"
+               min="1" step="1" onfocus="this.select()">
+        <input id="numWidthsPlus" class="buttonIncrement" type="button"
+               name="jobNumWidthsPlus" value="+" style="margin-left: 2px">
+        <input id="numWidthsMinus" class="buttonIncrement" type="button"
+               name="jobNumWidthsMinus" value="&minus;">
+    </div>
+</fieldset>
+
+<!-- FABRIC -->
+<!--<fieldset class="closedByDefault">
+    <legend>Fabric<span class="arrowDown">&#9663;</span>
+        <span class="arrowUp">&#9653;</span></legend>
+
+    <div class="fieldContent">
+        &lt;!&ndash; WIDTH (cuttable area excluding selvedge)
+        see: http://fashion-incubator.com/what-is-cuttable-width/ &ndash;&gt;
+        <label>Cut width:</label>
+        <input id="fabricCutWidth" type="number" name="fabricCutWidth"
+               step="0.05" placeholder="123.45">
+        <select class="unitsSelect">
+            <option value="mm">mm</option>
+            <option value="cm" selected>cm</option>
+            <option value="in">in</option>
+        </select>
+
+        &lt;!&ndash; REPEAT (vertical measure of how pattern repeats) &ndash;&gt;
+        <br><label>Repeat:</label>
+        <input id="fabricRepeat" type="number" name="fabricRepeat"
+               step="0.05" placeholder="23.45">
+        <select class="unitsSelect">
+            <option value="mm">mm</option>
+            <option value="cm" selected>cm</option>
+            <option value="in">in</option>
+        </select>
+    </div>
+</fieldset>-->
+
+<!-- LININGS -->
+<!--<fieldset>
+    <legend>Linings<span class="arrowDown">&#9663;</span>
+        <span class="arrowUp">&#9653;</span></legend>
+
+    <div class="fieldContent">
+        &lt;!&ndash; INNER LININGS &ndash;&gt;
+        <label>Inner:</label>
+        <input id="liningsInner" type="text" name="innerLining"
+               placeholder="Bonded" list="innerDataList">
+        <datalist id="innerDataList">
+            <option value="Blackout">
+            <option value="Interlining">
+            <option value="Bonded">
+            <option value="Bonded Blackout">
+            <option value="Thermal">
+        </datalist>
+
+        &lt;!&ndash; OUTER LININGS &ndash;&gt;
+        <br><label>Outer:</label>
+        <input id="liningsOuter" type="text" name="outerLining"
+               placeholder="Cotton Sateen" list="outerDataList">
+        <datalist id="outerDataList">
+            <option value="Cotton Sateen">
+            <option value="DB1">
+            <option value="Brushed">
+            <option value="Blackout">
+            <option value="Thermal">
+        </datalist>
+    </div>
+</fieldset>-->
+
+<!--RAILING -->
+<fieldset>
+    <legend>
+        Railing<span class="arrowDown">&#9663;</span>
+        <span class="arrowUp">&#9653;</span>
+    </legend>
+
+    <div class="fieldContent">
+        <!-- TYPE -->
+        <label>Type:</label>
+        <input id="railingType" type="text" name="railingType" placeholder="Baton"
+               list="railingDataList" onfocus="this.select()">
+        <datalist id="railingDataList">
+            <option value="Baton"></option>
+            <option value="Evans"></option>
+            <option value="Hallis"></option>
+        </datalist>
+
+        <!-- DEPTH -->
+        <br><label>Depth:</label>
+        <input id="railingDepth" type="number" name="railingDepth"
+               step="0.01" placeholder="6" onfocus="this.select()">
+        <select class="unitsSelect" id="railingUnit">
+            <option value="in">in</option>
+            <option value="mm">mm</option>
+            <option value="cm" selected disabled>cm</option>
+        </select>
+    </div>
+</fieldset>
+
+<!-- STACK -->
+<fieldset>
+    <legend>
+        Stack<span class="arrowDown">&#9663;</span>
+        <span class="arrowUp">&#9653;</span>
+    </legend>
+
+    <div class="fieldContent">
+        <!-- TYPE (depending on choice, show extra options) -->
+        <label for="selectStack">Type:</label>
+        <select id="selectStack">
+            <option value="normal" selected>Normal</option>
+            <option value="waterfall">Waterfall/Cascade</option>
+            <option value="showingHem">Showing hem</option>
+        </select>
+
+        <!-- If Waterfall: -->
+        <div id="waterfall">
+            <label>Increment:</label>
+            <input id="waterfallIncrements" type="number"
+                   name="waterfallIncrement" step="0.01"
+                   placeholder="2.5">
+            <select class="unitsSelect" id="waterfallUnit">
+                <option value="in">in</option>
+                <option value="mm">mm</option>
+                <option value="cm" selected disabled>cm</option>
+            </select>
+        </div>
+
+        <!-- If Showing hem: -->
+        <div id="showingHem">
+            <label>Reveal:</label>
+            <input id="showingHemSize" type="number" name="showingHemSize"
+                   step="0.05" placeholder="2.5">
+            <select class="unitsSelect" id="showingUnit">
+                <option value="in">in</option>
+                <option value="mm">mm</option>
+                <option value="cm" selected disabled>cm</option>
+            </select>
+        </div>
+
+        <!-- FOLDS -->
+        <label>Folds:</label>
+        <input id="sliderFoldsCount" type="range" name="foldsCount"
+               class="slider" min="1" max="7" step="1"
+               oninput="foldsChange(this.value);">
+        <output id="foldsValueText"><!--Value set by function--></output>
+    </div>
+</fieldset>
+
+<!-- POCKETS -->
+<!--<fieldset class="closedByDefault">
+    <legend>Pockets:<span class="arrowDown">&cudarrr;</span>
+        <span class="arrowUp">&#10548;</span></legend>
+
+    <div class="fieldContent">
+        &lt;!&ndash; POCKET DEPTH &ndash;&gt;
+        <label>Depth:</label>
+        <input id="pocketsDepth" type="number" name="pocketDepth"
+               step="0.05" placeholder="3">
+        <select class="unitsSelect">
+            <option value="mm">mm</option>
+            <option value="cm" selected>cm</option>
+            <option value="in">in</option>
+        </select>
+    </div>
+</fieldset>-->
+
+<!-- RINGS -->
+<!--<fieldset class="closedByDefault">
+    <legend>Rings:<span class="arrowDown">&cudarrr;</span>
+        <span class="arrowUp">&#10548;</span></legend>
+
+    <div class="fieldContent">
+        &lt;!&ndash; RING TYPE &ndash;&gt;
+        <label>Type:</label>
+        <input id="ringsType" type="text" name="ringType"
+               placeholder="Eyelets" list="ringTypeDataList">
+        <datalist id="ringTypeDataList">
+            <option value="Eyelets set in">
+            <option value="Outer rings">
+        </datalist>
+
+        &lt;!&ndash; RING MARGINS &ndash;&gt;
+        <br><label onclick="">Margins:</label>
+        <input id="ringsMargin" type="number" name="ringsMargin"
+               step="0.05" placeholder="10.5">
+        <select class="unitsSelect">
+            <option value="mm">mm</option>
+            <option value="cm" selected>cm</option>
+            <option value="in">in</option>
+        </select>
+
+        <br><label>Count:</label>
+        <input id="ringsCount" type="range" name="ringCount" min="2"
+               max="8" step="1" oninput="ringsCountChange(this.value);">
+        <output id="ringsCountText">&lt;!&ndash;Value set by function&ndash;&gt;</output>
+    </div>
+</fieldset>-->
+
+<!-- SUBMIT BUTTONS -->
+<div id="submitButtons">
+    <!-- RESET BUTTON -->
+    <input class="button" type="reset" name="resetButton" value="Reset" id="resetButton">
+    <!-- GENERATE/SUBMIT BUTTON -->
+    <input class="button" type="submit" name="submit" value="Generate">
+    <!-- PRINT BUTTON -->
+    <input class="button" type="button" name="print" value="Print"
+           onclick="window.print()">
+</div>
+</form>
+
+<!-- PRINTABLE SECTION -->
+<div id="section-to-print">
+    <div id="drawingBox">
+        <!-- PLACEHOLDER removed by script -->
+        <div id="centrePlaceHolder">
+            <div id="placeHolder">Hit <b>generate</b> to produce drawing.</div>
+        </div>
+
+        <!-- DETAILS (job, client, reference, etc.) -->
+        <div id="jobDetails">
+            <div id="jobDetailsLeft">
+                <div id="drawingDetailsClient"></div>
+                <div id="drawingDetailsCustAndRef"></div>
+            </div>
+            <!-- Initial calculations -->
+            <div id="initialCalcs">
+                <table id="initialCalcsTable" cellspacing="0">
+                    <tr id="initCalcsDropFig"></tr>
+                    <tr id="initCalcsVelcroFig"></tr>
+                    <tr id="initCalcsRevealFig"></tr>
+                    <tr id="initCalcsResultFig"></tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- DRAWINGS -->
+        <div id="blindDrawing">
+            <table id="blindTable">
+                <!--cellspacing="0"-->
+                <!-- Stuff added by script-->
+            </table>
+        </div>
+
+        <!-- MEASURES (3 horizontal cells) -->
+        <div id="measureDetails">
+            <div id="fabricMeasures">
+                <!-- Stuff added by script -->
+            </div>
+            <div id="innerLiningMeasures">
+                <!-- Stuff added by script -->
+            </div>
+            <div id="liningMeasures">
+                <!-- Stuff added by script -->
+            </div>
+        </div>
+
+        <!-- SWB or DWB info -->
+        <div id="numWidthsInfo">
+            <!-- Stuff added by script -->
+        </div>
+
+        <!-- Disclaimer -->
+        <div id="disclaimer">
+            Disclaimer:
+            <ul>
+                <li>Check if inner linings are needed, currently unsupported.</li>
+                <li>Check fabric repeats for exact cut length needed.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
