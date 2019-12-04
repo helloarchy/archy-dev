@@ -1,4 +1,7 @@
-/* Sections */
+import * as $ from 'jquery';
+
+/* Global Selectors */
+const section_waterfall = $("#waterfall");
 
 
 
@@ -8,7 +11,7 @@ function reset() {
     console.log("RESET ALL:");
     console.log("---------");
     
-    $("#waterfall").slideUp("slow");
+    section_waterfall.slideUp("slow");
     $("#showingHem").slideUp("slow");
 
     // Show the placeholder

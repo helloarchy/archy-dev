@@ -44,11 +44,14 @@
         </e>
         <e p="node_modules\@types" t="IncludeRecursive">
           <e p="events" t="IncludeRecursive" />
+          <e p="jquery" t="IncludeRecursive" />
           <e p="minimatch" t="IncludeRecursive" />
           <e p="node" t="IncludeRecursive" />
+          <e p="sizzle" t="IncludeRecursive" />
         </e>
         <e p="node_modules\del" t="IncludeRecursive" />
         <e p="node_modules\gulp" t="IncludeRecursive" />
+        <e p="node_modules\jquery" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
