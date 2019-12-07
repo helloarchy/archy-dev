@@ -1,7 +1,7 @@
 /**
  * A blind is only a blind and not a client or customer
  */
-class Blind {
+export class Blind {
     private _width: number; // cm
     private _width_unit: string;
     private _height: number; // cm
@@ -29,67 +29,33 @@ class Blind {
 
 
     /**
-     * Create a new bind using default values where overriding values are not provided
-     * @param width
-     * @param width_unit
-     * @param height
-     * @param height_unit
-     * @param num_widths
-     * @param fabric_cut_width
-     * @param fabric_repeat
-     * @param lining_inner_type
-     * @param lining_is_inner
-     * @param lining_outer_type
-     * @param railing_type
-     * @param railing_depth
-     * @param stack_type
-     * @param waterfall_increment
-     * @param showing_hem_size
-     * @param stack_folds
-     * @param pockets_depth
-     * @param rings_type
-     * @param rings_margin
-     * @param rings_count
-     * @param hem_turnings
-     * @param cut_length_lining
-     * @param cut_length_fabric_inner
-     * @param pockets_total_length
+     * Create a new bind using default values
      */
-    constructor(width: number, width_unit: string, height: number,
-                height_unit: string, num_widths: number = 1,
-                fabric_cut_width: number = 123.5, fabric_repeat: number,
-                lining_inner_type: string, lining_is_inner: boolean,
-                lining_outer_type: string, railing_type: string = "Railing",
-                railing_depth: number = 6, stack_type: string,
-                waterfall_increment: number = 2.5, showing_hem_size: number = 2.5,
-                stack_folds: number, pockets_depth: number = 3, rings_type: string,
-                rings_margin: number = 10.5, rings_count: number,
-                hem_turnings: number, cut_length_lining: number,
-                cut_length_fabric_inner: number, pockets_total_length: number) {
-        this._width = width;
-        this._width_unit = width_unit;
-        this._height = height;
-        this._height_unit = height_unit;
-        this._num_widths = num_widths;
-        this._fabric_cut_width = fabric_cut_width;
-        this._fabric_repeat = fabric_repeat;
-        this._lining_inner_type = lining_inner_type;
-        this._lining_is_inner = lining_is_inner;
-        this._lining_outer_type = lining_outer_type;
-        this._railing_type = railing_type;
-        this._railing_depth = railing_depth;
-        this._stack_type = stack_type;
-        this._waterfall_increment = waterfall_increment;
-        this._showing_hem_size = showing_hem_size;
-        this._stack_folds = stack_folds;
-        this._pockets_depth = pockets_depth;
-        this._rings_type = rings_type;
-        this._rings_margin = rings_margin;
-        this._rings_count = rings_count;
-        this._hem_turnings = hem_turnings;
-        this._cut_length_lining = cut_length_lining;
-        this._cut_length_fabric_inner = cut_length_fabric_inner;
-        this._pockets_total_length = pockets_total_length;
+    constructor() {
+        this._width = 0;
+        this._width_unit = "cm";
+        this._height = 0;
+        this._height_unit = "cm";
+        this._num_widths = 1;
+        this._fabric_cut_width = 123.5;
+        this._fabric_repeat = 23.45;
+        this._lining_inner_type = "Unspecified";
+        this._lining_is_inner = false;
+        this._lining_outer_type = "Unspecified";
+        this._railing_type = "Railing";
+        this._railing_depth = 6;
+        this._stack_type = "Normal";
+        this._waterfall_increment = 2.5;
+        this._showing_hem_size = 2.5;
+        this._stack_folds = 4;
+        this._pockets_depth = 3;
+        this._rings_type = "Unspecified";
+        this._rings_margin = 10.5;
+        this._rings_count = 5;
+        this._hem_turnings = 15;
+        this._cut_length_lining = 0;
+        this._cut_length_fabric_inner = 0;
+        this._pockets_total_length = 0;
     }
 
     get width(): number {

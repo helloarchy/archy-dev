@@ -1,307 +1,182 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * A blind is only a blind and not a client or customer
  */
-var Blind = /** @class */ (function () {
+class Blind {
     /**
-     * Create a new bind using default values where overriding values are not provided
-     * @param width
-     * @param width_unit
-     * @param height
-     * @param height_unit
-     * @param num_widths
-     * @param fabric_cut_width
-     * @param fabric_repeat
-     * @param lining_inner_type
-     * @param lining_is_inner
-     * @param lining_outer_type
-     * @param railing_type
-     * @param railing_depth
-     * @param stack_type
-     * @param waterfall_increment
-     * @param showing_hem_size
-     * @param stack_folds
-     * @param pockets_depth
-     * @param rings_type
-     * @param rings_margin
-     * @param rings_count
-     * @param hem_turnings
-     * @param cut_length_lining
-     * @param cut_length_fabric_inner
-     * @param pockets_total_length
+     * Create a new bind using default values
      */
-    function Blind(width, width_unit, height, height_unit, num_widths, fabric_cut_width, fabric_repeat, lining_inner_type, lining_is_inner, lining_outer_type, railing_type, railing_depth, stack_type, waterfall_increment, showing_hem_size, stack_folds, pockets_depth, rings_type, rings_margin, rings_count, hem_turnings, cut_length_lining, cut_length_fabric_inner, pockets_total_length) {
-        if (num_widths === void 0) { num_widths = 1; }
-        if (fabric_cut_width === void 0) { fabric_cut_width = 123.5; }
-        if (railing_type === void 0) { railing_type = "Railing"; }
-        if (railing_depth === void 0) { railing_depth = 6; }
-        if (waterfall_increment === void 0) { waterfall_increment = 2.5; }
-        if (showing_hem_size === void 0) { showing_hem_size = 2.5; }
-        if (pockets_depth === void 0) { pockets_depth = 3; }
-        if (rings_margin === void 0) { rings_margin = 10.5; }
-        this._width = width;
-        this._width_unit = width_unit;
-        this._height = height;
-        this._height_unit = height_unit;
-        this._num_widths = num_widths;
-        this._fabric_cut_width = fabric_cut_width;
-        this._fabric_repeat = fabric_repeat;
-        this._lining_inner_type = lining_inner_type;
-        this._lining_is_inner = lining_is_inner;
-        this._lining_outer_type = lining_outer_type;
-        this._railing_type = railing_type;
-        this._railing_depth = railing_depth;
-        this._stack_type = stack_type;
-        this._waterfall_increment = waterfall_increment;
-        this._showing_hem_size = showing_hem_size;
-        this._stack_folds = stack_folds;
-        this._pockets_depth = pockets_depth;
-        this._rings_type = rings_type;
-        this._rings_margin = rings_margin;
-        this._rings_count = rings_count;
-        this._hem_turnings = hem_turnings;
-        this._cut_length_lining = cut_length_lining;
-        this._cut_length_fabric_inner = cut_length_fabric_inner;
-        this._pockets_total_length = pockets_total_length;
+    constructor() {
+        this._width = 0;
+        this._width_unit = "cm";
+        this._height = 0;
+        this._height_unit = "cm";
+        this._num_widths = 1;
+        this._fabric_cut_width = 123.5;
+        this._fabric_repeat = 23.45;
+        this._lining_inner_type = "Unspecified";
+        this._lining_is_inner = false;
+        this._lining_outer_type = "Unspecified";
+        this._railing_type = "Railing";
+        this._railing_depth = 6;
+        this._stack_type = "Normal";
+        this._waterfall_increment = 2.5;
+        this._showing_hem_size = 2.5;
+        this._stack_folds = 4;
+        this._pockets_depth = 3;
+        this._rings_type = "Unspecified";
+        this._rings_margin = 10.5;
+        this._rings_count = 5;
+        this._hem_turnings = 15;
+        this._cut_length_lining = 0;
+        this._cut_length_fabric_inner = 0;
+        this._pockets_total_length = 0;
     }
-    Object.defineProperty(Blind.prototype, "width", {
-        get: function () {
-            return this._width;
-        },
-        set: function (value) {
-            this._width = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "width_unit", {
-        get: function () {
-            return this._width_unit;
-        },
-        set: function (value) {
-            this._width_unit = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "height", {
-        get: function () {
-            return this._height;
-        },
-        set: function (value) {
-            this._height = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "height_unit", {
-        get: function () {
-            return this._height_unit;
-        },
-        set: function (value) {
-            this._height_unit = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "num_widths", {
-        get: function () {
-            return this._num_widths;
-        },
-        set: function (value) {
-            this._num_widths = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "fabric_cut_width", {
-        get: function () {
-            return this._fabric_cut_width;
-        },
-        set: function (value) {
-            this._fabric_cut_width = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "fabric_repeat", {
-        get: function () {
-            return this._fabric_repeat;
-        },
-        set: function (value) {
-            this._fabric_repeat = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "lining_inner_type", {
-        get: function () {
-            return this._lining_inner_type;
-        },
-        set: function (value) {
-            this._lining_inner_type = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "lining_is_inner", {
-        get: function () {
-            return this._lining_is_inner;
-        },
-        set: function (value) {
-            this._lining_is_inner = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "lining_outer_type", {
-        get: function () {
-            return this._lining_outer_type;
-        },
-        set: function (value) {
-            this._lining_outer_type = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "railing_type", {
-        get: function () {
-            return this._railing_type;
-        },
-        set: function (value) {
-            this._railing_type = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "railing_depth", {
-        get: function () {
-            return this._railing_depth;
-        },
-        set: function (value) {
-            this._railing_depth = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "stack_type", {
-        get: function () {
-            return this._stack_type;
-        },
-        set: function (value) {
-            this._stack_type = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "waterfall_increment", {
-        get: function () {
-            return this._waterfall_increment;
-        },
-        set: function (value) {
-            this._waterfall_increment = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "showing_hem_size", {
-        get: function () {
-            return this._showing_hem_size;
-        },
-        set: function (value) {
-            this._showing_hem_size = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "stack_folds", {
-        get: function () {
-            return this._stack_folds;
-        },
-        set: function (value) {
-            this._stack_folds = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "pockets_depth", {
-        get: function () {
-            return this._pockets_depth;
-        },
-        set: function (value) {
-            this._pockets_depth = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "rings_type", {
-        get: function () {
-            return this._rings_type;
-        },
-        set: function (value) {
-            this._rings_type = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "rings_margin", {
-        get: function () {
-            return this._rings_margin;
-        },
-        set: function (value) {
-            this._rings_margin = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "rings_count", {
-        get: function () {
-            return this._rings_count;
-        },
-        set: function (value) {
-            this._rings_count = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "hem_turnings", {
-        get: function () {
-            return this._hem_turnings;
-        },
-        set: function (value) {
-            this._hem_turnings = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "cut_length_lining", {
-        get: function () {
-            return this._cut_length_lining;
-        },
-        set: function (value) {
-            this._cut_length_lining = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "cut_length_fabric_inner", {
-        get: function () {
-            return this._cut_length_fabric_inner;
-        },
-        set: function (value) {
-            this._cut_length_fabric_inner = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Blind.prototype, "pockets_total_length", {
-        get: function () {
-            return this._pockets_total_length;
-        },
-        set: function (value) {
-            this._pockets_total_length = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    return Blind;
-}());
+    get width() {
+        return this._width;
+    }
+    set width(value) {
+        this._width = value;
+    }
+    get width_unit() {
+        return this._width_unit;
+    }
+    set width_unit(value) {
+        this._width_unit = value;
+    }
+    get height() {
+        return this._height;
+    }
+    set height(value) {
+        this._height = value;
+    }
+    get height_unit() {
+        return this._height_unit;
+    }
+    set height_unit(value) {
+        this._height_unit = value;
+    }
+    get num_widths() {
+        return this._num_widths;
+    }
+    set num_widths(value) {
+        this._num_widths = value;
+    }
+    get fabric_cut_width() {
+        return this._fabric_cut_width;
+    }
+    set fabric_cut_width(value) {
+        this._fabric_cut_width = value;
+    }
+    get fabric_repeat() {
+        return this._fabric_repeat;
+    }
+    set fabric_repeat(value) {
+        this._fabric_repeat = value;
+    }
+    get lining_inner_type() {
+        return this._lining_inner_type;
+    }
+    set lining_inner_type(value) {
+        this._lining_inner_type = value;
+    }
+    get lining_is_inner() {
+        return this._lining_is_inner;
+    }
+    set lining_is_inner(value) {
+        this._lining_is_inner = value;
+    }
+    get lining_outer_type() {
+        return this._lining_outer_type;
+    }
+    set lining_outer_type(value) {
+        this._lining_outer_type = value;
+    }
+    get railing_type() {
+        return this._railing_type;
+    }
+    set railing_type(value) {
+        this._railing_type = value;
+    }
+    get railing_depth() {
+        return this._railing_depth;
+    }
+    set railing_depth(value) {
+        this._railing_depth = value;
+    }
+    get stack_type() {
+        return this._stack_type;
+    }
+    set stack_type(value) {
+        this._stack_type = value;
+    }
+    get waterfall_increment() {
+        return this._waterfall_increment;
+    }
+    set waterfall_increment(value) {
+        this._waterfall_increment = value;
+    }
+    get showing_hem_size() {
+        return this._showing_hem_size;
+    }
+    set showing_hem_size(value) {
+        this._showing_hem_size = value;
+    }
+    get stack_folds() {
+        return this._stack_folds;
+    }
+    set stack_folds(value) {
+        this._stack_folds = value;
+    }
+    get pockets_depth() {
+        return this._pockets_depth;
+    }
+    set pockets_depth(value) {
+        this._pockets_depth = value;
+    }
+    get rings_type() {
+        return this._rings_type;
+    }
+    set rings_type(value) {
+        this._rings_type = value;
+    }
+    get rings_margin() {
+        return this._rings_margin;
+    }
+    set rings_margin(value) {
+        this._rings_margin = value;
+    }
+    get rings_count() {
+        return this._rings_count;
+    }
+    set rings_count(value) {
+        this._rings_count = value;
+    }
+    get hem_turnings() {
+        return this._hem_turnings;
+    }
+    set hem_turnings(value) {
+        this._hem_turnings = value;
+    }
+    get cut_length_lining() {
+        return this._cut_length_lining;
+    }
+    set cut_length_lining(value) {
+        this._cut_length_lining = value;
+    }
+    get cut_length_fabric_inner() {
+        return this._cut_length_fabric_inner;
+    }
+    set cut_length_fabric_inner(value) {
+        this._cut_length_fabric_inner = value;
+    }
+    get pockets_total_length() {
+        return this._pockets_total_length;
+    }
+    set pockets_total_length(value) {
+        this._pockets_total_length = value;
+    }
+}
+exports.Blind = Blind;
+//# sourceMappingURL=blind.js.map

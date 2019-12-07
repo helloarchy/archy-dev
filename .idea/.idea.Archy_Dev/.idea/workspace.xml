@@ -8,12 +8,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be73c586-57e8-4fe1-9a31-58cb5a0a6022" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/archy_dev/Scripts/Workings/form_values.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/Scripts/Workings/blind.js" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Scripts/Workings/blind.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/Scripts/Workings/blind.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Scripts/Workings/blind.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/Scripts/Workings/blind.ts" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Scripts/Workings/blind.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/Scripts/Workings/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Scripts/Workings/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/Scripts/Workings/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Scripts/Workings/main.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/archy_dev/Scripts/Workings/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Scripts/Workings/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/archy_dev/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/archy_dev/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archy_dev/wwwroot/js/workings.js" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/wwwroot/js/workings.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,10 +47,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="MsDeploy.Remote" />
-        <option value="TypeScript File" />
         <option value="tsconfig.json" />
         <option value="package.json" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -88,9 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/archy_dev/Models/ArchyDevContext.cs" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/archy_dev/Properties/PublishProfiles/archy.dev.publishsettings" />
         <option value="$PROJECT_DIR$/archy_dev/archy_dev.csproj" />
         <option value="$PROJECT_DIR$/archy_dev/Web.config" />
         <option value="$PROJECT_DIR$/archy_dev/Controllers/HomeController.cs" />
@@ -102,7 +107,6 @@
         <option value="$PROJECT_DIR$/archy_dev/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/archy_dev/wwwroot/img/workings.css" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Workings/index.html" />
-        <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/workings.js" />
         <option value="$PROJECT_DIR$/archy_dev/Models/ProjectItem.cs" />
         <option value="$PROJECT_DIR$/archy_dev/Migrations/ArchyDevContextModelSnapshot.cs" />
         <option value="$PROJECT_DIR$/archy_dev/Data/DbSeed.cs" />
@@ -126,7 +130,6 @@
         <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Pocket.cshtml" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Railing.cshtml" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Stack.cshtml" />
-        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Print.cshtml" />
         <option value="$PROJECT_DIR$/archy_dev/wwwroot/css/workings.css" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Ring.cshtml" />
@@ -138,7 +141,12 @@
         <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Railing.cshtml" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel/_Stack.cshtml" />
         <option value="$PROJECT_DIR$/archy_dev/Views/Workings/_Control_Panel.cshtml" />
+        <option value="$PROJECT_DIR$/archy_dev/Scripts/Workings/blind.ts" />
+        <option value="$PROJECT_DIR$/archy_dev/wwwroot/js/workings.js" />
         <option value="$PROJECT_DIR$/archy_dev/Scripts/Workings/main.ts" />
+        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/form_values.ts" />
+        <option value="$PROJECT_DIR$/archy_dev/Scripts/Workings/form_values.ts" />
+        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml" />
       </list>
     </option>
   </component>
@@ -169,7 +177,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
-    <property name="ts.external.directory.path" value="C:\Users\hardy\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\192.7317.11\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\_VCS\archy-dev\archy_dev\Views\Workings_React\workings\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -267,7 +275,8 @@
       <workItem from="1575050734382" duration="1977000" />
       <workItem from="1575055088727" duration="348000" />
       <workItem from="1575055527813" duration="11765000" />
-      <workItem from="1575492914301" duration="2126000" />
+      <workItem from="1575492914301" duration="10697000" />
+      <workItem from="1575752963517" duration="346000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed bug where project wasn't being recognised as CORE">
       <created>1561067257165</created>
@@ -395,11 +404,23 @@
       <option name="project" value="LOCAL" />
       <updated>1575120982197</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Fixed jQuery import">
+      <created>1575495227948</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1575495227948</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/archy_dev/Views/Workings/form_values.js" />
+      </list>
+    </option>
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
@@ -435,7 +456,8 @@
     <MESSAGE value="Fixed styling on extra fields." />
     <MESSAGE value="Styling fixes and refactor." />
     <MESSAGE value="Removed all colons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed all colons" />
+    <MESSAGE value="Fixed jQuery import" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed jQuery import" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
