@@ -8,20 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be73c586-57e8-4fe1-9a31-58cb5a0a6022" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/archy_dev/Scripts/Workings/form_values.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Archy_Dev/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/Scripts/Workings/blind.js" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Scripts/Workings/blind.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/Scripts/Workings/blind.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Scripts/Workings/blind.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/Scripts/Workings/blind.ts" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Scripts/Workings/blind.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/Scripts/Workings/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Scripts/Workings/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/Scripts/Workings/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Scripts/Workings/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/Scripts/Workings/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Scripts/Workings/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/Views/Workings/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archy_dev/wwwroot/js/workings.js" beforeDir="false" afterPath="$PROJECT_DIR$/archy_dev/wwwroot/js/workings.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -276,7 +263,7 @@
       <workItem from="1575055088727" duration="348000" />
       <workItem from="1575055527813" duration="11765000" />
       <workItem from="1575492914301" duration="10697000" />
-      <workItem from="1575752963517" duration="346000" />
+      <workItem from="1575752963517" duration="3602000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed bug where project wasn't being recognised as CORE">
       <created>1561067257165</created>
@@ -411,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575495227948</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Exploring React">
+      <created>1575753492859</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1575753492859</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +451,8 @@
     <MESSAGE value="Styling fixes and refactor." />
     <MESSAGE value="Removed all colons" />
     <MESSAGE value="Fixed jQuery import" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed jQuery import" />
+    <MESSAGE value="Exploring React" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exploring React" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
