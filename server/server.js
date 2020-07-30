@@ -4,22 +4,48 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const todoRoutes = express.Router();
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
+
 
 let Todo = require('./todo.model');
 
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://127.0.0.1:27017/todos', {
+
+/*
+* Set up database connection...
+* */
+const MONGO_URI = process.env.MONGO_URI || "mongodb://localhost:27017/todos";
+const MONGO_OPTIONS = {
     useNewUrlParser: true,
-});
-const connection = mongoose.connection;
+    useUnifiedTopology: true
+};
 
-connection.once('open', function () {
+const connection = () => {
+    mongoose.connect(
+        MONGO_URI,
+        MONGO_OPTIONS
+    );
+};
+
+/*connection.once('open', () => {
     console.log("MongoDB database connection established successfully");
-})
+})*/
 
+// Handle the database connection and retry as needed
+const database = mongoose.connection;
+database.on("error", err => {
+    console.log("There was a problem connecting to mongo: ", err);
+    console.log("Trying again");
+    setTimeout(() => connection(), 5000);
+});
+database.once("open", () => console.log("Successfully connected to mongo"));
+
+
+/*
+* API requests handling...
+* */
 todoRoutes.route('/').get(function (req, res) {
     Todo.find(function (err, todos) {
         if (err) {
@@ -70,6 +96,6 @@ todoRoutes.route('/add').post(function (req, res) {
 });
 
 app.use('/todos', todoRoutes);
-app.listen(PORT, function () {
+app.listen(PORT, () => {
     console.log("Server is running on Port: " + PORT);
 });

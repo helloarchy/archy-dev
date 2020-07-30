@@ -1,0 +1,63 @@
+version: '3.7'
+services:
+
+  ####################
+  # - Server Container
+  server:
+    container_name: archy.dev-server-dev
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    expose:
+      - 4000
+    ports:
+      - 4000:4000
+    volumes:
+      - ./server:/usr/src/app/server
+      - /usr/src/app/server/node_modules
+    links:
+      - database
+    depends_on:
+      - database
+    #env_file: ./server/.env
+    command: nodemon server.js
+    #restart: always
+
+  ####################
+  # - Client Container
+  client:
+    container_name: archy.dev-client-dev
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    environment:
+      - REACT_APP_PORT=3000
+      - CHOKIDAR_USEPOLLING=true
+    expose:
+      - 3000
+    ports:
+      - 3000:3000
+    volumes:
+      - ./client/src:/app/client/src
+      - ./client/public:/app/client/public
+    links:
+      - server
+    command: npm run start
+    restart: always
+
+    ######################
+    # - Database Container
+  database:
+    #hostname: mongo
+    image: mongo
+    ports:
+      - 27017:27017
+    restart: always
+    volumes:
+      - data-volume:data/db
+
+volumes:
+  data-volume:
+  node_modules:
+  web-root:
+    driver: local
