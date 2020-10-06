@@ -1,23 +1,21 @@
-# pull official base image
-FROM node
+#
+# Dockerfile for Client
+#
 
-# set working directory
-WORKDIR /app/client
+# Stage 1: Build react client
+FROM node:12-alpine
 
-# add `/app/node_modules/.bin` to $PATH
-ENV PATH /app/client/node_modules/.bin:$PATH
+# Working directory be app
+WORKDIR /usr/app
 
-# install app dependencies
 COPY package*.json ./
+
+# Install dependencies
 RUN npm install
 
-#RUN npm install react-scripts@3.4.1 -g --silent
-
-# add app
+# copy local files to app folder
 COPY . .
 
-# expose port
 EXPOSE 3000
 
-# start app
-CMD ["npm", "start"]
+CMD ["npm","start"]

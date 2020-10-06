@@ -1,6 +1,18 @@
 version: '3.7'
 services:
 
+  ######################
+  # - Database Container
+  database:
+    #hostname: mongo
+    image: mongo
+    ports:
+      - 27017:27017
+    volumes:
+      - data-volume:/data/db
+    networks:
+      - app-network
+
   ####################
   # - Server Container
   server:
@@ -8,20 +20,20 @@ services:
     build:
       context: ./server
       dockerfile: Dockerfile
+    image: archy-dev-server
     expose:
       - 4000
     ports:
       - 4000:4000
     volumes:
-      - ./server:/usr/src/app/server
-      - /usr/src/app/server/node_modules
-    links:
-      - database
+      - ./server:/usr/src/app
+      - /usr/src/app/node_modules
     depends_on:
       - database
-    #env_file: ./server/.env
+    env_file: ./server/.env
     command: nodemon server.js
-    #restart: always
+    networks:
+      - app-network
 
   ####################
   # - Client Container
@@ -30,31 +42,20 @@ services:
     build:
       context: ./client
       dockerfile: Dockerfile
-    environment:
-      - REACT_APP_PORT=3000
-      - CHOKIDAR_USEPOLLING=true
-    expose:
-      - 3000
+    image: archy-dev-client
     ports:
       - 3000:3000
     volumes:
-      - ./client/src:/app/client/src
-      - ./client/public:/app/client/public
-    links:
-      - server
+      - ./client/:/usr/app/
+      - /usr/app/node_modules
     command: npm run start
-    restart: always
+    networks:
+      - app-network
 
-    ######################
-    # - Database Container
-  database:
-    #hostname: mongo
-    image: mongo
-    ports:
-      - 27017:27017
-    restart: always
-    volumes:
-      - data-volume:data/db
+
+networks:
+  app-network:
+    driver: bridge
 
 volumes:
   data-volume:
